@@ -93,12 +93,18 @@ ol {
 .post ul, .post ol {
 	margin-left: 25px;
 	font-weight: bold;
-	font-family: 'Inconsolata';
+	font-family: 'Metrophobic';
 }
 
 .post li {
 	margin-bottom: 10px;
 	font-weight: normal;
+	font-size: 14px;
+}
+
+.post li p {
+	font-weight: normal;
+	font-size: 14px;
 }
 
 .post {
