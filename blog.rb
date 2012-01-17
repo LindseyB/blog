@@ -21,6 +21,7 @@ class Blog < Sinatra::Base
     source = Post.new(params[:id])
     @content = source.content
     @title = source.title
+    @author = source.author
 
     haml :post
   end
