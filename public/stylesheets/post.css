@@ -2,28 +2,36 @@ body {
 	background-color: #aaa;
 }
 
-h1, h2, h3 {
+.post a {
+	color: #d6d;
+}
+
+.post a:visited {
+	color: #d9d;
+}
+
+.post h1, .post h2, .post h3 {
 	font-family: 'Forum', serif;
 	margin-bottom: 3px;
 }
 
-h1 {
+.post h1 {
 	color: #707;
 	font-size: 36px;
 	font-weight: bold;
 }
 
-h2 {
+.post h2 {
 	color: #505;
 	font-size: 28px;
 }
 
-h3 {
+.post h3 {
 	color: #505;
 	font-size: 24px;
 }
 
-p {
+.post p {
 	margin-top: 3px;
 	margin-left: 3px;
 
@@ -33,17 +41,23 @@ p {
 	line-height: 1.4em;
 }
 
-h1 + p {
+.post h1 + p {
 	margin-bottom: 15px;
 	font-size: 12px;
 }
 
-p + ul, p + ol, p + h3, pre + h3, p + h2, pre + h2, p + blockquote {
+.post p + ul,
+.post p + ol,
+.post p + h3,
+.post pre + h3,
+.post p + h2,
+.post pre + h2,
+.post p + blockquote {
 	margin-top: 20px;
 	margin-bottom: 15px;
 }
 
-p + p {
+.post p + p {
 	margin-top: 13px;
 }
 
@@ -55,9 +69,7 @@ p + p {
 	font-weight: bold;
 }
 
-pre {
-	background-color: #ddd;
-
+.post pre {
 	margin-left: 8px;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -65,28 +77,60 @@ pre {
 	padding: 5px;
 }
 
-pre > code {
+.post pre > code {
 	font-family: 'Inconsolata', monospace;
 	font-size: 14px;
 }
 
-blockquote > p {
+.post blockquote > p {
 	font-family: 'Wire One', sans-serif;
 	font-size: 28px;
 }
 
-blockquote {
+.post blockquote {
 	margin-bottom: 20px;
 	background-color: #ddd;
 	padding: 5px;
 	color: #808080;
+	padding: 0.5em 2em .5em 2.1em;
+	position: relative;
 }
 
-ul {
+.post blockquote:before {
+	font-family: 'Inconsolata', monospace;
+	content: "\00201c";
+	position: absolute;
+	top: 0;
+	left: 3px;
+	font-size: 4em;
+	line-height: 1;
+	color: #d0a0d0;
+	z-index: 1;
+}
+
+.post .citation {
+	line-height: 1em;
+	font-size: 12px;
+	font-family: 'Metrophobic';
+	font-style: italic;
+	color: #aaa;
+	text-align: right;
+	margin-top: 8px;
+}
+
+.post blockquote a {
+	color: #aaa;
+}
+
+.post blockquote a:visited {
+	color: #aaa;
+}
+
+.post ul {
 	list-style-type: disc;
 }
 
-ol {
+.post ol {
 	list-style-type: decimal;
 }
 
