@@ -1,6 +1,7 @@
 body {
 	background-color: #aaa;
 	background-image: url('/images/blog_bg.png');
+	background-attachment: fixed;
 }
 
 .container {
@@ -12,6 +13,12 @@ nav {
 	padding-top: 15px;
 	padding-right: 12px;
 	padding-bottom: 20px;
+}
+
+nav h3 {
+	display: block;
+	color: #808080;
+	font-size: 24px;
 }
 
 .post a {
@@ -38,7 +45,7 @@ nav {
 	font-size: 28px;
 }
 
-.post h3, nav h3 {
+.post h3 {
 	color: #505;
 	font-size: 24px;
 }
