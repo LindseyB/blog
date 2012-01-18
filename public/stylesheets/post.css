@@ -1,5 +1,6 @@
 body {
 	background-color: #aaa;
+	background-image: url('/images/blog_bg.png');
 }
 
 .post a {
@@ -52,8 +53,14 @@ body {
 .post pre + h3,
 .post p + h2,
 .post pre + h2,
-.post p + blockquote {
-	margin-top: 20px;
+.post p + blockquote,
+.post blockquote + h2,
+.post blockquote + h3,
+.post ol + h2,
+.post ul + h2,
+.post ol + h3,
+.post ul + h3 {
+	margin-top: 25px;
 	margin-bottom: 15px;
 }
 
@@ -154,9 +161,9 @@ body {
 .post {
 	background-color: #f0f0f0;
 
-	padding-left: 22px;
+	padding-left: 28px;
 	padding-top: 15px;
-	padding-right: 10px;
+	padding-right: 22px;
 	padding-bottom: 20px;
 
 	width: 800px;
