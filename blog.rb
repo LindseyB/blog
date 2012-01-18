@@ -4,7 +4,10 @@ Bundler.require
 require_relative 'post'
 
 class Blog < Sinatra::Base
-  TITLE = "Wilkie"
+  TITLE = "Wilkie Writes a Thing"
+  GITHUB_USERNAME = "wilkie"
+  TWITTER_USERNAME = "DaveWilkinsonII"
+  RSTATUS_USERNAME = "DaveWilkinsonII"
 
   helpers do
     def title
