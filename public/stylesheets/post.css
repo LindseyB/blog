@@ -3,6 +3,17 @@ body {
 	background-image: url('/images/blog_bg.png');
 }
 
+.container {
+	background-color: #ddd;
+}
+
+nav {
+	padding-left: 12px;
+	padding-top: 15px;
+	padding-right: 12px;
+	padding-bottom: 20px;
+}
+
 .post a {
 	color: #d6d;
 }
@@ -27,7 +38,7 @@ body {
 	font-size: 28px;
 }
 
-.post h3 {
+.post h3, nav h3 {
 	color: #505;
 	font-size: 24px;
 }
@@ -91,10 +102,12 @@ body {
 
 .post blockquote > p {
 	font-family: 'Wire One', sans-serif;
+	font-style: normal;
 	font-size: 28px;
 }
 
 .post blockquote {
+	font-style: normal;
 	margin-bottom: 20px;
 	background-color: #ddd;
 	padding: 5px;
@@ -165,6 +178,4 @@ body {
 	padding-top: 15px;
 	padding-right: 22px;
 	padding-bottom: 20px;
-
-	width: 800px;
 }
