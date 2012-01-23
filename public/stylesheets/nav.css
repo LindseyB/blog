@@ -27,6 +27,7 @@ nav .nav-section + h3 + .nav-section {
 
 nav .nav-section ul {
 	list-style-type: disc; 
+	margin-left: 15px;
 }
 
 nav h3 {
