@@ -14,12 +14,13 @@
 
     %link{:href=>"http://fonts.googleapis.com/css?family=Inconsolata|Forum|Metrophobic|Wire+One", :rel=>"stylesheet", :type=>"text/css"}
     %link{:href=>"/stylesheets/reset.css", :rel=>"stylesheet", :type=>"text/css"}
-    %link{:href=>"/stylesheets/desert.css", :rel=>"stylesheet", :type=>"text/css"}
+    %link{:href=>"/stylesheets/zenburn.css", :rel=>"stylesheet", :type=>"text/css"}
     %link{:href=>"/stylesheets/base.css", :rel=>"stylesheet", :type=>"text/css"}
     %link{:href=>"/stylesheets/skeleton.css", :rel=>"stylesheet", :type=>"text/css"}
     %link{:href=>"/stylesheets/layout.css", :rel=>"stylesheet", :type=>"text/css"}
     %link{:href=>"/stylesheets/nav.css", :rel=>"stylesheet", :type=>"text/css"}
     %link{:href=>"/stylesheets/post.css", :rel=>"stylesheet", :type=>"text/css"}
+    %link{:href=>"/stylesheets/resize.css", :rel=>"stylesheet", :type=>"text/css"}
 
     %title #{title}
   %body
@@ -30,20 +31,26 @@
             .nav-title
               %h3 #{TITLE}
             .nav-section
-              %a{:href=>"http://github.com/#{GITHUB_USERNAME}", :title=>"#{GITHUB_USERNAME}'s code"}
+              %a.image{:href=>"http://github.com/#{GITHUB_USERNAME}", :title=>"#{GITHUB_USERNAME}'s code"}<
                 %img{:src=>"/images/github.png", :title=>"#{GITHUB_USERNAME}'s code", :alt=>"#{GITHUB_USERNAME}'s code"}
-              %a{:href=>"http://twitter.com/#{TWITTER_USERNAME}", :title=>"#{TWITTER_USERNAME}'s twitter profile"}
+              %a.image{:href=>"http://twitter.com/#{TWITTER_USERNAME}", :title=>"#{TWITTER_USERNAME}'s twitter profile"}<
                 %img{:src=>"/images/twitter.png", :title=>"#{TWITTER_USERNAME}'s profile", :alt=>"#{TWITTER_USERNAME}'s twitter profile"}
-              %a{:href=>"http://rstat.us/users/#{RSTATUS_USERNAME}", :title=>"#{RSTATUS_USERNAME}'s rstat.us profile"}
+              %a.image{:href=>"http://rstat.us/users/#{RSTATUS_USERNAME}", :title=>"#{RSTATUS_USERNAME}'s rstat.us profile"}<
                 %img{:src=>"/images/rstatus.png", :title=>"#{RSTATUS_USERNAME}'s profile", :alt=>"#{RSTATUS_USERNAME}'s rstat.us profile"}
             %h3 Archive
             .nav-section
+              %ul
+                - latest_posts.each do |post|
+                  %li
+                    %a{:href => post[:url],
+                       :title => post[:title],
+                       :alt=> post[:title]}= post[:title]
       .twelve.columns.offset-by-one.content
         .post
           %h1
             #{@title}
           %p
-            by: #{@author}
+            by: #{@author} on: #{@date}
           :preserve
             #{@content}
 

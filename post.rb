@@ -2,6 +2,7 @@ class Post
   attr_reader :content
   attr_reader :title
   attr_reader :author
+  attr_reader :date
 
   def initialize(name)
     begin
@@ -19,5 +20,6 @@ class Post
     @content = r.render(content)
     @title = title[title.index(":")+1..-1].strip
     @author = author[author.index(":")+1..-1].strip
+    @date = name.match(/^\d{4}-\d{2}-\d{2}/)
   end
 end

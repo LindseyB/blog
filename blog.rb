@@ -4,7 +4,7 @@ Bundler.require
 require_relative 'post'
 
 class Blog < Sinatra::Base
-  TITLE = "Wilkie Writes a Thing"
+  TITLE = "wilkie writes a thing"
   GITHUB_USERNAME = "wilkie"
   TWITTER_USERNAME = "DaveWilkinsonII"
   RSTATUS_USERNAME = "DaveWilkinsonII"
@@ -13,6 +13,16 @@ class Blog < Sinatra::Base
     def title
       return TITLE if @title.nil?
       "#{@title} - #{TITLE}"
+    end
+
+    def latest_posts
+      ret = []
+      Dir.glob("posts/*.md") do |post|
+        post = post[/posts\/(.*?).md$/,1]
+        p = Post.new(post)
+        ret << {:title => p.title, :url => "/posts/#{post}"}
+      end
+      ret
     end
   end
 
@@ -25,6 +35,7 @@ class Blog < Sinatra::Base
     @content = source.content
     @title = source.title
     @author = source.author
+    @date = source.date
 
     haml :post
   end
