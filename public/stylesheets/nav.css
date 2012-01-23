@@ -1,3 +1,9 @@
+.container {
+	background-color: #f0e0f0;
+	border-right: 3px solid #b9b;
+	border-left: 3px solid #b9b;
+}
+
 nav {
 	padding-left: 0px;
 	padding-top: 15px;
@@ -11,82 +17,35 @@ nav .nav-content {
 }
 
 nav .nav-section {
-	margin-bottom: 15px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+nav .nav-section + h3 + .nav-section {
+	text-align: left;
+}
+
+nav .nav-section ul {
+	list-style-type: disc; 
 }
 
 nav h3 {
+	font-family: 'Forum', serif;
+	text-align: center;
 	display: block;
-	color: #808080;
+	color: #606060;
 	font-size: 24px;
 }
 
+nav .nav-section + h3 {
+	margin-top: 30px;
+}
+
 nav a {
-	margin-left: 10px;
+	font-family: 'Metrophobic', sans-serif;
 }
 
-nav a+a {
-	margin: 1px;
+nav a.image {
+	margin: 30px;
 }
 
-/* Non 960 */
-@media only screen and (max-width: 959px) {
-	nav .nav-content {
-		width: 210px;
-	}
-}
-
-/* Mobile */
-@media only screen and (max-width: 767px) {
-	nav .nav-content {
-		position: static;
-		padding-left: 12px;
-		width: auto;
-	}
-	nav { padding-bottom: 5px; }
-	nav .nav-section { display: none; }
-	nav .nav-title { display: inline; float: left; }
-	nav .nav-title + .nav-section {
-		display: block;
-		position: absolute;
-		right: 10px;
-		top: 25px;
-	}
-	nav .nav-content > h3 { display: none; }
-}
-
-/* Mobile Landscape */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-}
-
-/* iPad Portrait/Browser */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-}
-
-/* Mobile/Browser */
-@media only screen and (max-width: 767px) {
-}
-
-/* Mobile Landscape/Browser */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-}
-
-/* Anything smaller than standard 960 */
-@media only screen and (max-width: 959px) {
-}
-
-
-/* iPad Portrait Only */
-@media only screen and (min-width: 768px) and (max-width: 959px) and (max-device-width: 1000px) {
-}
-
-/* Mobile Only */
-@media only screen and (max-width: 767px) and (max-device-width: 1000px) {
-}
-
-/* Mobile Landscape Only */
-@media only screen and (min-width: 480px) and (max-width: 767px) and (max-device-width: 1000px) {
-}
-
-/* Anything smaller than standard 960 on a device */
-@media only screen and (max-width: 959px) and (max-device-width: 1000px) {
-}
