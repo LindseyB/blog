@@ -25,6 +25,7 @@
 	.post {
 		border-left: 10px solid #f0e0f0;
 		padding-bottom: 1px;
+		border-right: none;
 	}
 
 	.container {
