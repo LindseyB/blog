@@ -1,3 +1,4 @@
+require 'yaml'
 class Post
   attr_reader :content
   attr_reader :title
@@ -8,18 +9,24 @@ class Post
     begin
       content = File.read("posts/#{name}.md")
     rescue
+      return
     end
 
-    line_end = content.index("\n")
-    title, content = content[0..line_end], content[line_end+1..-1]
+    match = content.match(/^---$(.*?)^---$(.*)/m)
 
-    line_end = content.index("\n")
-    author, content = content[0..line_end], content[line_end+1..-1]
+    unless match.nil?
+      meta_data = match[1]
+      content = match[2]
+
+      meta_data = YAML.load(meta_data)
+
+      @title = meta_data["title"]
+      @author = meta_data["author"]
+    end
 
     r = Redcarpet::Markdown.new(Redcarpet::Render::HTML, :fenced_code_blocks => true)
     @content = r.render(content)
-    @title = title[title.index(":")+1..-1].strip
-    @author = author[author.index(":")+1..-1].strip
+
     @date = name.match(/^\d{4}-\d{2}-\d{2}/)
   end
 end
