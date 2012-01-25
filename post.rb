@@ -4,6 +4,7 @@ class Post
   attr_reader :title
   attr_reader :author
   attr_reader :date
+  attr_reader :tags
 
   def initialize(name)
     begin
@@ -22,6 +23,7 @@ class Post
 
       @title = meta_data["title"]
       @author = meta_data["author"]
+      @tags = meta_data["tags"] || []
     end
 
     r = Redcarpet::Markdown.new(Redcarpet::Render::HTML, :fenced_code_blocks => true)
