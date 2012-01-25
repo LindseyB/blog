@@ -26,23 +26,30 @@ body {
 
 .post h1, .post h2, .post h3 {
 	font-family: 'Forum', serif;
-	margin-bottom: 3px;
 }
 
 .post h1 {
-	color: #707;
+	color: rgb(72, 74, 171);
 	font-size: 36px;
 	font-weight: bold;
+	line-height: 1.0em;
+	margin-bottom: 0;
+}
+
+.post h1 + p {
+	margin-top: 0;
 }
 
 .post h2 {
-	color: #505;
+	color: rgb(88, 90, 209);
 	font-size: 28px;
+	margin-bottom: 3px;
 }
 
 .post h3 {
-	color: #505;
+	color: rgb(73, 76, 230);
 	font-size: 24px;
+	margin-bottom: 3px;
 }
 
 .post p {
