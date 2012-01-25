@@ -13,7 +13,7 @@ nav {
 
 nav .nav-content {
 	position: fixed;
-	width: 240px;
+	width: 230px;
 }
 
 nav .nav-section {
@@ -47,6 +47,6 @@ nav a {
 }
 
 nav a.image {
-	margin: 30px;
+	margin: 24px;
 }
 
