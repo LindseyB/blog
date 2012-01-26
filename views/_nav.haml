@@ -1,0 +1,26 @@
+%nav
+  .nav-content
+    .nav-title
+      %h3
+        %a{:href=>"/"}
+          #{TITLE}
+    .nav-section
+      %a.image{:href=>"http://github.com/#{GITHUB_USERNAME}", :title=>"#{GITHUB_USERNAME}'s code"}<
+        %img{:src=>"/images/github.png", :title=>"#{GITHUB_USERNAME}'s code", :alt=>"#{GITHUB_USERNAME}'s code"}
+      %a.image{:href=>"http://twitter.com/#{TWITTER_USERNAME}", :title=>"#{TWITTER_USERNAME}'s twitter profile"}<
+        %img{:src=>"/images/twitter.png", :title=>"#{TWITTER_USERNAME}'s profile", :alt=>"#{TWITTER_USERNAME}'s twitter profile"}
+      %a.image{:href=>"http://rstat.us/users/#{RSTATUS_USERNAME}", :title=>"#{RSTATUS_USERNAME}'s rstat.us profile"}<
+        %img{:src=>"/images/rstatus.png", :title=>"#{RSTATUS_USERNAME}'s profile", :alt=>"#{RSTATUS_USERNAME}'s rstat.us profile"}
+    - if @title
+      %h3 table of contents
+      .nav-section
+        %ul.toc
+          = yield_content :toc
+    %h3 archive
+    .nav-section
+      %ul.archive
+        - latest_posts.each do |post|
+          %li
+            %a{:href => post[:url],
+               :title => post[:title],
+               :alt=> post[:title]}= post[:title]

@@ -42,11 +42,42 @@ nav .nav-section + h3 {
 	margin-top: 30px;
 }
 
-nav a {
+nav li {
 	font-family: 'Metrophobic', sans-serif;
+	font-size: 12px;
+	line-height: 1.3em;
+	margin: 0;
+}
+
+nav .nav-section ul.toc > li {
+	list-style-type: none;
+	margin: 0;
+	margin-left: 10px;
+}
+
+nav .nav-section ul.toc > li ul li {
+	list-style-type: disc;
+	margin: 0;
+	margin-left: -0.7em;
+}
+
+nav .nav-section ul.toc a {
+	text-decoration: none;
+}
+
+nav .nav-title h3 a {
+	text-decoration: none;
+}
+
+nav ul.toc li {
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+nav ul.toc {
+	margin-left: 0;
 }
 
 nav a.image {
 	margin: 24px;
 }
-

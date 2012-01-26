@@ -1,58 +1,10 @@
-!!! 5
-/[if lt IE 7 ] <html class="ie ie6" lang="en">
-/[if IE 7 ] <html class="ie ie7" lang="en">
-/[if IE 8 ] <html class="ie ie8" lang="en">
-/ [if (gte IE 9)|!(IE)]><!
-%html{:lang=>"en"}
-  / <![endif]
-  %head
-    %meta{:charset=>"utf8"}
-    %meta{:content=>"width=device-width, initial-scale=1, maximum-scale=1", :name=>"viewport"}
+.post
+  %h1
+    #{@title}
+  %p
+    by: #{@author} on: #{@date}
+  :preserve
+    #{@content}
 
-    /[if lt IE 9]
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-
-    %link{:href=>"http://fonts.googleapis.com/css?family=Inconsolata|Forum|Metrophobic|Wire+One", :rel=>"stylesheet", :type=>"text/css"}
-    %link{:href=>"/stylesheets/reset.css", :rel=>"stylesheet", :type=>"text/css"}
-    %link{:href=>"/stylesheets/zenburn.css", :rel=>"stylesheet", :type=>"text/css"}
-    %link{:href=>"/stylesheets/base.css", :rel=>"stylesheet", :type=>"text/css"}
-    %link{:href=>"/stylesheets/skeleton.css", :rel=>"stylesheet", :type=>"text/css"}
-    %link{:href=>"/stylesheets/layout.css", :rel=>"stylesheet", :type=>"text/css"}
-    %link{:href=>"/stylesheets/nav.css", :rel=>"stylesheet", :type=>"text/css"}
-    %link{:href=>"/stylesheets/post.css", :rel=>"stylesheet", :type=>"text/css"}
-    %link{:href=>"/stylesheets/resize.css", :rel=>"stylesheet", :type=>"text/css"}
-
-    %title #{title}
-  %body
-    .container
-      .three.columns.sidebar
-        %nav
-          .nav-content
-            .nav-title
-              %h3 #{TITLE}
-            .nav-section
-              %a.image{:href=>"http://github.com/#{GITHUB_USERNAME}", :title=>"#{GITHUB_USERNAME}'s code"}<
-                %img{:src=>"/images/github.png", :title=>"#{GITHUB_USERNAME}'s code", :alt=>"#{GITHUB_USERNAME}'s code"}
-              %a.image{:href=>"http://twitter.com/#{TWITTER_USERNAME}", :title=>"#{TWITTER_USERNAME}'s twitter profile"}<
-                %img{:src=>"/images/twitter.png", :title=>"#{TWITTER_USERNAME}'s profile", :alt=>"#{TWITTER_USERNAME}'s twitter profile"}
-              %a.image{:href=>"http://rstat.us/users/#{RSTATUS_USERNAME}", :title=>"#{RSTATUS_USERNAME}'s rstat.us profile"}<
-                %img{:src=>"/images/rstatus.png", :title=>"#{RSTATUS_USERNAME}'s profile", :alt=>"#{RSTATUS_USERNAME}'s rstat.us profile"}
-            %h3 archive
-            .nav-section
-              %ul
-                - latest_posts.each do |post|
-                  %li
-                    %a{:href => post[:url],
-                       :title => post[:title],
-                       :alt=> post[:title]}= post[:title]
-      .twelve.columns.offset-by-one.content
-        .post
-          %h1
-            #{@title}
-          %p
-            by: #{@author} on: #{@date}
-          :preserve
-            #{@content}
-
-    %script{:src=>"http://code.jquery.com/jquery-1.6.4.min.js"}
-    %script{:src=>"/javascript/app.js"}
+- content_for :toc do
+  = format_outline @outline
