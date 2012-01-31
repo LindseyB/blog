@@ -88,7 +88,6 @@ body,html {
 .post ol + h3,
 .post ul + h3 {
 	margin-top: 25px;
-	margin-bottom: 15px;
 }
 
 .post p + p {
