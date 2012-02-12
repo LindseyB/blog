@@ -32,10 +32,18 @@ class Post
   class Renderer < Redcarpet::Render::HTML
     attr_accessor :outline
 
-    def initialize
+    def initialize(slug, *args)
       @outline = Node.new :root
       @last = @outline
-      super
+      @slug = slug
+      super *args
+    end
+
+    def image(link, title, alt_text)
+      unless link.match /^http|^\//
+        link = "/images/#{@slug}/#{link}"
+      end
+      "<p class='center'><img src='#{link}' title='#{title}' alt='#{alt_text}' /></p>"
     end
 
     def header(text, header_level)
@@ -64,6 +72,7 @@ class Post
   attr_reader :date
   attr_reader :tags
   attr_reader :outline
+  attr_reader :slug
 
   def initialize(name)
     begin
@@ -85,11 +94,12 @@ class Post
       @tags = meta_data["tags"] || []
     end
 
-    renderer = Post::Renderer.new
+    @date = name.match(/^\d{4}-\d{2}-\d{2}/)
+    @slug = name[/#{@date}-(.*)$/,1]
+
+    renderer = Post::Renderer.new(@slug)
     r = Redcarpet::Markdown.new(renderer, :fenced_code_blocks => true)
     @content = r.render(content)
     @outline = renderer.outline.child
-
-    @date = name.match(/^\d{4}-\d{2}-\d{2}/)
   end
 end
