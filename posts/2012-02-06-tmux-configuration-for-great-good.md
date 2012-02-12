@@ -14,14 +14,20 @@ We want one with 256 color support, a more than decent amount of scrollback, utf
 ## .bash_profile
 
 To have 256 colors, we need to set the TERM variable to xterm-256color by adding an
-export to our bash_profile. Put this line at the end:
+export to our bashrc. Put this line at the end:
 
     export TERM=xterm-256color
 
-If you don't want to do that for some reason, then we can just alias the tmux command
-to set that variable:
+Alternatively, (if you don't want to do that for some reason) we can just alias the tmux command
+to set that variable only for tmux:
 
     alias tmux='TERM=xterm-256color tmux'
+
+Now, to support 256 colors **within** tmux, we add the following line to the end
+of our bashrc:
+
+    # for tmux: export 256color
+    [ -n "$TMUX" ] && export TERM=screen-256color
 
 ## .tmux.conf
 
@@ -48,6 +54,31 @@ home folder. Create one if it doesn't exist.
 ### Vi-Style Commands
 
     setw -g mode-keys vi         # vi-style commands in copy-mode
+
+
+### UI Color Scheme
+
+![256-color terminal palette](256-color-palette.png)
+
+While refering to the palette above, set each of these
+values to something you find appealing but not distracting. Here
+is an example using greens and grays you can add to your .tmux.conf:
+
+    # statusbar colors
+    set -g status-fg colour236
+    set -g status-bg colour70
+    
+    # active window title on statusbar
+    set-window-option -g window-status-current-fg colour192
+    set-window-option -g window-status-current-bg default
+    
+    # inactive window title on statusbar
+    set-window-option -g window-status-fg colour236
+    set-window-option -g window-status-bg default
+    
+    # border around window
+    set-window-option -g pane-border-fg colour236
+    set-window-option -g pane-active-border-fg colour70
 
 ## Loading the configuration
 
