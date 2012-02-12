@@ -1,6 +1,5 @@
 body,html {
-	background-color: #888;
-	background-image: url('/images/blog_bg.png');
+	background-color: #eef;
 	background-attachment: fixed;
 	height: 100%;
 }
@@ -190,4 +189,14 @@ body,html {
 .post li p {
 	font-weight: normal;
 	font-size: 14px;
+}
+
+.post p.center {
+	text-align: center;
+}
+
+.post img {
+	background-color: #f0e8f0;
+	border: 1px solid #a8a;
+	padding: 7px;
 }
