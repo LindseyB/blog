@@ -1,4 +1,5 @@
 body,html {
+  background-image: url('../images/blue_bg.png');
 	background-color: #eef;
 	background-attachment: fixed;
 	height: 100%;
