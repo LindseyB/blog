@@ -1,8 +1,14 @@
 /* Non 960 */
 @media only screen and (max-width: 959px) {
 	nav .nav-content {
-		width: 210px;
+		width: 200px;
+    position: relative;
+    left: -9px;
 	}
+
+  nav .nav-section ul {
+    margin-left: 18px;
+  }
 }
 
 /* Mobile */
