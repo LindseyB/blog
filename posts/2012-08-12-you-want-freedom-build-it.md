@@ -15,6 +15,9 @@ We want it quickly, so we shouldn't reinvent. Therefore, let's look at what we h
 
 [Git](http://git-scm.com/) is a ridiculously simple protocol. The design is made up of blocks and bridges like most distributed systems. The blocks are commits and the bridges are simple links between them. Follow the bridges from any point, you get a snapshot of the codebase. Easy.
 
+> In many ways you can just see git as a filesystem — it's content-addressable, and it has a notion of versioning, but I really really designed it coming at the problem from the viewpoint of a filesystem person (hey, kernels is what I do), and I actually have absolutely zero interest in creating a traditional SCM system.
+> <div class="citation">&mdash; <cite>Linus Torvalds, designer of git and Linux kernel, [available](http://marc.info/?l=linux-kernel&m=111314792424707)</cite></div>
+
 Git projects can be distributed anywhere. Either as a link to the git project through some sort of URI or by duplicating most or all of the structure on a separate system. Consistency is maintained through hashes serving as unique identifiers to target specific commits (when named, this is a code branch) and internal delta objects lighten the load of replication.
 
 Git preserves the integrity of the code (it would be rather worthless if it didn't) with simple hashes and availability through manual replication. The point of a service that uses git would be to strengthen the availability and simply relax and fall in love with the parts that ensure integrity.
@@ -38,7 +41,7 @@ The thing is... git allows us to have high availability and a known point of acc
 > <div class="citation">&mdash; <cite>Frances E. Allen, compiler and systems researcher, Turing Award winner</cite></div>
 
 
-Yet... github makes the whole availability a bit more difficult in the general case. This should absolutely infuriate us. That's a backward step to solving the given problem. It is a lack of substantial progress. Should we accept the concept of _social coding_ that github gives us even though it hinders or obscures the socially benefitial prospects of a distributed system? Can a diverse set of people use our code _because_ github exists? Nothing prohibits this for _git_, but nothing promotes it either.
+Yet... github makes the whole availability thing a bit more difficult in the general case. This should absolutely infuriate us. That's a backward step to solving the given problem. It is a lack of substantial progress. Should we accept the concept of _social coding_ that github gives us even though it hinders or obscures the socially benefitial prospects of a distributed system? Can a diverse set of people use our code _because_ github exists? Nothing prohibits this for _git_, but nothing promotes it either.
 
 ## What is a Federated System
 
