@@ -7,7 +7,7 @@ There has been [many](http://bytbox.net/blog/2012/08/leaving-github.html) a [deb
 
 ## The Problem
 
-I propose a simple, real-world problem: make code as available as possible and ensure that it is correct when retrieved and from the source you desire it. You may give up confidentially and consistency since this is [impos](http://en.wikipedia.org/wiki/Information_security)-[sible](http://en.wikipedia.org/wiki/CAP_theorem) given our goal. Can you provide this with high probability that code cannot be destroyed permanently?
+I propose a simple, real-world problem: make code as available as possible and ensure that it is correct when retrieved and from the source you desire it. You may give up confidentiality and consistency since this is [impos](http://en.wikipedia.org/wiki/Information_security)-[sible](http://en.wikipedia.org/wiki/CAP_theorem) given our goal. Can you provide this with high probability that code cannot be destroyed permanently?
 
 We want it quickly, so we shouldn't reinvent. Therefore, let's look at what we have.
 
@@ -26,7 +26,7 @@ Too much hand waving for you? Sweet, read [Git from the bottom up](http://ftp.ne
 
 ## What is Github
 
-[Github](http://github.com) is a centralized website. It serves to host a git project. It is centralized in that it promotes a culture where code is available on their servers and no where else. The fact that you _can_ distribute your code easily on different sites is a property of _git_ not github. If their servers go down (and they [do](https://github.com/blog/744-today-s-outage)) then your code only exists locally in the common case where you do not manually replicate it.
+[Github](http://github.com) is a centralized website. It serves to host a git project. It is centralized in that it promotes a culture where code is available on their servers and nowhere else. The fact that you _can_ distribute your code easily on different sites is a property of _git_, not github. If their servers go down (and they [do](https://github.com/blog/744-today-s-outage)) then your code only exists locally in the common case where you do not manually replicate it.
 
 > By orienting around people rather than repositories, GitHub has become the de facto social network for programmers
 > <div class="citation">&mdash; <cite>Peter Levine, affiliated with the $100 million backing of github, [available](http://peter.a16z.com/2012/07/09/software-eats-software-development/)</cite></div>
@@ -41,7 +41,7 @@ The thing is... git allows us to have high availability and a known point of acc
 > <div class="citation">&mdash; <cite>Frances E. Allen, compiler and systems researcher, Turing Award winner</cite></div>
 
 
-Yet... github makes the whole availability thing a bit more difficult in the general case. This should absolutely infuriate us. That's a backward step to solving the given problem. It is a lack of substantial progress. Should we accept the concept of _social coding_ that github gives us even though it hinders or obscures the socially benefitial prospects of a distributed system? Can a diverse set of people use our code _because_ github exists? Nothing prohibits this for _git_, but nothing promotes it either.
+Yet... github makes the whole availability thing a bit more difficult in the general case. This should absolutely infuriate us. That's a backward step to solving the given problem. It is a lack of substantial progress. Should we accept the concept of _social coding_ that github gives us even though it hinders or obscures the socially beneficial prospects of a distributed system? Can a diverse set of people use our code _because_ github exists? Nothing prohibits this for _git_, but nothing promotes it either.
 
 ## What is a Federated System
 
@@ -66,8 +66,8 @@ We need a system that promotes the features of git that are of both practical an
 
 To federate the system, all git repositories would be visible and accessible through any system. This could be done very much the way your twitter followers would be distributed leaving a system where all users interact equally. The origins of social interactions (notifications, messages, comments) would be abstracted as well. This is, of course, the same as twitter status updates. A federated twitter is a solved problem, as I stated. The protocol is [OStatus](http://ostatus.org/sites/default/files/ostatus-1.0-draft-2-specification.html), replication is through [PuSH](https://code.google.com/p/pubsubhubbub/) and untrusted notifications are through [salmon](http://salmon-protocol.googlecode.com/svn/trunk/draft-panzer-salmon-00.html). So we just need a [git web client](https://github.com/gitlabhq/gitlabhq/). (Spoilers: we have one.)
 
-Encouraging replication is fairly simple, but certainly second-iteration. I mean, replication is intuitive to git. Any local copy should be able to be pulled from in a peer-to-peer fashion. The commits are preserved (all history is linked) and have a point of access (hash) as a matter of design. So, anybody that installs your code or forks it will be able to host it. Optional, of course, but cooperation can be incentivized. Peer-to-peer protocols are becoming rather commonplace already, for instance, in [video game patching](http://en.wikipedia.org/wiki/BitTorrent#Software) and package management, although typically not well-marketed perhaps due to a negative association with piracy. Using p2p here can ensure that one cannot locate all copies of code easily, and therefore preserve them from accident or maliciousness.
+Encouraging replication is fairly simple, but certainly second-iteration. I mean, replication is intuitive to git. Any local copy should be able to be pulled from in a peer-to-peer fashion. The commits are preserved (all history is linked) and have a point of access (hash) as a matter of design. So anybody that installs your code or forks it will be able to host it. Optional, of course, but cooperation can be incentivized. Peer-to-peer protocols are becoming rather commonplace already, for instance, in [video game patching](http://en.wikipedia.org/wiki/BitTorrent#Software) and package management, although typically not well-marketed perhaps due to a negative association with piracy. Using p2p here can ensure that one cannot locate all copies of code easily and therefore preserve them from accident or maliciousness.
 
-Determining that the origin of some information is who you think it is, and furthermore one's attribution can be ensured through private keys and self-hosted identity (through something like [webfinger](http://code.google.com/p/webfinger/), Blaine Cook reminds me that it is encouraged to [separate authenticity](http://blog.romeda.org/2011/03/private-webhooks-private-feeds.html) and I'll add it is important to be able to self-host and control one's identity).
+Determining that the origin of some information is who you think it is, and furthermore that one's attribution can be ensured through private keys and self-hosted identity (through something like [webfinger](http://code.google.com/p/webfinger/), Blaine Cook reminds me that it is encouraged to [separate authenticity](http://blog.romeda.org/2011/03/private-webhooks-private-feeds.html) and I'll add it is important to be able to self-host and control one's identity).
 
 Put all of these in the same bowl. Mix. Enjoy.
