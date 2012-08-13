@@ -51,6 +51,9 @@ A non-federated distributed system would simply be these machines communicating 
 
 For example, a user of a federated twitter system would be a user on all machines. No matter which machine you use, you would have the same functionality available to you (tweet, reply, direct message). If any one machine knows you exist, you will be seen as a user on that machine even though you physically _exist_ on another. They might even announce you to neighboring systems or replicate your content. Conversely, you will use your machine to interact with others as though they are on your server.
 
+> Status.net exists to fulfill a need of a lot of people, both on the public web and private web, to have a microblogging server that they can control.
+> <div class="citation">&mdash; <cite>Evan Prodromou, founder of status.net and identi.ca, [available](http://www.building43.com/videos/2010/04/29/opening-up-microblogging-with-founder-of-status-net/)</cite></div>
+
 You may have used a federated system such as this thing called _email_.
 
 Of course, the federated twitter exists. It is a solved problem. It is both [status.net](http://status.net) which powers [identi.ca](https://identi.ca) and [rstat.us](https://rstat.us), which do indeed talk to each other and other entities.
