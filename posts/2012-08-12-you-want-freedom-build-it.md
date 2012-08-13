@@ -3,7 +3,7 @@ title: You want freedom? Build it.
 author: wilkie
 ---
 
-There has been [many](http://bytbox.net/blog/2012/08/leaving-github.html) a [debate](#) about the recent, somehow surprising discovery that github is a company with [interests](http://peter.a16z.com/2012/07/09/software-eats-software-development/) that are perhaps beyond our own. Whatever. Honestly, github is replaceable. The real issue is the one we as developers, creatives, and people who like difficult problems should be talking about: WTF is a centralized website doing wrapping a distributed protocol?
+There has been [many](http://bytbox.net/blog/2012/08/leaving-github.html) a [debate](http://news.ycombinator.com/item?id=4220353) about the recent, somehow surprising discovery that github is a company with [interests](http://peter.a16z.com/2012/07/09/software-eats-software-development/) that are perhaps beyond our own. Whatever. Honestly, github is replaceable. The real issue is the one we as developers, creatives, and people who like difficult problems should be talking about: WTF is a centralized website doing wrapping a distributed protocol?
 
 ## The Problem
 
@@ -26,7 +26,7 @@ Too much hand waving for you? Sweet, read [Git from the bottom up](http://ftp.ne
 [Github](http://github.com) is a centralized website. It serves to host a git project. It is centralized in that it promotes a culture where code is available on their servers and no where else. The fact that you _can_ distribute your code easily on different sites is a property of _git_ not github. If their servers go down (and they [do](https://github.com/blog/744-today-s-outage)) then your code only exists locally in the common case where you do not manually replicate it.
 
 > By orienting around people rather than repositories, GitHub has become the de facto social network for programmers
-> <div class="citation">&mdash; <cite>Peter Levine, recent backer of github, [available](http://peter.a16z.com/2012/07/09/software-eats-software-development/)</cite></div>
+> <div class="citation">&mdash; <cite>Peter Levine, affiliated with the $100 million backing of github, [available](http://peter.a16z.com/2012/07/09/software-eats-software-development/)</cite></div>
 
 Full disclosure: [All](https://github.com/wilkie) [of](https://github.com/hotsh) [my](https://github.com/xomboverlord) [code](https://github.com/djehuty) is hosted there because people expect it to be. That's not a very good reason. Github does not solve the given problem.
 
@@ -56,7 +56,7 @@ You build federated systems on top of distributed ones. Federation is a subset. 
 
 ## The Solution
 
-We need a system that promotes the features of git that are of both practical and social importance: availability and integrity. We need a system that does not allow code to be destroyed or censored. Such a system starts by exposing and leveraging the distributed nature of git. A git repository is a shared view of a set of commits. A web-based client of git is by nature already distributed.
+We need a system that promotes the features of git that are of both practical and social importance: availability and integrity. We need a system that does not allow code to be destroyed or censored. This is something github cannot do. Such a system is only possible through the exposing and leveraging of the distributed nature of git. A git repository is a shared view of a set of commits. A true web-based client of git is by nature already distributed.
 
 To federate the system, all git repositories would be visible and accessible through any system. This could be done very much the way your twitter followers would be distributed leaving a system where all users interact equally. The origins of social interactions (notifications, messages, comments) would be abstracted as well. This is, of course, the same as twitter status updates. A federated twitter is a solved problem, as I stated. So we just need a [git web client](https://github.com/gitlabhq/gitlabhq/).
 
