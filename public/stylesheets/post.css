@@ -66,12 +66,15 @@ body,html {
 	font-size: 16px;
 	font-family: 'Metrophobic', sans-serif;
 
+  text-align: justify;
+
 	line-height: 1.4em;
 }
 
 .post h1 + p {
 	margin-bottom: 15px;
 	font-size: 12px;
+  word-spacing: 3px;
 }
 
 .post p + ul,
