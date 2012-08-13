@@ -5,6 +5,13 @@
     by: #{@author} on: #{@date}
   :preserve
     #{@content}
+  %hr
+  %p
+    If you'd like to comment, just send me an email at wilkie@xomb.org or on either 
+    %a{:href=>"http://twitter.com/DaveWilkinsonII", :title=>"Twitter Profile", :alt=>"Twitter Profile"} Twitter
+    or via my
+    %a{:href=>"https://rstat.us/users/DaveWilkinsonII", :title=>"rstat.us Profile", :alt=>"rstat.us Profile"} rstat.us
+    profile. I will love to hear from you! Any opinions, criticism, etc are welcome.
 
 - content_for :toc do
   = format_outline @outline
