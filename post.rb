@@ -43,7 +43,7 @@ class Post
       unless link.match /^http|^\//
         link = "/images/#{@slug}/#{link}"
       end
-      "<p class='center'><img src='#{link}' title='#{title}' alt='#{alt_text}' /></p>"
+      "</p><p class='image'><img src='#{link}' title='#{title}' alt='#{alt_text}' /><br /><span class='caption'>#{alt_text}</span>"
     end
 
     def header(text, header_level)

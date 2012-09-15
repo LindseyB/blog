@@ -195,12 +195,17 @@ body,html {
 	font-size: 14px;
 }
 
-.post p.center {
-	text-align: center;
+.post p.image {
+  text-align: center;
 }
 
-.post img {
+.post p.image img {
 	background-color: #f0e8f0;
 	border: 1px solid #a8a;
 	padding: 7px;
+}
+
+.post p.image span.caption {
+  font-size: 12px;
+  font-style: italic;
 }
