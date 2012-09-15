@@ -33,7 +33,11 @@ class Blog < Sinatra::Base
 
     def format_outline(outline)
       return "" if outline.nil?
-      "<li><a href='##{outline.slug}'>#{outline.text}</a><ul>#{format_outline(outline.child)}</ul></li>#{format_outline(outline.sibling)}"
+      if outline.text == "References"
+        "</ul><li><a href='##{outline.slug}'>#{outline.text}</a></li>#{format_outline(outline.sibling)}<ul>"
+      else
+        "<li><a href='##{outline.slug}'>#{outline.text}</a><ul>#{format_outline(outline.child)}</ul></li>#{format_outline(outline.sibling)}"
+      end
     end
   end
 
