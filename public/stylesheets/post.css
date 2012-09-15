@@ -203,6 +203,7 @@ body,html {
 	background-color: #f0e8f0;
 	border: 1px solid #a8a;
 	padding: 7px;
+  max-width: 900px;
 }
 
 .post p.image span.caption {
