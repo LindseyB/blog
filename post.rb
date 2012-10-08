@@ -43,7 +43,6 @@ class Post
 
       @title = meta_data["title"]
       @author = meta_data["author"]
-      @tags = meta_data["tags"] || []
     end
 
     @date = name.match(/^\d{4}-\d{2}-\d{2}/)
