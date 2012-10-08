@@ -1,6 +1,7 @@
 require 'bundler'
 Bundler.require
 
+require 'date'
 require_relative 'post'
 
 class Blog < Sinatra::Base
@@ -19,7 +20,7 @@ class Blog < Sinatra::Base
       Dir.glob("posts/*.md") do |post|
         post = post[/posts\/(.*?).md$/,1]
         p = Post.new(post)
-        ret << {:title => p.title, :url => "/posts/#{post}"}
+        ret << {:id => post, :title => p.title, :url => "/posts/#{post}"}
       end
       ret
     end
@@ -39,7 +40,15 @@ class Blog < Sinatra::Base
   end
 
   get '/' do
-    haml :index
+    source = Post.new(latest_posts[0][:id])
+    @content = source.content
+    @title = source.title
+    @author = source.author
+    @date = source.date
+    @outline = source.outline
+    @formatted_date = source.formatted_date
+
+    haml :post
   end
 
   get '/posts/:id' do
@@ -49,6 +58,7 @@ class Blog < Sinatra::Base
     @author = source.author
     @date = source.date
     @outline = source.outline
+    @formatted_date = source.formatted_date
 
     haml :post
   end

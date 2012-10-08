@@ -1,4 +1,5 @@
 require 'yaml'
+require 'date'
 
 class Node
   attr_accessor :child
@@ -73,6 +74,7 @@ class Post
   attr_reader :tags
   attr_reader :outline
   attr_reader :slug
+  attr_reader :formatted_date
 
   def initialize(name)
     begin
@@ -96,6 +98,8 @@ class Post
 
     @date = name.match(/^\d{4}-\d{2}-\d{2}/)
     @slug = name[/#{@date}-(.*)$/,1]
+
+    @formatted_date = Date.parse(@date.to_s).strftime("%d %B %Y")
 
     renderer = Post::Renderer.new(@slug)
     r = Redcarpet::Markdown.new(renderer, :fenced_code_blocks => true)
