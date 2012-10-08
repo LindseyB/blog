@@ -158,6 +158,15 @@ cite {
 	padding: 10px;
 }
 
+.image {
+	text-align: center;
+}
+
+.caption {
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
 ::selection {
 	background: #B3E8FA; /* Safari */
 }
