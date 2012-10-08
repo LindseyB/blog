@@ -4,17 +4,14 @@ Bundler.require
 require_relative 'post'
 
 class Blog < Sinatra::Base
-  TITLE = "wilkie writes a thing"
-  GITHUB_USERNAME = "wilkie"
-  TWITTER_USERNAME = "DaveWilkinsonII"
-  RSTATUS_USERNAME = "DaveWilkinsonII"
+  TITLE = "Lindsey Bieda"
 
   helpers Sinatra::ContentFor
 
   helpers do
     def title
       return TITLE if @title.nil?
-      "#{@title} - #{TITLE}"
+      "#{@title} &raquo; #{TITLE}"
     end
 
     def latest_posts

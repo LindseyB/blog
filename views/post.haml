@@ -1,18 +1,20 @@
-.post
-  %h1
-    #{@title}
+%h1
+  #{@title}
+%aside
+  %time
+    #{@date}
   %p
-    by: #{@author} on: #{@date}
-  %hr
+    Lindsey is a computer scientist, feminist, software hacker, tea enthusiast, book worm, stenciler, and art kid wannabe.
+  %p
+    All content here is licensed under
+    %a{:href => "http://creativecommons.org/publicdomain/zero/1.0/", :rel => "licence"} CC0
+  %p{:id => "archive"}
+    %i{:class => "icon-book"}
+    %a{:href => ""} archive
+
+
+%article
   :preserve
     #{@content}
-  %hr
-  %p
-    If you'd like to comment, just send me an email at wilkie@xomb.org or on either 
-    %a{:href=>"http://twitter.com/DaveWilkinsonII", :title=>"Twitter Profile", :alt=>"Twitter Profile"} Twitter
-    or via my
-    %a{:href=>"https://rstat.us/users/DaveWilkinsonII", :title=>"rstat.us Profile", :alt=>"rstat.us Profile"} rstat.us
-    profile. I will love to hear from you! Any opinions, criticism, etc are welcome.
 
-- content_for :toc do
-  = format_outline @outline
+
