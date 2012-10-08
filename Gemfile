@@ -2,7 +2,7 @@ source :rubygems
 
 gem 'sinatra'
 gem 'sinatra-subdomain'
-gem 'sinatra-content-for', :require => 'sinatra/content_for'
+gem 'sinatra-contrib', :require => 'sinatra/content_for'
 
 gem 'thin'
 gem 'rake'
