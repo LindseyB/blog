@@ -24,12 +24,17 @@ article {
 	float: right;
 }
 
-p {
+p, .archive {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 200;
 	font-size: 1.5em;
 	line-height: 1.3em;
 	margin: 0 0 1em 0;
+}
+
+ul.archive {
+	list-style-type: none;
+	line-height: 2em;
 }
 
 aside {
@@ -46,14 +51,14 @@ aside p {
 }
 
 
-p a, ol li a{
+p a, ol li a, .archive a {
 	text-decoration: none;
 	color: black;
 	border-bottom: solid 1px #76d5f5;
 	padding-bottom: 0px;
 }
 
-p a:hover, ol li a:hover{
+p a:hover, ol li a:hover, .archive a:hover{ 
 	border-bottom: dashed 1px #76d5f5;
 }
 

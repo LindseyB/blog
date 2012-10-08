@@ -62,4 +62,10 @@ class Blog < Sinatra::Base
 
     haml :post
   end
+
+  get '/archive' do
+    @posts = latest_posts
+
+    haml :archive
+  end
 end

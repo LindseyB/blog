@@ -8,13 +8,15 @@
   %p
     All content here is licensed under
     %a{:href => "http://creativecommons.org/publicdomain/zero/1.0/", :rel => "licence"} CC0
-  %p{:id => "archive"}
-    %i{:class => "icon-book"}
-    %a{:href => ""} archive
 
 
 %article
-  :preserve
-    #{@content}
+  %ul.archive
+    - latest_posts.each do |post|
+      %li
+        %i{:class => "icon-circle-arrow-right"}
+        %a{:href => post[:url],
+                  :title => post[:title],
+                  :alt=> post[:title]}= post[:title]
 
 
