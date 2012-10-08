@@ -10,6 +10,11 @@ h1 {
 	text-shadow: 0px 1px 5px #d6d6d6;
 }
 
+h2 {
+	font-family: 'Arvo', serif;
+	font-size: 2em;	
+}
+
 article {
 	width: 65%;
 	float: right;
@@ -137,6 +142,11 @@ cite {
 
 #archive a {
 	margin-left: 10px;
+}
+
+.prettyprint {
+	overflow-x: auto;
+	padding: 10px;
 }
 
 ::selection {
