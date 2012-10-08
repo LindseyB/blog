@@ -1,0 +1,147 @@
+body {
+	margin:0;
+	background-image: url('../images/bg.png');
+}
+
+h1 {
+	font-family: 'Arvo', serif;
+	font-size: 3em;
+	color: #76d5f5;
+	text-shadow: 0px 1px 5px #d6d6d6;
+}
+
+article {
+	width: 65%;
+	float: right;
+}
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 200;
+	font-size: 1.5em;
+	line-height: 1.3em;
+	margin: 0 0 1em 0;
+}
+
+aside {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 200;
+	float: left;
+	width: 30%;
+}
+
+aside p {
+	font-size: 1em;
+	line-height: 1.2em;
+	margin-top: 1em;
+}
+
+
+p a {
+	text-decoration: none;
+	color: black;
+	border-bottom: solid 1px #76d5f5;
+	padding-bottom: 0px;
+}
+
+p a:hover {
+	border-bottom: dashed 1px #76d5f5;
+}
+
+time {
+	display: block;
+	border-bottom: solid 1px #efefef;
+	font-weight: 500;
+	font-size: 2em;
+}
+
+header {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 200;
+	font-size: 2em;
+	background-color: #5a5a5a;
+	color: #efefef;
+	padding: 0.3em;
+	overflow: hidden;
+}
+
+nav {
+	float: right;
+}
+
+nav ul {
+	margin: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 0.1em;
+}
+
+nav ul li a img {
+	vertical-align: middle;
+	opacity: 0.4;
+}
+
+nav ul li:hover a img {
+	transition-duration: 1s;
+	-moz-transition-duration: 1s; /* Firefox 4 */
+	-webkit-transition-duration: 1s; /* Safari and Chrome */
+	-o-transition-duration: 1s; /* Opera */
+	transition-property:opacity;
+	-moz-transition-property:opacity; /* Firefox 4 */
+	-webkit-transition-property:opacity; /* Safari and Chrome */
+	-o-transition-property:opacity; /* Opera */
+	opacity: 0.8;
+}
+
+nav ul a {
+	color: #5a5a5a;
+}
+
+blockquote {
+	background-image: url('../images/quotebg.png');
+	background-repeat: no-repeat;
+	padding: 20px 0 0 50px;
+}
+
+blockquote p {
+	font-size: 1.2em;
+	padding-bottom: 0.5em;
+	border-bottom: solid 1px #76d5f5;
+}
+
+cite {
+	font-style: normal;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.citation {
+	text-align: right;
+}
+
+.main-wrap, .header-wrap {
+	width: 60%;
+	min-width: 480px;
+	margin: 0 auto;
+}
+
+.header-wrap {
+	line-height: 2em;
+}
+
+#archive {
+	font-size: 2em;
+	margin: 2em 0;
+}
+
+#archive a {
+	margin-left: 10px;
+}
+
+::selection {
+	background: #B3E8FA; /* Safari */
+}
+::-moz-selection {
+	background: #B3E8FA; /* Firefox */
+}
