@@ -43,9 +43,7 @@ class Blog < Sinatra::Base
     source = Post.new(latest_posts[0][:id])
     @content = source.content
     @title = source.title
-    @author = source.author
     @date = source.date
-    @outline = source.outline
     @formatted_date = source.formatted_date
 
     haml :post
@@ -55,9 +53,7 @@ class Blog < Sinatra::Base
     source = Post.new(params[:id])
     @content = source.content
     @title = source.title
-    @author = source.author
     @date = source.date
-    @outline = source.outline
     @formatted_date = source.formatted_date
 
     haml :post
