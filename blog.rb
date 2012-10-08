@@ -11,7 +11,7 @@ class Blog < Sinatra::Base
   helpers do
     def title
       return TITLE if @title.nil?
-      "#{@title} &raquo; #{TITLE}"
+      "#{TITLE} &raquo; #{@title}"
     end
 
     def latest_posts
