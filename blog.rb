@@ -22,20 +22,11 @@ class Blog < Sinatra::Base
         p = Post.new(post)
         ret << {:id => post, :title => p.title, :url => "/posts/#{post}"}
       end
-      ret
+      ret.sort{|x,y| y[:id] <=> x[:id]}
     end
 
     def partial(page, options={})
       haml "_#{page}".to_sym, options.merge!(:layout => false)
-    end
-
-    def format_outline(outline)
-      return "" if outline.nil?
-      if outline.text == "References"
-        "</ul><li><a href='##{outline.slug}'>#{outline.text}</a></li>#{format_outline(outline.sibling)}<ul>"
-      else
-        "<li><a href='##{outline.slug}'>#{outline.text}</a><ul>#{format_outline(outline.child)}</ul></li>#{format_outline(outline.sibling)}"
-      end
     end
   end
 
