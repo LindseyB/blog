@@ -124,7 +124,7 @@ blockquote {
 	padding: 20px 0 0 50px;
 }
 
-blockquote p {
+blockquote p:first-child {
 	font-size: 1.2em;
 	padding-bottom: 0.5em;
 	border-bottom: solid 1px #76d5f5;
@@ -165,6 +165,15 @@ cite {
 
 .image {
 	text-align: center;
+}
+
+.image img {
+	max-width: 100%;
+}
+
+.center {
+	display: block;
+	margin: 0 auto;
 }
 
 .caption {
