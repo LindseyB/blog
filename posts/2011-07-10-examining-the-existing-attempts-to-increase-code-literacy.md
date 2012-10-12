@@ -1,0 +1,20 @@
+---
+title: Examining the Existing Attempts to Increase Code Literacy
+---
+
+Increasing code literacy has always been a real challenge and it is one more people are trying to solve now that there are fewer people going into the computing fields. There are two recent tools that are prominently used in order to teach programming to students: Alice and Scratch. Both of these solutions utilize a visual programming language. Both tools focus heavily on the manipulation of visual objects and both try to limit the possibility for mistakes.
+
+![Alice](http://rarlindseysmash.com/images/entries/Alice.png)
+
+Alice is based heavily on the storytelling metaphor. The idea is to take characters or objects and place them in a 3D world and manipulate their status in the world. Alice itself is written in Java which allows it to easily be run on many different platforms. Alice, however, has the issue of being rather slow to start up and being fairly slow to run. The slowness is even more of an issue in schools or for individual users who do not have the means to provide themselves with new hardware. The fundamental benefit is that it allows a student to learn logic in an environment that it is easy to observe what is happening; however, it seems to miss out on the idea of types and the normal flow of program structure. The sentences created in the tool can have such a complexity that there really is no real easy comparison in any widely used language.
+
+![Scratch](http://rarlindseysmash.com/images/entries/Scratch.png)
+
+Scratch operates more simply in a 2D world where each of the objects is an image that can be manipulated. I personally have experience teaching programming to young students using Scratch and it made it clear to me where it fails and succeeds. In Scratch the operations on the objects are the same for all of the objects in the program rather than object specific as it is in Alice. It has a "pen" tool which basically allows for Logo-like programs, however, they all are still operating on images that are moved around the screen. The language itself is rather simplistic, and as a consequence the "sentences" built from it are all very limited. There's a clear limit for what you are able to create using Scratch. The most valuable aspect of Scratch seems to be the ability to upload, download, and modify projects that other students have made on the website.
+
+> Truth will sooner come out of error than from confusion.  
+<div class="citation"><cite>-Francis Bacon</cite></div>
+
+Both languages are masking an inherent complexity of the programs being generated. Scratch is actually operating with threads to each of the objects that are being manipulated. This allows a student to run into the issue of a race condition before they have the knowledge to be able to understand what is actually happening. The lack of the ability to make mistakes reduces the ability to acquire knowledge. Neither tool seems to leverage existing communities or tools. Getting help with a Python or Ruby program is relatively easier than with a Scratch or Alice one. It seems both attempt to mask away any sort of complexity and can fail under certain conditions. Both seem to focus heavily on the visual learner and leave other learners without a solid footing.
+
+There is no reason why new languages need to be created in order to teach programming. Scripting languages seem rather well equipped to do the job to teach programming. With the interactive shells provided with most scripting languages a student can quickly learn the results of a particular piece of code. You can jump into "Hello World" with one line of code and they have plenty of toolkits in order to allow learners to create meaningful programs. Syntax is fundamental to programming and ignoring it is rather problematic. Integration of version control into a user friendly environment can easily allow code to be shared within a community. Any tool can and should attempt to utilize as much existing code and communities as possible. Using an existing language allows the tool to grow to the level of the student while keeping them within a familiar environment.
