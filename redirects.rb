@@ -19,5 +19,6 @@ REDIRECTS = [
   { :n => "1321135268", :to => "/posts/2011-11-12-hard-having-a-female-avatar-on-the-internet"}, 
   { :n => "1336946854", :to => "/posts/2012-05-13-we-need-you"}, 
   { :n => "1339443393", :to => "/posts/2012-06-11-diversity-and-women-in-technology-resources"}, 
-  { :n => "1344364465", :to => "/posts/2012-08-07-git-shared-repo-woes"}
+  { :n => "1344364465", :to => "/posts/2012-08-07-git-shared-repo-woes"},
+  { :n => "1313531468", :to => "/posts/2011-08-16-the-elephant-in-the-computer-lab"}
 ]
