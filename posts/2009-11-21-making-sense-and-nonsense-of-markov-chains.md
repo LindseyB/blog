@@ -2,8 +2,6 @@
 title: Making Sense and Nonsense of Markov Chains
 ---
 
-![Andrey Markov](http://rarlindseysmash.com/images/entries/markov.png)
-
 Andrey Markov is known for two things being a Russian Mathematician and having amazing facial hair (well probably not the latter, but I'd love to think so). A Markov chain is one way of describing data in such a way that we can determine the future state of the world by looking at the current state of the world. 
 
 
