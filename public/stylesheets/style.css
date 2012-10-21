@@ -34,12 +34,23 @@ p, .archive {
 
 ul.archive {
 	list-style-type: none;
-	line-height: 2.5em;
 	font-size: 1.2em;
 }
 
+.archive li {
+	margin-bottom: 1.5em;
+}
+
 .icon-circle-arrow-right {
-	font-size: 1.5em;
+	font-size: 2em;
+	float: left;
+	padding-top: 0.3em;
+	margin-right: 0.2em;
+}
+
+.date {
+	font-size: 0.8em;
+	color: #818181;
 }
 
 aside {

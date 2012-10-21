@@ -21,7 +21,7 @@ class Blog < Sinatra::Base
       Dir.glob("posts/*.md") do |post|
         post = post[/posts\/(.*?).md$/,1]
         p = Post.new(post)
-        ret << {:id => post, :title => p.title, :url => "/posts/#{post}"}
+        ret << {:id => post, :title => p.title, :date => p.formatted_date, :url => "/posts/#{post}"}
       end
       ret.sort{|x,y| y[:id] <=> x[:id]}
     end
