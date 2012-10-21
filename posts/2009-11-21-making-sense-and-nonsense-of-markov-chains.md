@@ -34,7 +34,7 @@ Source file: words.txt
 drumire 
 ```
 
-The source and input file can be found [here](http://rarlindseysmash.com/files/randomWord.zip). 
+The source and input file can be found [here](https://gist.github.com/3928224). 
 
 
 Andrey Markov image from [Wikimedia Commons](http://en.wikipedia.org/wiki/File:AAMarkov.jpg).
