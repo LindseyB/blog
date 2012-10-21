@@ -33,10 +33,8 @@ class Blog < Sinatra::Base
 
   get '/index.php' do
     # lol old php shit
-    REDIRECTS.each do |hsh|
-      if hsh[:n].eql? params[:n]
-        redirect hsh[:to], 301
-      end
+    if params[:n]
+      redirect REDIRECTS[params[:n]]
     end
     
     redirect '/'
