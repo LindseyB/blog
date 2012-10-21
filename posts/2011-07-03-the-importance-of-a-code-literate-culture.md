@@ -2,7 +2,7 @@
 title: The Importance of a Code Literate Culture
 ---
 
-**Note:** I've moved the entire comment system over to disqus, the old comments on this entry have been [archived here](http://rarlindseysmash.com/CodeLiterate.html). 
+**Note:** I've moved the entire comment system over to disqus, the old comments on this entry have been [archived here](/CodeLiterate.html). 
 
 There have been a lot of attempts in order to increase code literacy by fellow programmers. However, I think we need to first step back and examine why code literacy is important prior to attempting to create methods to educate. 
 

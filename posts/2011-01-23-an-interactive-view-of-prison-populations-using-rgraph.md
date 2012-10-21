@@ -8,4 +8,4 @@ I was interested in the size of prison populations as a percent of the United St
 
 ![RGraph](prison_graph.png)
 
-[The interactive graph](http://rarlindseysmash.com/prison.html) allows for the political environment of each year to speak for itself and point out reasons for the trends. Though the data is somewhat limited by only being from 1980-2009 I would really like to get some older data at the very least starting at 1970 onwards so the "War on Drugs" is more clearly displayed in the data. I'll probably be taking some time in the next month or so and looking up more data and adding more information to the graph itself.
+The interactive graph allows for the political environment of each year to speak for itself and point out reasons for the trends. Though the data is somewhat limited by only being from 1980-2009 I would really like to get some older data at the very least starting at 1970 onwards so the "War on Drugs" is more clearly displayed in the data. I'll probably be taking some time in the next month or so and looking up more data and adding more information to the graph itself.
