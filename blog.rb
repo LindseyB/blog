@@ -3,6 +3,7 @@ Bundler.require
 
 require 'date'
 require_relative 'post'
+require_relative 'redirects'
 
 class Blog < Sinatra::Base
   TITLE = "Lindsey Bieda"
@@ -28,6 +29,17 @@ class Blog < Sinatra::Base
     def partial(page, options={})
       haml "_#{page}".to_sym, options.merge!(:layout => false)
     end
+  end
+
+  get '/index.php' do
+    # lol old php shit
+    REDIRECTS.each do |hsh|
+      if hsh[:n].eql? params[:n]
+        redirect hsh[:to], 301
+      end
+    end
+    
+    redirect '/'
   end
 
   get '/' do

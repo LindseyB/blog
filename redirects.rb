@@ -1,0 +1,23 @@
+REDIRECTS = [
+  { :n => "1251264936", :to => "/posts/2009-08-26-papers-dynamic-programming-with-zombies-and-pirates"},
+  { :n => "1258844418", :to => "/posts/2009-11-21-making-sense-and-nonsense-of-markov-chains"},
+  { :n => "1269389187", :to => "/posts/2010-03-23-ada-lovelace-and-women-in-computing-today"},
+  { :n => "1284525750", :to => "/posts/2010-09-15-what-the-hell-is-an-exokernel"},
+  { :n => "1288060325", :to => "/posts/2010-10-25-fun-with-narwhals-corn-and-d"}, 
+  { :n => "1295812749", :to => "/posts/2011-01-23-an-interactive-view-of-prison-populations-using-rgraph"}, 
+  { :n => "1299212387", :to => "/posts/2011-03-03-tweeting-n-c"}, 
+  { :n => "1301451433", :to => "/posts/2011-03-29-rstatus-building-a-community-on-a-community"}, 
+  { :n => "1301590492", :to => "/posts/2011-03-31-rstatus-share-bookmarklet"}, 
+  { :n => "1309736919", :to => "/posts/2011-07-03-the-importance-of-a-code-literate-culture"}, 
+  { :n => "1310316998", :to => "/posts/2011-07-10-examining-the-existing-attempts-to-increase-code-literacy"}, 
+  { :n => "1311012098", :to => "/posts/2011-07-18-women-in-computing-factsheet"}, 
+  { :n => "1311528138", :to => "/posts/2011-07-24-definition-code-literacy"}, 
+  { :n => "1312747242", :to => "/posts/2011-08-07-women-in-computing-timeline"}, 
+  { :n => "1314207508", :to => "/posts/2011-08-24-doing-good-to-make-us-better"}, 
+  { :n => "1316356524", :to => "/posts/2011-09-08-delicious-data-ethnicity-of-computing-and-the-us-population"}, 
+  { :n => "1320775438", :to => "/posts/2011-11-08-a-game-in-24-hours"}, 
+  { :n => "1321135268", :to => "/posts/2011-11-12-hard-having-a-female-avatar-on-the-internet"}, 
+  { :n => "1336946854", :to => "/posts/2012-05-13-we-need-you"}, 
+  { :n => "1339443393", :to => "/posts/2012-06-11-diversity-and-women-in-technology-resources"}, 
+  { :n => "1344364465", :to => "/posts/2012-08-07-git-shared-repo-woes"}
+]
