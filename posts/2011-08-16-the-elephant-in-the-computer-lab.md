@@ -42,7 +42,7 @@ There is no question anymore as to the existence of this problem. We as a commun
 11. [CNN Money: Fortune 500: Women CEOs](http://money.cnn.com/magazines/fortune/fortune500/2011/womenceos/)
 12. [Center for American Progress: Wage Gap by the Numbers](http://www.americanprogress.org/issues/2009/01/wage_gap_numbers.html)
 13. [MSNBC.com: Geeks drive girls out of computer science](http://www.msnbc.msn.com/id/34437233/#.TkrjGYKAJlN)
-14. [Microaggressions: Guy at Linux Event](http://microaggressions.com/post/7984048529/guy-at-linux-event-where-do-you-work-me-large)
+14. [Microaggressions: Guy at Linux Event](http://groans.tumblr.com/post/7984116421/literaltoddler-microaggressions-guy-at-linux)
 15. [A Foo walks into a Bar...: Are women worse programmers than men?](http://coldattic.info/shvedsky/pro/blogs/a-foo-walks-into-a-bar/posts/33)
 16. [OSnews: Richard Stallman's Possibly Sexist Remarks at GCDS](http://www.osnews.com/comments/21803)
 17. [Geek Feminism Wiki: Incidents](http://geekfeminism.wikia.com/wiki/Category:Incidents)
