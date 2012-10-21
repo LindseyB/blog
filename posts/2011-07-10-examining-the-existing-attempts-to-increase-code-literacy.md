@@ -4,11 +4,11 @@ title: Examining the Existing Attempts to Increase Code Literacy
 
 Increasing code literacy has always been a real challenge and it is one more people are trying to solve now that there are fewer people going into the computing fields. There are two recent tools that are prominently used in order to teach programming to students: Alice and Scratch. Both of these solutions utilize a visual programming language. Both tools focus heavily on the manipulation of visual objects and both try to limit the possibility for mistakes.
 
-![Alice](http://rarlindseysmash.com/images/entries/Alice.png)
+![Alice](Alice.png)
 
 Alice is based heavily on the storytelling metaphor. The idea is to take characters or objects and place them in a 3D world and manipulate their status in the world. Alice itself is written in Java which allows it to easily be run on many different platforms. Alice, however, has the issue of being rather slow to start up and being fairly slow to run. The slowness is even more of an issue in schools or for individual users who do not have the means to provide themselves with new hardware. The fundamental benefit is that it allows a student to learn logic in an environment that it is easy to observe what is happening; however, it seems to miss out on the idea of types and the normal flow of program structure. The sentences created in the tool can have such a complexity that there really is no real easy comparison in any widely used language.
 
-![Scratch](http://rarlindseysmash.com/images/entries/Scratch.png)
+![Scratch](Scratch.png)
 
 Scratch operates more simply in a 2D world where each of the objects is an image that can be manipulated. I personally have experience teaching programming to young students using Scratch and it made it clear to me where it fails and succeeds. In Scratch the operations on the objects are the same for all of the objects in the program rather than object specific as it is in Alice. It has a "pen" tool which basically allows for Logo-like programs, however, they all are still operating on images that are moved around the screen. The language itself is rather simplistic, and as a consequence the "sentences" built from it are all very limited. There's a clear limit for what you are able to create using Scratch. The most valuable aspect of Scratch seems to be the ability to upload, download, and modify projects that other students have made on the website.
 

@@ -11,8 +11,6 @@ title: "Definition: Code Literacy"
 	<div class="citation"><cite>- World English Dictionary</cite></div>
 </blockquote>
 
-![code](http://rarlindseysmash.com/images/entries/code_image.png)
-
 When I speak of code literacy I am simply talking of the expansion of the idea of what we normally think of a literacy just expanded over to programming languages. Additionally, it's not simply a matter of using the language proficiently; it's a matter of being able to use computation as a result of this knowledge.
 
 It's important to keep in mind that this idea is completely separate from Donald Knuth's idea of "Literate Programming". 
