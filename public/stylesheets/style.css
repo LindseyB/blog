@@ -8,6 +8,7 @@ h1 {
 	font-size: 3em;
 	color: #76d5f5;
 	text-shadow: 0px 1px 5px #d6d6d6;
+	padding: 0 0.5em;
 }
 
 h2 {
@@ -22,6 +23,7 @@ h3 {
 article {
 	width: 65%;
 	float: right;
+	padding: 0 1em 0 0;
 }
 
 p, .archive {
@@ -58,6 +60,7 @@ aside {
 	font-weight: 200;
 	float: left;
 	width: 30%;
+	padding: 0 0 0 1em;
 }
 
 aside p {
