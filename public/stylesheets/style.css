@@ -64,9 +64,10 @@ aside {
 }
 
 aside p {
-	font-size: 1em;
+	font-size: 1.1em;
 	line-height: 1.2em;
 	margin-top: 1em;
+	font-weight: 300;
 }
 
 nav a, nav a:hover{
