@@ -4,20 +4,27 @@ body {
 }
 
 h1 {
-	font-family: 'Arvo', serif;
-	font-size: 3em;
+	font-family: 'BebasRegular', sans-serif;
+	font-size: 4em;
 	color: #76d5f5;
 	text-shadow: 0px 1px 5px #d6d6d6;
 	padding: 0 0.5em;
+	letter-spacing: -0.06em;
+	word-spacing: 0.25em;
+	line-height: 1.1em;
+	padding: 0;
 }
 
 h2 {
-	font-family: 'Arvo', serif;
+	font-family: 'BebasRegular', sans-serif;
 	font-size: 2em;	
+	text-shadow: 0px 1px 5px #d6d6d6;
+	margin: 0;
 }
 
 h3 {
-	font-family: 'Arvo', serif;	
+	font-family: 'BebasRegular', sans-serif;
+	text-shadow: 0px 1px 5px #d6d6d6;	
 }
 
 article {
@@ -205,6 +212,18 @@ cite {
 .caption {
 	font-size: 0.8em;
 	font-weight: bold;
+}
+
+@font-face {
+    font-family: 'BebasRegular';
+    src: url('../font/BEBAS___-webfont.eot');
+    src: url('../font/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/BEBAS___-webfont.woff') format('woff'),
+         url('../font/BEBAS___-webfont.ttf') format('truetype'),
+         url('../font/BEBAS___-webfont.svg#BebasRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 ::selection {
