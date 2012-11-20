@@ -24,7 +24,7 @@ Canceling the event seemed to increase the polarization of the community. Anger 
 
 ## Hurt feelings all around
 
-I don't think *anyone*, not matter where you stand in this discussion, is happy that Brit Ruby was canceled. To me it's the worst possible outcome from this series of events. Had they pushed forward and tried to remedy the situation by pulling in a bit more diversity with the other speakers they could have redeemed themselves. Had they pushed forward and ignored criticism they could have still had their conference. Hell, there have been plenty of other conferences that went on regardless of their completely white male speaker list. Who knows, they could even try better next year. 
+I don't think *anyone*, no matter where you stand in this discussion, is happy that Brit Ruby was canceled. To me it's the worst possible outcome from this series of events. Had they pushed forward and tried to remedy the situation by pulling in a bit more diversity with the other speakers they could have redeemed themselves. Had they pushed forward and ignored criticism they could have still had their conference. Hell, there have been plenty of other conferences that went on regardless of their completely white male speaker list. Who knows, they could even try better next year. 
 
 ## Twitter sucks for these discussions
 
