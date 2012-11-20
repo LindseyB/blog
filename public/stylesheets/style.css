@@ -19,7 +19,7 @@ h2 {
 	font-family: 'BebasRegular', sans-serif;
 	font-size: 2em;	
 	text-shadow: 0px 1px 5px #d6d6d6;
-	margin: 0;
+	margin: 0 0 0.5em 0;
 }
 
 h3 {
@@ -100,6 +100,10 @@ time {
 	border-bottom: solid 1px #efefef;
 	font-weight: 500;
 	font-size: 2em;
+}
+
+time h2 {
+	margin: 0;
 }
 
 header {
