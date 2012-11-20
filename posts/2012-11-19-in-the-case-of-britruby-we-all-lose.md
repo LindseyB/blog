@@ -28,6 +28,6 @@ I don't think *anyone*, no matter where you stand in this discussion, is happy t
 
 ## Twitter sucks for these discussions
 
-Talking about diversity and equality is difficult and often very emotionally driven. 140 characters is hardly enough space to fully express oneself in a way that won't come off offensive and text itself has a high tendency for misinterpretation. When it comes to these issues I personally feel that how we discuss it is just as important as what we discuss so we can actually facilitate understanding and communication &mdash; rather than being perceived as trolls.
+Talking about diversity and equality is difficult and often very emotionally driven. 140 characters is hardly enough space to fully express oneself in a way that won't come off offensive and text itself has a high tendency for misinterpretation. A conference is a *perfect* place to discuss these issues. It's in person, it does away with tone miscommunication, and tends to reduce the number of trolls. When it comes to these issues I personally feel that how we discuss it is just as important as what we discuss. We need to be able to facilitate understanding and communication &mdash; rather than letting ourselves being perceived as trolls. 
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/b0Ti-gkJiXc?rel=0" frameborder="0" allowfullscreen></iframe>
