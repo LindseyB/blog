@@ -182,8 +182,9 @@ cite {
 
 .main-wrap, .header-wrap {
 	max-width: 970px;
-	width:: 80%;
+	width: 80%;
 	margin: 0 auto;
+	padding: 0 0.3em;
 }
 
 .header-wrap {
