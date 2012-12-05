@@ -51,6 +51,14 @@ You will probably get the message that ```You are in 'detached HEAD' state.``` w
 git checkout -b batman-theme
 ```
 
+If we know we want to create this new branch we can do one single command:
+
+```
+git checkout -t Batman/batman-theme
+```
+
+Which is the exact same as running the two previous commands. 
+
 Now I have an exact copy of this batman-theme branch in my repository. If I like the changes this branch makes and want to make it part of my master branch then I can ```git merge```. The following two commands will change my current branch to the one I want to merge the changes into (master) and then do the merge with the branch I want to get the changes from (batman-theme). 
 
 ```
