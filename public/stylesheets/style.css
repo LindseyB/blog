@@ -13,6 +13,8 @@ h1 {
 	word-spacing: 0.25em;
 	line-height: 1.1em;
 	padding: 0;
+	display: block;
+	width:100%;
 }
 
 h2 {
@@ -55,6 +57,7 @@ ul.archive {
 	float: left;
 	padding-top: 0.3em;
 	margin-right: 0.2em;
+	margin-bottom: 1em;
 }
 
 .date {
