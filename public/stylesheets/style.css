@@ -139,6 +139,7 @@ nav ul li {
 nav ul li a img {
 	vertical-align: middle;
 	opacity: 0.4;
+	width: 100%;
 }
 
 nav ul li:hover a img {
