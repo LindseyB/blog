@@ -129,6 +129,7 @@ nav {
 
 nav ul {
 	margin: 0;
+	height: 50px;
 }
 
 nav ul li {
