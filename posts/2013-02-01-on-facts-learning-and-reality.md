@@ -8,7 +8,10 @@ As a child you learn to count starting with one. The notion of zero isn't introd
 
 This shifting of reality that happens in your brain every time you learn some new piece of data can be staggering. Every time I learned something new I felt almost lied to previously. My notion of truth had shifted and my understanding of the world around me along with it. It seems almost obvious now that the set of natural numbers isn't adequate for representing all situations. However, it took years for me to process that the set of natural numbers is infinite, but it's smaller than the set of irrational numbers between 0 and 1. 
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/C52zDdYpGIA?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="youtube_resize">
+	<img src="/images/youtube_placeholder.png">
+	<iframe class="youtube_frame" src="http://www.youtube.com/embed/C52zDdYpGIA?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
 
 This notion of truth and facts can be hard to internalize. You may know a lot, but it is most likely incomplete. Even if you some how manage to learn everything possible about a given subject there are likely gaps of things that we as humans haven't yet learned.
 
