@@ -48,6 +48,7 @@ p, .archive {
 ul.archive {
 	list-style-type: none;
 	font-size: 1.2em;
+	padding: 0;
 }
 
 .archive li {
@@ -58,8 +59,7 @@ ul.archive {
 	font-size: 2em;
 	float: left;
 	padding-top: 0.3em;
-	margin-right: 0.2em;
-	margin-bottom: 1em;
+	margin-bottom: 0.8em;
 }
 
 .date {
