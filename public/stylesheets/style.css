@@ -1,6 +1,8 @@
 body {
 	margin:0;
 	background-image: url('../images/bg.png');
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
 }
 
 h1 {
@@ -162,6 +164,15 @@ nav ul a {
 ol {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 200;	
+}
+
+ul {
+	padding: 0 5em;
+}
+
+li {
+	font-size: 1.1em;
+	margin-bottom: 0.5em;
 }
 
 blockquote {
