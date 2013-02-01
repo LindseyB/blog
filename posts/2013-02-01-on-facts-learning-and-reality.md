@@ -17,7 +17,7 @@ This notion of truth and facts can be hard to internalize. You may know a lot, b
 
 In high school biology class you probably learn that humans have 22 autosomes and 2 sex chromosomes. You probably learn that humans have either XX or XY chromosomes and you also probably learn that these chromosomes determine if someone is male or female. You learn that a genotype is the genetic data and a phenotype the expression of these genes. This, however, is only a small part of the picture. It's the natural numbers starting from 1. 
 
-In most cases people are born with 2 sex chromosomes. However, it can be more or less. 1 in 1000 phenotypic females will have three X chromosomes (trisomy X). Most of them will not be never be aware of this. This is only one of the many chromosomal variations that exist:
+In most cases people are born with 2 sex chromosomes. However, it can be more or less. 1 in 1000 phenotypic females will have three X chromosomes (trisomy X). Most of them will never be aware of this. This is only one of the many chromosomal variations that exist:
 
 - XXY Klinefelter syndrome (1:500 to 1:1000 phenotypic males)
 - XYY (1:1000 phenotypic males)
