@@ -286,6 +286,11 @@ cite {
 /* narrow screen */
 
 @media screen and (max-width: 855px) {
+	p {
+		font-size: 1.2em;
+		font-weight: 300;
+	}
+
 	article {
 		float: none;
 		width: auto;
@@ -312,5 +317,8 @@ cite {
 	.header-wrap {
 		line-height: normal;
 	}
-}
 
+	ul {
+		padding: 0;
+	}
+}
