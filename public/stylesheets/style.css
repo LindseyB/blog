@@ -104,7 +104,9 @@ time {
 	display: block;
 	border-bottom: solid 1px #efefef;
 	font-weight: 500;
-	font-size: 2em;
+	font-size: 1.7em;
+	font-family: 'BebasRegular', sans-serif;
+	word-spacing: 8px;
 }
 
 time h2 {
@@ -278,5 +280,37 @@ cite {
 	width: 100%;
 	margin: 1em;
 	box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
+}
+
+
+/* narrow screen */
+
+@media screen and (max-width: 855px) {
+	article {
+		float: none;
+		width: auto;
+		padding: 1em;
+	}	
+
+	aside {
+		float: none;
+		width: auto;
+		padding: 1em;
+	}
+
+	#title {
+		display: block;
+		text-align: center;
+		float: none;
+	}
+
+	nav {
+		text-align: center;
+		float: none;
+	}
+
+	.header-wrap {
+		line-height: normal;
+	}
 }
 
