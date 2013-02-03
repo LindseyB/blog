@@ -21,11 +21,9 @@ end
 
 class Post
   attr_reader :name
-  attr_reader :content
   attr_reader :title
   attr_reader :date
   attr_reader :slug
-  attr_reader :formatted_date
 
   def initialize(name)
     @name = name
@@ -39,7 +37,7 @@ class Post
 
     unless match.nil?
       meta_data = match[1]
-      content = match[2]
+      @content_raw = match[2]
 
       meta_data = YAML.load(meta_data)
 
@@ -51,10 +49,17 @@ class Post
     @date = Date.parse(date_str)
     @slug = name[/#{date_str}-(.*)$/,1]
 
-    @formatted_date = @date.strftime("%d %B %Y")
+  end
 
-    renderer = Post::Renderer.new(@slug)
-    r = Redcarpet::Markdown.new(renderer, :fenced_code_blocks => true)
-    @content = r.render(content)
+  def content
+    @content ||= begin
+      renderer = Post::Renderer.new(@slug)
+      r = Redcarpet::Markdown.new(renderer, :fenced_code_blocks => true)
+      r.render(@content_raw)
+    end
+  end
+
+  def formatted_date
+    @formatted_date ||= @date.strftime("%d %B %Y")
   end
 end
