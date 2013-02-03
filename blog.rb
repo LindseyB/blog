@@ -27,6 +27,10 @@ class Blog < Sinatra::Base
     def partial(page, options={})
       haml "_#{page}".to_sym, options.merge!(:layout => false)
     end
+
+    def url_base
+      "http://#{request.host_with_port}"
+    end
   end
 
   get '/index.php' do
@@ -62,5 +66,12 @@ class Blog < Sinatra::Base
     @posts = latest_posts
 
     haml :archive
+  end
+
+  get '/feed' do
+    @posts = latest_posts.first(10)
+
+    content_type 'application/atom+xml'
+    builder :feed
   end
 end
