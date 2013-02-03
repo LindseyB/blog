@@ -2,6 +2,7 @@ GEM
   remote: http://rubygems.org/
   specs:
     backports (2.6.4)
+    builder (3.1.4)
     daemons (1.1.6)
     eventmachine (0.12.10)
     haml (3.1.4)
@@ -35,6 +36,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  builder
   haml
   rake
   redcarpet

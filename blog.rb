@@ -17,17 +17,19 @@ class Blog < Sinatra::Base
     end
 
     def latest_posts
-      ret = []
-      Dir.glob("posts/*.md") do |post|
+      posts = Dir.glob("posts/*.md").map do |post|
         post = post[/posts\/(.*?).md$/,1]
-        p = Post.new(post)
-        ret << {:id => post, :title => p.title, :date => p.formatted_date, :url => "/posts/#{post}"}
+        Post.new(post)
       end
-      ret.sort{|x,y| y[:id] <=> x[:id]}
+      posts.sort_by(&:name).reverse
     end
 
     def partial(page, options={})
       haml "_#{page}".to_sym, options.merge!(:layout => false)
+    end
+
+    def url_base
+      "http://#{request.host_with_port}"
     end
   end
 
@@ -41,7 +43,7 @@ class Blog < Sinatra::Base
   end
 
   get '/' do
-    source = Post.new(latest_posts[0][:id])
+    source = latest_posts.first
     @content = source.content
     @title = source.title
     @date = source.date
@@ -64,5 +66,12 @@ class Blog < Sinatra::Base
     @posts = latest_posts
 
     haml :archive
+  end
+
+  get '/feed' do
+    @posts = latest_posts.first(10)
+
+    content_type 'application/atom+xml'
+    builder :feed
   end
 end
