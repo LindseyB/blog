@@ -20,6 +20,7 @@ class Post
 end
 
 class Post
+  attr_reader :name
   attr_reader :content
   attr_reader :title
   attr_reader :date
@@ -27,6 +28,7 @@ class Post
   attr_reader :formatted_date
 
   def initialize(name)
+    @name = name
     begin
       content = File.read("posts/#{name}.md")
     rescue
