@@ -16,11 +16,9 @@
     - latest_posts.each do |post|
       %li
         %i{:class => "icon-circle-arrow-right"}
-        %a{:href => post[:url],
-                  :title => post[:title],
-                  :alt=> post[:title]}
-          #{post[:title]} 
+        %a{:href => "/posts/#{post.name}", :title => post.title, :alt => post.title}
+          = post.title
           %div.date
-            #{post[:date]}
+            = post.formatted_date
 
 
