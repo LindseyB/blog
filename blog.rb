@@ -68,7 +68,7 @@ class Blog < Sinatra::Base
     haml :archive
   end
 
-  get '/feed' do
+  get '/rss.xml' do
     @posts = latest_posts.first(10)
 
     content_type 'application/atom+xml'
