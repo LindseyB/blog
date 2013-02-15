@@ -16,12 +16,16 @@ class Blog < Sinatra::Base
       "#{TITLE} &raquo; #{@title}"
     end
 
-    def latest_posts
+    def latest_posts(content = false)
       ret = []
       Dir.glob("posts/*.md") do |post|
         post = post[/posts\/(.*?).md$/,1]
         p = Post.new(post)
-        ret << {:id => post, :title => p.title, :date => p.formatted_date, :url => "/posts/#{post}"}
+        if content 
+          ret << {:id => post, :title => p.title, :date => p.formatted_date, :url => "/posts/#{post}", :content => p.content}
+        else
+          ret << {:id => post, :title => p.title, :date => p.formatted_date, :url => "/posts/#{post}"}
+        end
       end
       ret.sort{|x,y| y[:id] <=> x[:id]}
     end
@@ -64,5 +68,30 @@ class Blog < Sinatra::Base
     @posts = latest_posts
 
     haml :archive
+  end
+
+  get '/rss.xml' do
+    @posts = latest_posts(true)
+
+    builder do |xml|
+      xml.instruct! :xml, :version => '1.0'
+      xml.rss :version => "2.0" do
+        xml.channel do
+          xml.title "Lindsey Bieda"
+          xml.description "Lindsey Bieda's blog."
+          xml.link "http://rarlindseysmash.com"
+
+          @posts.each do |post|
+            xml.item do
+              xml.title post[:title]
+              xml.link "http://rarlindseysmash#{post[:url]}"
+              xml.description "<![CDATA[ #{post[:content]} ]]>"
+              xml.pubDate Time.parse(post[:date].to_s).rfc822()
+              xml.guid "http://rarlindseysmash#{post[:url]}"
+            end
+          end
+        end
+      end
+    end
   end
 end
