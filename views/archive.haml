@@ -15,7 +15,6 @@
   %ul.archive
     - latest_posts.each do |post|
       %li
-        %i{:class => "icon-circle-arrow-right"}
         %a{:href => "/posts/#{post.name}", :title => post.title, :alt => post.title}
           = post.title
           %div.date
