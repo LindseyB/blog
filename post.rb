@@ -48,8 +48,6 @@ class Post
     @date = Date.parse(date_str)
     @slug = name[/#{date_str}-(.*)$/,1]
 
-    puts @slug
-
   end
 
   def content
