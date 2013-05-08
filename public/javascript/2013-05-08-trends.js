@@ -1,0 +1,31 @@
+window.onload = function() {
+  // just setting this style on this page
+  $(".graph").css('float', 'left')
+             .css('margin', '1em');
+
+  drawGraph(1, [8.5, 9.8, 10.1, 9.9, 8.7, 6.5, 6.2, 6.2, 8.4, 7.0, 6.8]) // Nonresident Alien
+  drawGraph(2, [3.4,3.2,3.1,3.3,3.9,3.4,4,3.4,3.4,3.6,4.5]) // African-American, Non-Hispanic
+  drawGraph(3, [0.4,0.3,0.4,0.3,0.3,0.4,0.8,0.3,0.4,0.5,0.4]) // Native American/Alaskan Native
+  drawGraph(4, [21.7,24.5,23.1,20.9,17.4,14.6,15.4,15,15,15.1,16.4]) // Asian/Pacific Islander
+  drawGraph(5, [3.6,3.7,3.9,4.4,4.6,5.4,6.1,5.8,5.3,5.4,6.3]) // Hispanic
+  drawGraph(6, [57.8,55.6,54.5,59.5,63.7,67.3,65.8,68.9,66.5,66.9,64]) // White, Non-Hispanic
+  drawGraph(7, [4.7,2.9,5,1.7,1.3,2.5,1.7,0.4,1,1.5,1.6]) // Other/Not Listed
+
+  function drawGraph(i, yVals){
+    var r = Raphael("holder"+i, 200, 100);
+
+    // creat the line chart
+    r.linechart(0, 0, 200, 100,
+      [2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011],
+      yVals,
+      {
+        smooth: true,
+        colors: ['#aeaeae'],
+        symbol: 'circle',
+        width: 1,
+      });
+
+    // draw the axis and set the color
+    r.path("M0,0L0,100L200,100").attr({stroke:"#bbb"});
+  }
+}
