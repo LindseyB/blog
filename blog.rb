@@ -38,18 +38,12 @@ class Blog < Sinatra::Base
     if params[:n]
       redirect REDIRECTS[params[:n]]
     end
-    
+
     redirect '/'
   end
 
   get '/' do
-    source = latest_posts.first
-    @content = source.content
-    @title = source.title
-    @date = source.date
-    @formatted_date = source.formatted_date
-
-    haml :post
+    redirect '/posts/' + latest_posts.first.name
   end
 
   get '/posts/:id' do
