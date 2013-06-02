@@ -1,6 +1,6 @@
 window.onload = function() {
   // just setting this style on this page
-  $(".graph").css('float', 'left')
+  $(".graph").css('max-width', '300px')
              .css('margin', '1em');
 
   var data = [
@@ -21,7 +21,15 @@ window.onload = function() {
   }
 
   // draw the barchart
-  var r = Raphael("bars")
+  var r = Raphael("bars");
+  r.setViewBox(0,0,400,400,true); //set the boundaries here for dynamic sizing
+
+  // remove the svgs width and height - to allow for dynamic resizing
+  $('svg').each(function(){
+    $(this).removeAttr("width");
+    $(this).removeAttr("height");
+  });
+
   r.barchart(0, 0, 300, 300, data, {
               stacked: true, 
               gutter: "5%",
@@ -40,7 +48,8 @@ window.onload = function() {
   }
 
   function drawGraph(i, yVals){
-    var r = Raphael("holder"+i, 200, 100);
+    var r = Raphael("holder"+i);
+    r.setViewBox(0,0,200,100,true); //set the boundaries here for dynamic sizing
 
     // creat the line chart
     r.linechart(0, 0, 200, 100,
