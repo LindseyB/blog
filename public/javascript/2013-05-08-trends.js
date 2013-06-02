@@ -1,6 +1,6 @@
 window.onload = function() {
   // just setting this style on this page
-  $(".graph").css('max-width', '300px')
+  $(".graph").css('max-width', '200px')
              .css('margin', '1em');
 
   var data = [
@@ -26,9 +26,14 @@ window.onload = function() {
 
   // remove the svgs width and height - to allow for dynamic resizing
   $('svg').each(function(){
-    $(this).removeAttr("width");
-    $(this).removeAttr("height");
+      $(this).css('width','100%')
+             .css('height', 100)
+             .removeAttr('width')
+             .removeAttr('height');
   });
+
+  // height for the barchart
+  $('svg').last().css('height', 400)
 
   r.barchart(0, 0, 300, 300, data, {
               stacked: true, 
