@@ -2,7 +2,7 @@
 title: coding as play
 ---
 
-Side projects are important to a programmer. They are often the only means for expanding skillets outside of work or school lives. However, side projects can be straining for those with limited spare time and many of them often go uncompleted.
+Side projects are important to a programmer. They are often the only means for expanding skill sets outside of work or school lives. However, side projects can be straining for those with limited spare time and many of them often go uncompleted.
 
 I look at my personal completed side projects. The ones that are finished I either worked with others to complete or the project had a very limited scope which made is feasible in a short period of time. 
 
