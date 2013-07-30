@@ -34,4 +34,5 @@ The issues are complicated and I honestly do not expect **a privileged homogenou
  <blockquote class="twitter-tweet"><p>Twitter needs a &quot;tell troll&#39;s mum on him&quot; button instead: <a href="https://t.co/jdlnWvoVVK">pic.twitter.com/jdlnWvoVVK</a> (via <a href="https://twitter.com/claireOT">@claireOT</a>)</p>&mdash; Ms Slide (@sliderulesyou) <a href="https://twitter.com/sliderulesyou/statuses/361875615487496193">July 29, 2013</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+See a typo? [Submit a pull request](https://github.com/LindseyB/blog)
 
