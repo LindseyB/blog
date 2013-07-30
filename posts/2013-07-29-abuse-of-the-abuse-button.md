@@ -2,7 +2,9 @@
 title: Abuse of the Abuse Button
 ---
 
-**TW**:  I will be talking about about abuse and posting and discussing fairly terrible examples this is a baby sloth gif to make sure content starts out further down
+**TW**:  I will be talking about about abuse and posting and discussing fairly terrible examples. 
+
+This is a baby sloth gif to make sure content starts out further down.
 
 ![baby sloth yawning](http://i.imgur.com/CPhHfdf.gif)
 
