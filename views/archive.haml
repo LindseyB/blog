@@ -9,11 +9,23 @@
 
 %article
   %ul.archive
-    - latest_posts.each do |post|
+    - @posts.each do |post|
       %li
         %a{:href => "/posts/#{post.name}", :title => post.title, :alt => post.title}
           = post.title
           %div.date
             = post.formatted_date
+
+  .pagination
+    - unless @page == 0
+      %span#prev
+        %a{:href => "/archive?page=#{@page-1}", :title => "prev", :alt => "prev"} &laquo;
+        prev
+
+    - unless @page == @max_page
+      %span#next
+        next
+        %a{:href => "/archive?page=#{@page+1}", :title => "next", :alt => "next"} &raquo;
+
 
 

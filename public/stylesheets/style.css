@@ -252,6 +252,22 @@ cite {
 	font-weight: bold;
 }
 
+.pagination {
+	text-align: center;
+	margin-bottom: 3em;
+	font-size: 2em;
+}
+
+.pagination a {
+	display: inline-block;
+	width: 1.5em;
+	height: 1.5em;
+}
+
+.pagination #prev {
+	margin-right: 2em;
+}
+
 @font-face {
     font-family: 'BebasRegular';
     src: url('../font/BEBAS___-webfont.eot');

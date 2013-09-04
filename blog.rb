@@ -58,7 +58,11 @@ class Blog < Sinatra::Base
   end
 
   get '/archive' do
-    @posts = latest_posts
+    count = 10
+    @page = params[:page].to_i || 0
+    @max_page = latest_posts.count/count
+
+    @posts = latest_posts[(@page * count)..((@page * count) + count)]
 
     haml :archive
   end

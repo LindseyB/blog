@@ -9,6 +9,7 @@ gem 'rake'
 gem 'haml'
 gem 'redcarpet'
 gem 'builder'
+gem 'pry'
 if RUBY_PLATFORM=~ /win32/
 	gem 'eventmachine', '~> 1.0.0.beta.4.1'
 end
