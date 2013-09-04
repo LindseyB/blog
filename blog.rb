@@ -21,7 +21,8 @@ class Blog < Sinatra::Base
         post = post[/posts\/(.*?).md$/,1]
         Post.new(post)
       end
-      posts.sort_by(&:name).reverse
+      posts.reject! {|post| post.date > Date.today }
+      posts.sort_by(&:date).reverse
     end
 
     def partial(page, options={})
