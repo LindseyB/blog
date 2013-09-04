@@ -6,7 +6,7 @@ title: Answering the sexism question
 
 ![R2D2: sad beep](http://i.imgur.com/Em48ktH.gif)
 
-Heart pounding my brain runs through a couple options. Do I tell her the truth? Honestly is the best policy, but I don't want to scare her away from something she enjoys. I don't want to put fear into a beginner who may luck out and never experience any problems, and who knows, maybe by the time she is in the field it won't be a problem anymore. 
+Heart pounding my brain runs through a couple options. Do I tell her the truth? Honesty is the best policy, but I don't want to scare her away from something she enjoys. I don't want to put fear into a beginner who may luck out and never experience any problems, and who knows, maybe by the time she is in the field it won't be a problem anymore. 
 
 However, I can't be dishonest and I need to tell her what it's actually like. Yes, there's sexism. Yes, sometimes it feels like its everywhere. Yes, it can be subtle. Yes, it can be direct, Yes, I've wanted to leave in the past. Yes, many others will leave ([the quit rate is double for women than it is for men](http://www.ncwit.org/sites/default/files/legacy/pdf/NCWIT_TheFacts_rev2010.pdf)). No, the salaries are not yet the same for women as men.
 
