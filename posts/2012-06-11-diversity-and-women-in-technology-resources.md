@@ -28,6 +28,8 @@ title: Diversity and Women in Technology Resources
 
 [DiversityImbalance](http://martinfowler.com/bliki/DiversityImbalance.html)
 
+[Girl Scouts of America: Generation STEM](http://www.girlscouts.org/research/pdf/generation_stem_full_report.pdf)
+
 ## Infographics
 
 [The Gender Divide](http://www.nationaljournal.com/njonline/no_20100508_1960.php/infographic-the-gender-divide-20120319)
