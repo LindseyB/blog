@@ -1,14 +1,19 @@
+html {
+	height: 100%;
+}
+
 body {
 	margin:0;
 	background-image: url('../images/bg.png');
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
+	height: 100%;
 }
 
 h1 {
-	font-family: 'BebasRegular', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 4em;
-	color: #58E0C0;
+	color: #14B198;
 	text-shadow: 0px 1px 5px #d6d6d6;
 	padding: 0 0.5em;
 	letter-spacing: -0.06em;
@@ -17,6 +22,7 @@ h1 {
 	padding: 0;
 	display: block;
 	width:100%;
+	text-transform: uppercase;
 }
 
 h2 {
@@ -31,13 +37,62 @@ h3 {
 	text-shadow: 0px 1px 5px #d6d6d6;
 }
 
+aside.archive {
+	text-align: center;
+	width: 80%;
+	margin: auto;
+	border-top: solid 1px #cacaca;
+	padding: 1em;
+	font-size: 2em;
+	margin-top: 2em;
+}
+
 article {
 	padding: 0 1em 0 0;
 }
 
+main {
+	float: right;
+	width: 74%;
+	margin: 0 3%;
+}
+
+.sidebar {
+	float: left;
+	width: 18%;
+	background-color: #333;
+	height: 100%;
+	position: fixed;
+	padding: 0 1%;
+	box-shadow: inset -10px 1px 18px -9px #000;
+}
+
+.sidebar p {
+	color: #A2A2A2;
+}
+
+
+.social {
+	text-align: center;
+	font-size: 2em;
+	letter-spacing: 0.3em;
+	margin-top: 2em;
+	text-shadow: 2px 1px 10px rgba(30, 30, 30, 0.95);
+}
+
+.social a {
+	color: #A2A2A2;
+}
+
+.social a:hover {
+	color: rgb(78, 206, 176);
+	transition: color 2s;
+	-webkit-transition: color 1s;
+}
+
 p, .archive {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 1.1em;
+	font-size: 1.3em;
 	margin: 0 0 1em 0;
 }
 
@@ -55,31 +110,9 @@ ul.archive {
 	border-bottom: solid 1px #efefef;
 }
 
-.icon-circle-arrow-right {
-	font-size: 2em;
-	float: left;
-	padding-top: 0.3em;
-	margin-bottom: 0.8em;
-}
-
 .date {
 	font-size: 0.8em;
 	color: #818181;
-}
-
-aside {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 200;
-	float: left;
-	width: 30%;
-	padding: 0 0 0 1em;
-}
-
-aside p {
-	font-size: 1.1em;
-	line-height: 1.2em;
-	margin-top: 1em;
-	font-weight: 300;
 }
 
 #photo {
@@ -87,7 +120,7 @@ aside p {
 	border-radius: 50%;
 	display: block;
 	margin: 1em auto;
-	box-shadow: 0px 1px 5px #d6d6d6;
+	max-width: 150px;
 }
 
 nav a, nav a:hover{
@@ -104,15 +137,12 @@ a, p a, ol li a, .archive a {
 
 time {
 	display: block;
-	border-bottom: solid 1px #efefef;
-	font-weight: 500;
-	font-size: 1.7em;
-	font-family: 'BebasRegular', sans-serif;
+	color: #acacac;
+	font-size: 1.2em;
+	font-family: 'Source Sans Pro', sans-serif;
 	word-spacing: 8px;
-}
-
-time h2 {
-	margin: 0;
+	font-style: italic;
+	margin-bottom: 1em;
 }
 
 header {
@@ -302,47 +332,41 @@ cite {
 .youtube_resize {
 	position: relative;
 	width: 100%;
-	margin: 1em;
+	max-width: 600px;
+	margin: 1em auto;
 	box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
 }
 
 
 /* narrow screen */
 
-@media screen and (max-width: 855px) {
-	p {
-		font-size: 1.2em;
-		font-weight: 300;
+@media screen and (max-width: 1100px) {
+	section.sidebar {
+		float: none;
+		height: auto;
+		position: initial;
+		width: 100%;
+		padding-bottom: 0.2em;
+		box-shadow: none;
 	}
 
-	article {
+	main {
 		float: none;
-		width: auto;
+		width: 100%;
 		padding: 1em;
+		margin: 0em;
 	}
 
-	aside {
-		float: none;
-		width: auto;
-		padding: 1em;
+	#photo {
+		float: left;
+		margin: 1em;
 	}
 
-	#title {
-		display: block;
-		text-align: center;
-		float: none;
+	.sidebar p {
+		padding-top: 1em;
 	}
 
-	nav {
-		text-align: center;
-		float: none;
-	}
-
-	.header-wrap {
-		line-height: normal;
-	}
-
-	ul {
-		padding: 0;
+	.social {
+		margin-top: 0em;
 	}
 }
