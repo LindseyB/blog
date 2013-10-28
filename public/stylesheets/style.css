@@ -337,14 +337,14 @@ cite {
 		float: none;
 		height: auto;
 		position: initial;
-		width: 100%;
+		width: auto;
 		padding-bottom: 0.2em;
 		box-shadow: none;
 	}
 
 	main {
 		float: none;
-		width: 100%;
+		width: auto;
 		padding: 1em;
 		margin: 0em;
 	}
