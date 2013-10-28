@@ -39,6 +39,8 @@ I wanted to take it further and so for a company hack-a-thon I did. Not everyone
 <blockquote class="twitter-tweet"><p>&quot;Let the hate flow through you.&quot; <a href="http://t.co/OPlgJwqKfl">http://t.co/OPlgJwqKfl</a> <a href="https://twitter.com/search?q=%23starwarsgif&amp;src=hash">#starwarsgif</a></p>&mdash; Star Wars Gifs (@StarWarsDotGif) <a href="https://twitter.com/StarWarsDotGif/statuses/393818442673168384">October 25, 2013</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+If tumblr is more your speed I've rolled out a [tumblr bot](http://starwarsgifsasaservice.tumblr.com/).
+
 You can check out all of the code on [Github](https://github.com/LindseyB/starwars-dot-gif).
 
 
