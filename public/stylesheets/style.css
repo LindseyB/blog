@@ -325,6 +325,10 @@ cite {
 	box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
 }
 
+.twitter-tweet {
+	margin: auto !important;
+}
+
 
 /* narrow screen */
 
