@@ -26,14 +26,14 @@ h1 {
 }
 
 h2 {
-	font-family: 'BebasRegular', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 2em;
 	text-shadow: 0px 1px 5px #d6d6d6;
 	margin: 0 0 0.5em 0;
 }
 
 h3 {
-	font-family: 'BebasRegular', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	text-shadow: 0px 1px 5px #d6d6d6;
 }
 
@@ -294,18 +294,6 @@ cite {
 
 .pagination #prev {
 	margin-right: 2em;
-}
-
-@font-face {
-    font-family: 'BebasRegular';
-    src: url('../font/BEBAS___-webfont.eot');
-    src: url('../font/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../font/BEBAS___-webfont.woff') format('woff'),
-         url('../font/BEBAS___-webfont.ttf') format('truetype'),
-         url('../font/BEBAS___-webfont.svg#BebasRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
 }
 
 ::selection {
