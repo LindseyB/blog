@@ -34,7 +34,7 @@ Nothing about any of the pieces to get this code working was hard. It was just a
 
 ![Generated Star Wars Gif](star_wars.gif)
 
-I wanted to take it further and so for a company hack-a-thin I did. Not everyone was going to download the code and get it running (it can be a pain in the ass). So, I decided to make a twitter bot that would tweet a random gif every hour. Sharing Star Wars gifs for the betterment of humanity.
+I wanted to take it further and so for a company hack-a-thon I did. Not everyone was going to download the code and get it running (it can be a pain in the ass). So, I decided to make a twitter bot that would tweet a random gif every hour. Sharing Star Wars gifs for the betterment of humanity.
 
 <blockquote class="twitter-tweet"><p>&quot;Let the hate flow through you.&quot; <a href="http://t.co/OPlgJwqKfl">http://t.co/OPlgJwqKfl</a> <a href="https://twitter.com/search?q=%23starwarsgif&amp;src=hash">#starwarsgif</a></p>&mdash; Star Wars Gifs (@StarWarsDotGif) <a href="https://twitter.com/StarWarsDotGif/statuses/393818442673168384">October 25, 2013</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
