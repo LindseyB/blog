@@ -20,11 +20,11 @@
     %link{:href=>"/rss.xml", :rel=>"alternate", :type=>"application/atom+xml", :title=>title}
 
     %title #{title}
-    %body
-      %main
-        = yield
-      %section.sidebar
-        = partial :sidebar
+  %body
+    %main
+      = yield
+    %section.sidebar
+      = partial :sidebar
 
     %script{:src=>"http://code.jquery.com/jquery-1.8.3.min.js"}
     %script{:src=>"/javascript/jquery.fittext.js"}
