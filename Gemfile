@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '1.9.3'
+
 gem 'sinatra'
 gem 'sinatra-subdomain'
 gem 'sinatra-contrib', :require => 'sinatra/content_for'
