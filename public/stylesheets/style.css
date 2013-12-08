@@ -31,11 +31,13 @@ h2 {
 	font-size: 2em;
 	text-shadow: 0px 1px 5px #d6d6d6;
 	margin: 0 0 0.5em 0;
+	text-transform: uppercase;
 }
 
 h3 {
 	font-family: 'Oswald', sans-serif;
 	text-shadow: 0px 1px 5px #d6d6d6;
+	text-transform: uppercase;
 }
 
 aside.archive {
@@ -255,6 +257,14 @@ cite {
 
 #archive a {
 	margin-left: 10px;
+}
+
+.archive-link {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 2em;
+	text-transform: uppercase;
+
 }
 
 .prettyprint {
