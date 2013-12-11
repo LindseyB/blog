@@ -140,13 +140,23 @@ ul.archive {
 	position: relative;
 }
 
-#title-circle:hover {
+#title-circle span{
+	position: absolute;
+    top:0;
+    left:0;
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
 	background-image: url('/images/self.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-	color: rgba(0,0,0,0);
 	transition: all 1s;
 	-webkit-transition: all 1s;
+	opacity: 0;
+}
+
+#title-circle span:hover {
+	opacity: 1;
 }
 
 nav a, nav a:hover{
