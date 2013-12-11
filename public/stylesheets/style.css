@@ -136,6 +136,7 @@ ul.archive {
 	line-height: 0.8em;
 	padding-top:32px;
 	box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	display: block;
 	position: relative;
 }
@@ -419,3 +420,4 @@ cite {
 		margin-top: 0em;
 	}
 }
+
