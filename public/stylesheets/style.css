@@ -339,7 +339,8 @@ cite {
 .pagination {
 	text-align: center;
 	margin-bottom: 3em;
-	font-size: 2em;
+	font-size: 3em;
+	font-family: 'Amatic SC', sans-serif;
 }
 
 .pagination a {
