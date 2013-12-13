@@ -3,7 +3,7 @@ title: I'm not immune to the wrongs of white feminism
 date: 2013-12-12
 ---
 
-Yesterday there was some discussion regarding the usage of "intersectional feminist" by white women and by the end of the discussion and by reading [this](http://theroguefeminist.tumblr.com/post/69108181677/if-youre-white-dont-call-yourself-an-intersectional) I came to agree. However, the discussion came to, "Okay, not the right term, but what should we call ourselves if we wish to be inclusive in our feminism" and separate ourselves from [white feminism](http://whitefeministcollectionagency.tumblr.com/). 
+Yesterday there was some discussion regarding the usage of "intersectional feminist" by white women and by the end of the discussion and by reading [this](http://theroguefeminist.tumblr.com/post/69108181677/if-youre-white-dont-call-yourself-an-intersectional) ([full original post](http://strugglingtobeheard.tumblr.com/post/66215290586/like-being-very-clear-when-i-asked-patricia-hill)) I came to agree. However, the discussion came to, "Okay, not the right term, but what should we call ourselves if we wish to be inclusive in our feminism" and separate ourselves from [white feminism](http://whitefeministcollectionagency.tumblr.com/). 
 
 Previously, the term "radical feminist" would be appropriate, but since trans exclusive radical feminists really are the only things that come to mind when someone hears "radical feminist" you can imagine the unease in assigning oneself such a label. What term to use then? 
 
