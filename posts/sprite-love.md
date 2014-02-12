@@ -84,6 +84,7 @@ The next few functions are fairly straight forward,
 
 ```
 function AnimatedSprite:draw(x, y)
+	-- note that drawq was removed in 0.9.0 and this should just be draw
 	love.graphics.drawq(self.sprite_sheet, self.sprites[self.current_animation][self.current_frame], x, y, 0, 1, 1)
 end
 
