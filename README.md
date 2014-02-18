@@ -1,2 +1,2 @@
-My blerg.
+My blog.
 
