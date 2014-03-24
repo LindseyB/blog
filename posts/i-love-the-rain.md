@@ -12,7 +12,7 @@ As you can see in that animation the particles are all being generated at a cent
 
 Particle systems are often used for things like fire, smoke, or fog, but they can also be used for things like weather which is exactly what I sought out to do.
 
-For LÖVE we want to do most of our particle work inside the load, this can be handled by another class but we want to make sure it's setup here and all particle systems require and image that is used as the particle. 
+For LÖVE we want to do most of our particle work inside the load, this can be handled by another class but we want to make sure it's setup here and all particle systems require an image that is used as the particle. 
 
 ```
 function love.load()
