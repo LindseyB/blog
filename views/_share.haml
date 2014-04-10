@@ -1,0 +1,7 @@
+.share
+  %a{:href => "https://twitter.com/share?url=#{request.url}&text=#{@title}&via=lindseybieda", :target => "_blank"}
+    %i.fa.fa-2x.fa-twitter-square
+  %a{:href => "https://www.facebook.com/sharer/sharer.php?u=#{request.url}", :target => "_blank"}
+    %i.fa.fa-2x.fa-facebook-square
+  %a{:href => "https://plus.google.com/share?url=#{request.url}", :target => "_blank"}
+    %i.fa.fa-2x.fa-google-plus-square
