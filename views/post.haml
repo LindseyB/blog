@@ -4,7 +4,7 @@
   #{@formatted_date}
 = partial :share
 
-.ads{:class => ("hide" unless request.referrer.include? "reddit.com" or request.referrer.include? "ycombinator.com")}
+.ads{:class => ("hide" unless request.referrer and (request.referrer.include? "reddit.com" or request.referrer.include? "ycombinator.com"))}
   %script{async: "", src: "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"}
   / main
   %ins.adsbygoogle{"data-ad-client" => "ca-pub-3159288000990994", "data-ad-slot" => "2592065264", style: "display:inline-block;width:336px;height:280px"}
