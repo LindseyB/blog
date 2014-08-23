@@ -49,12 +49,16 @@ class Blog < Sinatra::Base
 
   get '/posts/:id' do
     source = Post.new(params[:id])
-    @content = source.content
-    @title = source.title
-    @date = source.date
-    @formatted_date = source.formatted_date
+    unless source.title.nil?
+      @content = source.content
+      @title = source.title
+      @date = source.date
+      @formatted_date = source.formatted_date
 
-    haml :post
+      haml :post
+    else
+      status 404
+    end
   end
 
   get '/archive' do
