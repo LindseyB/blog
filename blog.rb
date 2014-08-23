@@ -57,7 +57,7 @@ class Blog < Sinatra::Base
 
       haml :post
     else
-      status 404
+      halt 404
     end
   end
 
@@ -77,4 +77,6 @@ class Blog < Sinatra::Base
     content_type 'application/atom+xml'
     builder :feed
   end
+
+  not_found { haml :'404' }
 end
