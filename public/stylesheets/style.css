@@ -37,6 +37,7 @@ h2 {
 }
 
 h3 {
+	font-size: 2em;
 	font-family: 'Amatic SC', sans-serif;
 	text-shadow: 0px 1px 5px #d6d6d6;
 	text-transform: uppercase;
