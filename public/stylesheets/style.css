@@ -13,10 +13,9 @@ body {
 }
 
 h1 {
-	font-family: 'Amatic SC', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 4em;
 	color: #555;
-	text-shadow: 0px 1px 5px #d6d6d6;
 	padding: 0 0.5em;
 	letter-spacing: -0.06em;
 	word-spacing: 0.25em;
@@ -28,8 +27,19 @@ h1 {
 	margin-bottom: 0px;
 }
 
+.sidebar h1 {
+	color: #eee;
+	letter-spacing: 0em;
+}
+
+.bottom {
+	bottom: 30px;
+	width: inherit;
+	position: fixed;
+}
+
 h2 {
-	font-family: 'Amatic SC', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 3em;
 	text-shadow: 0px 1px 5px #d6d6d6;
 	margin: 0 0 0.5em 0;
@@ -38,7 +48,7 @@ h2 {
 
 h3 {
 	font-size: 2em;
-	font-family: 'Amatic SC', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	text-shadow: 0px 1px 5px #d6d6d6;
 	text-transform: uppercase;
 }
@@ -73,7 +83,7 @@ main {
 	height: 100%;
 	position: fixed;
 	padding: 0 1%;
-	box-shadow: inset -10px 1px 18px -9px #000;
+	background-image: url('/images/backgrounds/7.jpg');
 }
 
 .sidebar p {
@@ -82,15 +92,12 @@ main {
 
 
 .social {
-	text-align: center;
-	font-size: 2em;
+	font-size: 1em;
 	letter-spacing: 0.3em;
-	margin-top: 2em;
-	text-shadow: 2px 1px 10px rgba(30, 30, 30, 0.95);
 }
 
 .social a {
-	color: #A2A2A2;
+	color: #fff;
 }
 
 .social a:hover {
@@ -124,43 +131,6 @@ ul.archive {
 .date {
 	font-size: 0.8em;
 	color: #818181;
-}
-
-#title-circle {
-	width: 130px;
-	height: 130px;
-	border-radius: 50%;
-	margin: 1em auto;
-	background-color: rgb(62, 163, 139);
-	color: #ccc;
-	font-family: 'Amatic SC', sans-serif;
-	text-align: center;
-	font-size: 3em;
-	line-height: 0.8em;
-	padding-top:32px;
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	display: block;
-	position: relative;
-}
-
-#title-circle span{
-	position: absolute;
-	top:0;
-	left:0;
-	width: 130px;
-	height: 130px;
-	border-radius: 50%;
-	background-image: url('/images/self.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	transition: all 1s;
-	-webkit-transition: all 1s;
-	opacity: 0;
-}
-
-#title-circle span:hover {
-	opacity: 1;
 }
 
 nav a, nav a:hover{
@@ -300,11 +270,21 @@ cite {
 }
 
 .archive-link {
-	text-align: center;
-	font-family: 'Amatic SC', sans-serif;
-	font-size: 3em;
-	text-transform: uppercase;
+	padding-top: 1em;
+}
 
+.archive-link a {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1em;
+	text-transform: uppercase;
+	background-color:  #eee;
+	border-radius: 0.5em;
+	width: 100%;
+	display: block;
+	padding: 0.5em;
+	position: relative;
+	left: -1em;
 }
 
 .prettyprint {
@@ -341,7 +321,7 @@ cite {
 	text-align: center;
 	margin-bottom: 3em;
 	font-size: 3em;
-	font-family: 'Amatic SC', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 .pagination a {
