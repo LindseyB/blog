@@ -157,13 +157,6 @@ nav a, nav a:hover{
 	font-size: 1.2em;
 }
 
-.share-menu {
-	position: relative;
-	left: 1em;
-	bottom: -1em;
-	display: none;
-}
-
 .share-menu ul {
 	list-style-type: none;
 	margin: 0;
@@ -176,7 +169,7 @@ nav a, nav a:hover{
 	padding: 0.25em;
 }
 
-.bubble {
+.share-menu {
 	position: relative;
 	width: 7.3em;
 	height: 2.5em;
@@ -185,9 +178,12 @@ nav a, nav a:hover{
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
+	left: 1em;
+	bottom: -1em;
+	display: none;
 }
 
-.bubble:after {
+.share-menu:after {
 	content: "";
 	position: absolute;
 	top: -16px;
