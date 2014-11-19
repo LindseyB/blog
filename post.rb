@@ -62,4 +62,10 @@ class Post
   def formatted_date
     @formatted_date ||= @date.strftime("%d %B %Y")
   end
+
+  def blurb(length=20)
+    if self.content.length > length
+      blurb = Sanitize.fragment(self.content)[0...(length-3)] + "..."
+    end
+  end
 end
