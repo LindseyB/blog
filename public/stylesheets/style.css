@@ -483,6 +483,12 @@ cite {
 	}
 }
 
+
+.wrapper {
+	overflow: hidden;
+}
+
+
 /* very narrow screen */
 
 @media screen and (max-width: 600px) {
