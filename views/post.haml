@@ -1,10 +1,9 @@
 %article
   %h1
     #{@title}
-  .wrapper
-    %time
-      #{@formatted_date}
-    = partial :share
+  %time
+    #{@formatted_date}
+  = partial :share
 
   .ads{:class => ("hide" unless request.referrer and (request.referrer.include? "reddit.com" or request.referrer.include? "ycombinator.com"))}
     %script{async: "", src: "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"}
