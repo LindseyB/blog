@@ -13,7 +13,7 @@ $(document).ready(function(){
 });
 
 
-$("h1").fitText(0.8, { minFontSize: '20px', maxFontSize: '100px' });
+$("h1").fitText(0.8, { minFontSize: '20px', maxFontSize: '70px' });
 
 // gauges
 var _gauges = _gauges || [];

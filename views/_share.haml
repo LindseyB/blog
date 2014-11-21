@@ -1,8 +1,19 @@
-.share
-  %a{:href => "https://twitter.com/share?url=#{request.url}&text=#{@title}&via=lindseybieda", :target => "_blank"}
-    %i.fa.fa-2x.fa-twitter-square
-  %a{:href => "https://www.facebook.com/sharer/sharer.php?u=#{request.url}", :target => "_blank"}
-    %i.fa.fa-2x.fa-facebook-square
-  %a{:href => "https://plus.google.com/share?url=#{request.url}", :target => "_blank"}
-    %i.fa.fa-2x.fa-google-plus-square
-  <script id='fbbvcqj'>(function(i){var f,s=document.getElementById(i);f=document.createElement('iframe');f.src='//api.flattr.com/button/view/?uid=LindseyBieda&button=compact&url='+encodeURIComponent(document.URL);f.title='Flattr';f.height=20;f.width=110;f.style.borderWidth=0;s.parentNode.insertBefore(f,s);})('fbbvcqj');</script>
+%nav.share
+  %ul
+    %li
+      %a{:href => "#"}
+        share
+        %i.fa.fa-share
+      %ul
+        %li
+          %a{:href => "https://twitter.com/share?url=#{request.url}&text=#{@title}&via=lindseybieda", :target => "_blank"}
+            twitter
+            %i.fa.fa-twitter
+        %li
+          %a{:href => "https://www.facebook.com/sharer/sharer.php?u=#{request.url}", :target => "_blank"}
+            facebook
+            %i.fa.fa-facebook-square
+        %li
+          %a{:href => "https://plus.google.com/share?url=#{request.url}", :target => "_blank"}
+            google+
+            %i.fa.fa-google-plus-square

@@ -1,15 +1,15 @@
-%h1
-  Post Archive
-
-
 %article
+  %h1
+    Post Archive
   %ul.archive
     - @posts.each do |post|
       %li
         %a{:href => "/posts/#{post.name}", :title => post.title, :alt => post.title}
           = post.title
-          %div.date
-            = post.formatted_date
+          .summary
+            %p.blurb= post.blurb(200)
+            %p.date= post.formatted_date
+
 
   .pagination
     - unless @page == 0
