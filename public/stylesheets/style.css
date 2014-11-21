@@ -157,6 +157,10 @@ a, p a, ol li a, .archive a {
 	font-weight: 500;
 }
 
+.top-section {
+	height: 2em;
+}
+
 time {
 	color: #acacac;
 	font-size: 1.2em;
@@ -440,11 +444,6 @@ cite {
 	.bottom h1 {
 		display: none;
 	}
-}
-
-
-.wrapper {
-	overflow: hidden;
 }
 
 
