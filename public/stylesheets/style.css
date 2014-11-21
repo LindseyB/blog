@@ -397,7 +397,7 @@ cite {
 
 /* narrow screen */
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 850px) {
 	section.sidebar {
 		float: none;
 		height: auto;
