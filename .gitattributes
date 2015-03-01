@@ -1,1 +1,1 @@
-public/javascript/* linguist-vendored
+*.js linguist-vendored
