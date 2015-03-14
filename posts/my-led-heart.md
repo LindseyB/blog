@@ -46,3 +46,26 @@ The other main assumption is that black is off and any other color is on, but ot
 You can see the results of this code below and you can view all of the code in the [repo](https://github.com/LindseyB/bmp-to-pov).
 
 ![Device in motion](http://i.imgur.com/TyRwDpM.gif)
+
+
+### Update
+
+A bit later I got the newer POV kit and soldered it up and started playing around with the idea of hooking a POV device up to a hula hoop. 
+
+This initial results were okay, but I needed to tweak the timing and get rid of some of the empty space. 
+
+<blockquote class="twitter-video" lang="en"><p>POV + hula hoop = <a href="http://t.co/cxKNw8pYvp">pic.twitter.com/cxKNw8pYvp</a></p>&mdash; Lindsey Bieda (@lindseybieda) <a href="https://twitter.com/lindseybieda/status/574372828390125568">March 8, 2015</a></blockquote>
+<p class="image">
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</p>
+
+I later connected both devices to the hula hoop to deal with some balance issues and to add something more interesting than a lot of dead space between rotations. The result is fairly amusing, but it just stirs up my desire to make a hula hoop with a lot of individually addressable LEDs. 
+
+<blockquote class="twitter-video" lang="en"><p>How do you counteract the weight of one device? Add another! Hearts and stars POV hula hoop :) <a href="http://t.co/7V0S7clFXd">pic.twitter.com/7V0S7clFXd</a></p>&mdash; Lindsey Bieda (@lindseybieda) <a href="https://twitter.com/lindseybieda/status/576211437535678464">March 13, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+
+
