@@ -1,0 +1,45 @@
+%nav.navbar.navbar-default.navbar-fixed-top
+  .container-fluid
+    .navbar-header
+      %button.navbar-toggle.collapsed{"data-target" => "#navbar-collapse", "data-toggle" => "collapse", :type => "button"}
+        %span.sr-only Toggle navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      %a.navbar-brand{:href => "/"} Lindsey Bieda
+    #navbar-collapse.collapse.navbar-collapse
+      %ul.nav.navbar-nav
+        %li
+          %a{:href => "/archive"} Archive
+        %li
+          %a{:href => "/projects"} Projects
+        %li.dropdown
+          %a.dropdown-toggle{"aria-expanded" => "false", "data-toggle" => "dropdown", :href => "#", :role => "button"}
+            Share
+            %span.caret
+          %ul.dropdown-menu{:role => "menu"}
+            %li
+              %a{:href => "https://twitter.com/share?url=#{request.url}&text=#{@title}&via=lindseybieda", :target => "_blank", :class => "pure-menu-link"}
+                twitter
+                %i.fa.fa-twitter
+            %li
+              %a{:href => "https://www.facebook.com/sharer/sharer.php?u=#{request.url}", :target => "_blank", :class => "pure-menu-link"}
+                facebook
+                %i.fa.fa-facebook-square
+            %li
+              %a{:href => "https://plus.google.com/share?url=#{request.url}", :target => "_blank", :class => "pure-menu-link"}
+                google+
+                %i.fa.fa-google-plus-square
+      %ul.nav.navbar-nav.navbar-right
+        %li
+          %a{:href => "http://github.com/LindseyB"}
+            %i.fa.fa-github-alt
+        %li
+          %a{:href => "http://twitter.com/lindseybieda"}
+            %i.fa.fa-twitter
+        %li
+          %a{:href => "http://lindseybieda.itch.io"}
+            %i.fa.fa-gamepad
+        %li
+          %a{:href => "/rss.xml"}
+            %i.fa.fa-rss

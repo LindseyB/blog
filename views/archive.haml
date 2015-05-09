@@ -1,26 +1,22 @@
-%article
+%article.archive
   %h1
     Post Archive
-  %ul.archive
-    - @posts.each do |post|
-      %li
-        %a{:href => "/posts/#{post.name}", :title => post.title, :alt => post.title}
-          = post.title
-          .summary
-            %p.blurb= post.blurb(200)
-            %p.date= post.formatted_date
+  - @posts.each do |post|
+    .panel.panel-default
+      .panel-heading
+        %a{:href => "/posts/#{post.name}", :title => post.title, :alt => post.title, :class => "panel-title"}= post.title
+        .date
+          %time.label.label-info= post.formatted_date
+      .panel-body=post.blurb(200)
 
+  %nav.paging
+    %ul.pagination
+      - unless @page == 0
+        %li
+          %a{:href => "/archive?page=#{@page-1}", :title => "prev", :alt => "prev", :"aria-label" => "Previous"}
+            &laquo; Prev
 
-  .pagination
-    - unless @page == 0
-      %span#prev
-        %a{:href => "/archive?page=#{@page-1}", :title => "prev", :alt => "prev"} &laquo;
-        prev
-
-    - unless @page == @max_page
-      %span#next
-        next
-        %a{:href => "/archive?page=#{@page+1}", :title => "next", :alt => "next"} &raquo;
-
-
-
+      - unless @page == @max_page
+        %li
+          %a{:href => "/archive?page=#{@page+1}", :title => "next", :alt => "next", :"aria-label" => "Next"}
+            Next &raquo;
