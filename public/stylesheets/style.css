@@ -157,3 +157,12 @@ table {
 	margin: 1em auto;
 	box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
 }
+
+/* google custom websearch hacks */
+#search {
+	background: none;
+}
+
+#search:hover {
+	color: rgb(47, 208, 149);
+}

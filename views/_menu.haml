@@ -31,6 +31,14 @@
                 google+
                 %i.fa.fa-google-plus-square
       %p.navbar-text.navbar-right
+        %form.navbar-form.navbar-left{:role => "search", :method => :get, :action => "http://www.google.com/cse"}
+          .form-group
+            %input.form-control{:placeholder => "Search", :type => "text", :name => "q"}
+            %input{:type => "hidden", :name => "cx", :value => "005943888444229921013:6iqf7briwj4"}
+            %button.btn.btn-primary.btn-sm#search{:type => "submit"}
+              %i.fa.fa-search.fa-lg
+
+      %p.navbar-text.navbar-right
         %a{:href => "http://github.com/LindseyB", :class => "navbar-link"}
           %i.fa.fa-github-alt.fa-lg
         %a{:href => "http://twitter.com/lindseybieda", :class => "navbar-link"}
