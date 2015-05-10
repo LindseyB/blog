@@ -129,6 +129,7 @@ table {
 
 .itch-frame {
 	margin-top: 2em;
+	box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
 }
 
 /* twitter hax */
