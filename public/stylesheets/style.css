@@ -98,6 +98,14 @@ table {
 	font-weight: bold;
 }
 
+.navbar-link {
+  padding: 0 8px;
+}
+
+.navbar-link:hover {
+  text-decoration: none;
+}
+
 /* twitter hax */
 .twitter-tweet {
 	margin: auto !important;

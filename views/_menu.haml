@@ -19,27 +19,23 @@
             %span.caret
           %ul.dropdown-menu{:role => "menu"}
             %li
-              %a{:href => "https://twitter.com/share?url=#{request.url}&text=#{@title}&via=lindseybieda", :target => "_blank", :class => "pure-menu-link"}
+              %a{:href => "https://twitter.com/share?url=#{request.url}&text=#{@title}&via=lindseybieda", :target => "_blank"}
                 twitter
                 %i.fa.fa-twitter
             %li
-              %a{:href => "https://www.facebook.com/sharer/sharer.php?u=#{request.url}", :target => "_blank", :class => "pure-menu-link"}
+              %a{:href => "https://www.facebook.com/sharer/sharer.php?u=#{request.url}", :target => "_blank"}
                 facebook
                 %i.fa.fa-facebook-square
             %li
-              %a{:href => "https://plus.google.com/share?url=#{request.url}", :target => "_blank", :class => "pure-menu-link"}
+              %a{:href => "https://plus.google.com/share?url=#{request.url}", :target => "_blank"}
                 google+
                 %i.fa.fa-google-plus-square
-      %ul.nav.navbar-nav.navbar-right
-        %li
-          %a{:href => "http://github.com/LindseyB"}
-            %i.fa.fa-github-alt
-        %li
-          %a{:href => "http://twitter.com/lindseybieda"}
-            %i.fa.fa-twitter
-        %li
-          %a{:href => "http://lindseybieda.itch.io"}
-            %i.fa.fa-gamepad
-        %li
-          %a{:href => "/rss.xml"}
-            %i.fa.fa-rss
+      %p.navbar-text.navbar-right
+        %a{:href => "http://github.com/LindseyB", :class => "navbar-link"}
+          %i.fa.fa-github-alt.fa-lg
+        %a{:href => "http://twitter.com/lindseybieda", :class => "navbar-link"}
+          %i.fa.fa-twitter.fa-lg
+        %a{:href => "http://lindseybieda.itch.io", :class => "navbar-link"}
+          %i.fa.fa-gamepad.fa-lg
+        %a{:href => "/rss.xml", :class => "navbar-link"}
+          %i.fa.fa-rss.fa-lg
