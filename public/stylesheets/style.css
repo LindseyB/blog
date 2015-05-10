@@ -29,6 +29,7 @@
 
 article {
 	width: 90%;
+	max-width: 70em;
 	margin: auto;
 	font-family: 'Merriweather', serif;
 }
