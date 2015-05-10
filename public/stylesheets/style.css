@@ -67,6 +67,10 @@ article a {
 	box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
 }
 
+.scaling {
+	max-width: 100%;
+}
+
 .embed {
 	max-width: 650px;
 	margin: 1em auto;
