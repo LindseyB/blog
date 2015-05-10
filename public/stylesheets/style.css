@@ -96,6 +96,10 @@ table {
 	font-size: 1.8em;
 }
 
+.archive .panel-heading {
+	overflow: hidden;
+}
+
 .archive .date {
 	float: right;
 	margin: 0;
