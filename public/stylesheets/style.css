@@ -158,6 +158,20 @@ table {
 	box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
 }
 
+.itch-wrapper {
+	margin: 1em 0;
+}
+
+.itch-wrapper iframe {
+	box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
+}
+
+#calc {
+	width: 100%;
+	color: #ffffff;
+	opacity: 0;
+}
+
 /* google custom websearch hacks */
 #search {
 	background: none;

@@ -15,6 +15,15 @@ $(document).ready(function(){
 
 $("h1").fitText(0.8, { minFontSize: '20px', maxFontSize: '70px' });
 
+$(window).on("resize", function () {
+    width = parseInt($('#calc').css('width'));
+    scale = width/552;
+    $(".itch-wrapper iframe").each(function(){
+      $(this).css('transform-origin', '0 0');
+      $(this).css('transform', 'scale('+scale+')');
+    });
+}).resize();
+
 // gauges
 var _gauges = _gauges || [];
 (function() {
