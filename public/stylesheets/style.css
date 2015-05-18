@@ -55,6 +55,10 @@ time {
 	font-size: 1em !important;
 }
 
+b {
+	font-size: 1.1em;
+}
+
 a.label.label-info {
 	font-size: 0.7em !important;
 }
@@ -85,6 +89,16 @@ article a {
 .center {
 	display: block;
 	margin: 0 auto;
+}
+
+.left {
+	float: left;
+	margin: 1em;
+}
+
+.right {
+	float: right;
+	margin: 1em;
 }
 
 .caption {
