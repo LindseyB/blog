@@ -77,6 +77,11 @@ class Blog < Sinatra::Base
     haml :projects
   end
 
+  get '/about' do
+    @title = "About"
+    haml :about
+  end
+
   get '/rss.xml' do
     @posts = latest_posts.first(10)
 

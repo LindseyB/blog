@@ -91,6 +91,10 @@ article a {
 	box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
 }
 
+.shadow {
+	box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
+}
+
 .center {
 	display: block;
 	margin: 0 auto;
