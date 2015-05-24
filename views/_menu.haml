@@ -35,8 +35,10 @@
           .form-group
             %input.form-control{:placeholder => "Search", :type => "text", :name => "q"}
             %input{:type => "hidden", :name => "cx", :value => "005943888444229921013:6iqf7briwj4"}
+          .form-group
             %button.btn.btn-primary.btn-sm#search{:type => "submit"}
               %i.fa.fa-search.fa-lg
+              %span#search-text search
 
       %p.navbar-text.navbar-right
         %a{:href => "http://github.com/LindseyB", :class => "navbar-link"}

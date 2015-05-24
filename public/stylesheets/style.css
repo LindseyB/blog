@@ -200,6 +200,16 @@ table {
 	background: none;
 }
 
+#search-text {
+	display: none;
+}
+
 #search:hover {
 	color: rgb(47, 208, 149);
+}
+
+@media (max-width: 768px) {
+	#search-text {
+		display: inline;
+	}
 }
