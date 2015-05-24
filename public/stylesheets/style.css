@@ -2,6 +2,11 @@ body {
 	word-wrap: break-word;
 }
 
+body, html {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
 .navbar-brand {
 	font-size: 1.5em;
 }
