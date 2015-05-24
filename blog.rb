@@ -63,6 +63,7 @@ class Blog < Sinatra::Base
 
   get '/archive' do
     count = 10
+    @title = "Archive"
     @page = params[:page].to_i || 0
     @max_page = latest_posts.count/count
 
@@ -72,6 +73,7 @@ class Blog < Sinatra::Base
   end
 
   get '/projects' do
+    @title = "Projects"
     haml :projects
   end
 
