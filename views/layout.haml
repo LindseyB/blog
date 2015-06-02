@@ -11,7 +11,7 @@
     %meta{:name=>"twitter:card", :content=> @image ? "summary_large_image" : "summary"}
     %meta{:name=>"twitter:site", :content=>"@lindeseybieda"}
     %meta{:name=>"twitter:title", :content=>title.sub("&raquo;", "»")}
-    %meta{:name=>"twitter:description", :content=>description.strip}
+    %meta{:name=>"twitter:description", :content=>description.sub("&raquo;", "»").strip}
     - if @image
       %meta{:name=>"twitter:image", :content=>@image}
 
