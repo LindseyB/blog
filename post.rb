@@ -71,4 +71,12 @@ class Post
       blurb = Sanitize.fragment(self.content)[0...(length-3)] + "..."
     end
   end
+
+  def image
+    doc = Nokogiri::HTML(self.content)
+    if img = doc.xpath('//img').first
+      src = img.attr('src')
+      URI(src).host ? src : "http://rarlindseysmash.com#{src}"
+    end
+  end
 end

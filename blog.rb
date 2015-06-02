@@ -60,6 +60,7 @@ class Blog < Sinatra::Base
       @date = source.date
       @formatted_date = source.formatted_date
       @blurb = source.blurb(200)
+      @image = source.image
 
       haml :post
     else

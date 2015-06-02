@@ -8,10 +8,12 @@
   %head
     %meta{:charset=>"utf8"}
     %meta{:content=>"width=device-width, initial-scale=1, maximum-scale=1", :name=>"viewport"}
-    %meta{:name=>"twitter:card", :content=>"summary"}
+    %meta{:name=>"twitter:card", :content=> @image ? "summary_large_image" : "summary"}
     %meta{:name=>"twitter:site", :content=>"@lindeseybieda"}
     %meta{:name=>"twitter:title", :content=>title.sub("&raquo;", "»")}
     %meta{:name=>"twitter:description", :content=>description.strip}
+    - if @image
+      %meta{:name=>"twitter:image", :content=>@image}
 
     /[if lt IE 9]
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
