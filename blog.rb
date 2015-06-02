@@ -16,6 +16,11 @@ class Blog < Sinatra::Base
       "#{TITLE} &raquo; #{@title}"
     end
 
+    def description
+      return title if @blurb.nil?
+      @blurb 
+    end
+
     def latest_posts
       posts = Dir.glob("posts/*.md").map do |post|
         post = post[/posts\/(.*?).md$/,1]
@@ -54,6 +59,7 @@ class Blog < Sinatra::Base
       @title = source.title
       @date = source.date
       @formatted_date = source.formatted_date
+      @blurb = source.blurb(200)
 
       haml :post
     else
