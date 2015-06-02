@@ -76,6 +76,7 @@ class Post
     doc = Nokogiri::HTML(self.content)
     if img = doc.xpath('//img').first
       src = img.attr('src')
+      return nil if src == "/images/youtube_placeholder.png"
       URI(src).host ? src : "http://rarlindseysmash.com#{src}"
     end
   end
