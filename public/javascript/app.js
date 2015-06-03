@@ -18,10 +18,9 @@ $("h1").fitText(0.8, { minFontSize: '20px', maxFontSize: '70px' });
 $(window).on("resize", function () {
     width = parseInt($('#calc').css('width'));
     scale = width/552;
-    $(".itch-wrapper iframe").each(function(){
-      $(this).css('transform-origin', '0 0');
-      $(this).css('transform', 'scale('+scale+')');
-    });
+    $(".itch-wrapper iframe").css('transform-origin', '0 0')
+                             .css('transform', 'scale('+scale+')');
+    $(".itch-wrapper").css('height', (167*scale)+'px');
 }).resize();
 
 // gauges
