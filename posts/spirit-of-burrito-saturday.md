@@ -3,7 +3,7 @@ title: The Spirit of Burrito Saturday
 date: 2015-05-18
 ---
 
-<img src="http://i.imgur.com/SdmIqsV.png" class="scaling left" alt="A burrito with wings with the banner Burrito Saturday over top of it"/> 
+<img src="https://i.imgur.com/SdmIqsV.png" class="scaling left" alt="A burrito with wings with the banner Burrito Saturday over top of it"/> 
 
 There's some question to the value of academic education within the tech field. Degrees aren't exactly required if you have the clout, privilege, and silver tongue to demonstrate your skills without it. Many in the field have degrees from various disciplines that have nothing or little to do with tech in general. 
 

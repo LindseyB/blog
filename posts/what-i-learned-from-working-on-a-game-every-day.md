@@ -9,18 +9,18 @@ A little bit of background: I was the TA for a game design course in college and
 
 When I was an undergrad I had actually taken the same game design course except using UE3 and Maya. Even then my models were a disaster - horrifyingly so (as I am told by my friend wilkie he still has nightmares about my creepy pacman mesh). Needless to say I thought that my attempts to 3D model again would also be terrible. 
 
-![Dude, sucking at something is the first step towards being sort of good at something](http://33.media.tumblr.com/tumblr_mbjfbwVzvW1rbavngo1_500.gif)
+![Dude, sucking at something is the first step towards being sort of good at something](https://i.imgur.com/HKf9mX0.gif)
 
 The thing is they were. 
 
-![tea kettle 3D mesh](http://i.imgur.com/FVOONpz.png)
+![tea kettle 3D mesh](https://i.imgur.com/FVOONpz.png)
 
 However the cool thing about working on it every day is that I got the chance to try and improve every single day. Eventually, I tried to make an effort to make sure to have at least one commit on the game every single day. 
 
 As of writing this is pretty much where it stands: 
 
-![Cuppa Tea menu demo](http://i.imgur.com/jWSmMWu.gif)
+![Cuppa Tea menu demo](https://i.imgur.com/jWSmMWu.gif)
 
-![(╯°□°)╯︵ ┻━┻](http://i.imgur.com/BvDsiu0.gif)
+![(╯°□°)╯︵ ┻━┻](https://i.imgur.com/BvDsiu0.gif)
 
 The key for me to learning and making progress was dealing with the fact that I would suck and working every day to improve it. 

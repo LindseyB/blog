@@ -6,8 +6,9 @@ require_relative 'post'
 require_relative 'redirects'
 
 class Blog < Sinatra::Base
-  TITLE = "Lindsey Bieda"
+  use Rack::SSL, :exclude => lambda { |env| ENV['RACK_ENV'] != 'production' }
 
+  TITLE = "Lindsey Bieda"
   helpers Sinatra::ContentFor
 
   helpers do
@@ -35,9 +36,10 @@ class Blog < Sinatra::Base
     end
 
     def url_base
-      "http://#{request.host_with_port}"
+      "#{request.secure? ? "https" : "http"}://#{request.host_with_port}"
     end
   end
+
 
   get '/index.php' do
     # lol old php shit

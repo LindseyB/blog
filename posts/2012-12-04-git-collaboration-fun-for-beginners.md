@@ -31,7 +31,7 @@ Let's suppose now that Batman created a new branch on blog called "batman-theme"
 
 That's where ```fetch``` comes into play. 
 
-![](http://i.imgur.com/Lmzix.gif)
+![](https://i.imgur.com/Lmzix.gif)
 
 ```git fetch``` allows us to download branches and data from remote repositories. The usage is rather simple: 
 

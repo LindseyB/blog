@@ -6,7 +6,7 @@ title: Abuse of the Abuse Button
 
 This is a baby sloth gif to make sure content starts out further down.
 
-![baby sloth yawning](http://i.imgur.com/CPhHfdf.gif)
+![baby sloth yawning](https://i.imgur.com/CPhHfdf.gif)
 
 
 It's no secret that twitter has an abuse problem. Well, let's be honest pretty much any tool that allows people to communicate with one another has an abuse problem. To try to remedy this situation Twitter is adding a [report abuse button](http://www.huffingtonpost.co.uk/2013/07/29/twitter-abuse-button_n_3670018.html?ir=UK+Tech) to every tweet in order to make it easier to handle abusive users in response to this [petition](http://www.change.org/en-GB/petitions/twitter-add-a-report-abuse-button-to-tweets).

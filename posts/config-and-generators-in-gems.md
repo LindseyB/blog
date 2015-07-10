@@ -39,7 +39,7 @@ Jem.configure do |config|
   config.option = 'different_option'
 end
 ```
-![Jem and the Holograms](http://i.imgur.com/4pIarqZ.gif)
+![Jem and the Holograms](https://i.imgur.com/4pIarqZ.gif)
 
 ## Generators
 

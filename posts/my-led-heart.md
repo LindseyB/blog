@@ -5,13 +5,13 @@ date: 2015-02-28
 
 I recently took my first dive into soldering with Adafruit's [MiniPOV 3 Kit](http://www.adafruit.com/product/20). To my surprise I got it working and also didn't burn myself in the process. 
 
-![Device just after soldering](http://i.imgur.com/dQDNhAg.gif)
+![Device just after soldering](https://i.imgur.com/dQDNhAg.gif)
 
 My next challenge was to actually get some of the example code running on the thing, which took grabbing [this](http://www.amazon.com/gp/product/B00425S1H8/) since I don't presently own a machine with a serial port anymore. Along with [these drivers](https://www.mac-usb-serial.com/dashboard/) and [CrossPack for AVR](http://www.obdev.at/products/crosspack/index.html) I was finally in business to get some code on the thing.
 
 I decided I wanted to be able to quickly draw something in a BMP and generate a C file that would display the image using persistence of vision on the device. So I opened up paint and doodled the following:
 
-![Source BMP](http://i.imgur.com/VEngO1X.png)
+![Source BMP](https://i.imgur.com/VEngO1X.png)
 
 Using some of the example code provided by Adafruit I began to write some ruby code to generate the C file (which in turn would generate a hex file to actually flash the device with). I thought the hard part was going to be reading in the BMP pixel by pixel because I didn't want to require rmagick or imagemagick as a dependency (because both libraries are a pain for something so simple). Luckily, [Practicing Ruby](https://practicingruby.com/articles/binary-file-formats) has a really awesome article that goes through code to read a BMP. 
 
@@ -45,7 +45,7 @@ The other main assumption is that black is off and any other color is on, but ot
 
 You can see the results of this code below and you can view all of the code in the [repo](https://github.com/LindseyB/bmp-to-pov).
 
-![Device in motion](http://i.imgur.com/TyRwDpM.gif)
+![Device in motion](https://i.imgur.com/TyRwDpM.gif)
 
 
 ### Update

@@ -4,7 +4,7 @@ title: Answering the sexism question
 
 **"Just how bad is the sexism,"** a woman asks me. She's just starting to learn programming and looking to get into the field. She wants to know just what she is getting her self into. She's heard stories about sexism in the technology sector and it's really no secret that [it's there](http://valleywag.gawker.com/this-is-why-there-arent-enough-women-in-tech-1221929631). However, even while my answer should be clear cut based on all the data I have, I waffle. 
 
-![R2D2: sad beep](http://i.imgur.com/Em48ktH.gif)
+![R2D2: sad beep](https://i.imgur.com/Em48ktH.gif)
 
 Heart pounding my brain runs through a couple options. Do I tell her the truth? Honesty is the best policy, but I don't want to scare her away from something she enjoys. I don't want to put fear into a beginner who may luck out and never experience any problems, and who knows, maybe by the time she is in the field it won't be a problem anymore. 
 

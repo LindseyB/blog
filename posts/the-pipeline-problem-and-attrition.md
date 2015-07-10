@@ -16,7 +16,7 @@ population growth rate = (.18 - .41)
                        = (-.23)
 ```
 
-![mathematical!](http://unironicallyenthusiasticnerd.files.wordpress.com/2013/10/mathematical.gif)
+![mathematical!](https://unironicallyenthusiasticnerd.files.wordpress.com/2013/10/mathematical.gif)
 
 So, the number of women in tech is decreasing based on these two numbers. Obviously, not a perfect model since both the attrition rate and the incoming rates vary. Additionally, there are clearly those who enter tech, no matter what gender, without a CS degree. However, we can use this to make some assumptions about the relative change in the number of women. 
 

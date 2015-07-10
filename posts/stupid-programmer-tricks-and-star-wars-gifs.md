@@ -3,11 +3,11 @@ title: Stupid Programmer Tricks and Star Wars Gifs
 date: 2013-10-27
 ---
 
-![Hard G vs Soft G](http://i.imgur.com/ns3sMmh.gif)
+![Hard G vs Soft G](https://i.imgur.com/ns3sMmh.gif)
 
-Gifs, I love gifs and some of you may also know that I love Star Wars. At some point I tried to make and subtitle a gif by hand since I was unable to find what I was looking for. This was the result of an hour of effort:
+Gifs, I love gifs and ssome of you may also know that I love Star Wars. At some point I tried to make and subtitle a gif by hand since I was unable to find what I was looking for. This was the result of an hour of effort:
 
-![I feel terrible.](http://25.media.tumblr.com/c2a4e61058951d125dac608910536c39/tumblr_ms855zjsL61qgwt1uo1_r1_400.gif)
+![I feel terrible.](http://i.imgur.com/B7n9Vos.gif)
 
 Queue the informercial music and the "there must be an easier way". I'm a programmer, so naturally my solution to everything is to write some code to solve the problem for me. A simple way to get Star Wars gifs by the quote. After all, [it's been done before](http://wirescenes.tumblr.com/).
 
