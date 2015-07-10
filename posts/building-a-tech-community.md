@@ -3,7 +3,7 @@ title: building a tech community people want to be a part of
 date: 2014-08-16
 ---
 
-![Error: no task for 'war' did you mean 'love'?](http://i.imgur.com/FGMy1Ah.gif)
+![Error: no task for 'war' did you mean 'love'?](https://i.imgur.com/FGMy1Ah.gif)
 
 So, I want to talk about assholes in local tech communities because I've seen them drive people out over and over. Let's be clear, most communities have their assholes, but tech is already intimidating enough for many people. You are gaining nothing by continuously sheltering these assholes and doing absolutely nothing when they act out. Your local community events should all have [code of conducts](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment) and you as organizers need to act when someone violates that. 
 

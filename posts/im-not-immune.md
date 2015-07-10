@@ -13,6 +13,6 @@ If anything a separate label would be like pretending that we are incapable of m
 
 Many of us white feminists started out by listening to the voices of deeply problematic feminists who screw up continuously on issues that affect marginalized people. Young baby feminists too wrapped up in trying to push for female empowerment, but unable to see how other groups of people were getting trampled over for the sake of progress for white women. We cling to the stories of the suffragettes and how their struggle for the vote went, but we forget the racism within the women's suffrage movement. 
 
-![suffragettes holding a votes for women sign](http://i.imgur.com/Do85RTp.jpg)
+![suffragettes holding a votes for women sign](https://i.imgur.com/Do85RTp.jpg)
 
 We don't need a new label for feminism that pushes for rights for all women, all people, what we need is to not make the same mistakes that happened in the past and truly give voice to everyone. 

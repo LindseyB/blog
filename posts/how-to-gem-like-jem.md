@@ -18,7 +18,7 @@ $ bundle gem [gemname]
 
 I called my gem: Jem. 
 
-![Jem](http://i.imgur.com/7Iyh1JW.gif)
+![Jem](https://i.imgur.com/7Iyh1JW.gif)
 
 The next thing you want to do is peek into the generated  **[gemname].gemspec** that was created when you generated your gem. You probably want to modify the description, summary, and homepage. 
 

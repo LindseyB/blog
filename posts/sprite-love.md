@@ -5,7 +5,7 @@ date: 2013-12-14
 
 I've been playing around with [LÖVE](http://love2d.org) lately and making a game with it. One of first problems I decided to solve was animated sprites so I decided to make an "object" (well really a table) to handle the drawing and animating of my sprite. 
 
-![TF2 Spy Animated Sprite](http://i.imgur.com/QUaEv5G.gif)
+![TF2 Spy Animated Sprite](https://i.imgur.com/QUaEv5G.gif)
 
 The first bit is the creation of my ```AnimatedSprite```:
 

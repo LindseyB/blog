@@ -7,7 +7,7 @@ Ada Lovelace is credited with writing the very first computer program. This prog
 
 Bernoulli numbers have the following mathematical definition: 
 
-![sum_(n=0)^infinity (B_n t^n)/(n!) = t/(exp(t)-1)](http://i.imgur.com/SRCs1pI.png)
+![sum_(n=0)^infinity (B_n t^n)/(n!) = t/(exp(t)-1)](https://i.imgur.com/SRCs1pI.png)
 
 It's just a sequence of numbers that looks something more like this:
 

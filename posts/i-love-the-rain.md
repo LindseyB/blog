@@ -6,7 +6,7 @@ date: 2014-02-11
 
 One of the coolest things about [LÖVE](http://love2d.org) is that it makes it extremely easy to play with particle systems. If you're unfamiliar with particle systems they are simply a technique for creating different effects in graphics using many small images. So basically we take a single small sprite, say a small white circle, create a bunch of them apply some effects to them and we can get the following animation: 
 
-![simple particle system](http://i.imgur.com/I0KcpNB.gif)
+![simple particle system](https://i.imgur.com/I0KcpNB.gif)
 
 As you can see in that animation the particles are all being generated at a central point (the emitter) and then spiral outward. 
 

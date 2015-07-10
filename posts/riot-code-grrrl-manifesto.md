@@ -3,15 +3,15 @@ title: RIOT CODE GRRRL MANIFESTO
 date: 2015-07-04
 ---
 
-![RIOT CODE GRRRL MANIFESTO zine](http://i.imgur.com/enb5psw.jpg)
+![RIOT CODE GRRRL MANIFESTO zine](https://i.imgur.com/enb5psw.jpg)
 
 Just download a PDF for your selected format and print (two sided is way better, but if you can't print that way you can still enjoy).
 
 Download:
 
-[Two Sided Printout](http://rarlindseysmash.com/zines/riotcodegrrrlmanifesto-twosided.pdf)
+[Two Sided Printout](https://rarlindseysmash.com/zines/riotcodegrrrlmanifesto-twosided.pdf)
 
-[One Sided Printout](http://rarlindseysmash.com/zines/riotcodegrrrlmanifesto-onesided.pdf)
+[One Sided Printout](https://rarlindseysmash.com/zines/riotcodegrrrlmanifesto-onesided.pdf)
 
 
 The gist that came before the zine:
