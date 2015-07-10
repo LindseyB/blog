@@ -36,7 +36,7 @@ class Blog < Sinatra::Base
     end
 
     def url_base
-      "http://#{request.host_with_port}"
+      "#{request.secure? ? "https" : "http"}://#{request.host_with_port}"
     end
   end
 
