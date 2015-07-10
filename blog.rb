@@ -6,6 +6,8 @@ require_relative 'post'
 require_relative 'redirects'
 
 class Blog < Sinatra::Base
+  use Rack::SSL
+
   TITLE = "Lindsey Bieda"
   helpers Sinatra::ContentFor
 
@@ -37,7 +39,6 @@ class Blog < Sinatra::Base
       "#{request.secure? ? "https" : "http"}://#{request.host_with_port}"
     end
   end
-
 
   get '/index.php' do
     # lol old php shit
