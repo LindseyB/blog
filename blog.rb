@@ -6,8 +6,6 @@ require_relative 'post'
 require_relative 'redirects'
 
 class Blog < Sinatra::Base
-  use Rack::SSL, :exclude => lambda { |env| ENV['RACK_ENV'] != 'production' }
-
   TITLE = "Lindsey Bieda"
   helpers Sinatra::ContentFor
 
