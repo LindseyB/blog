@@ -13,6 +13,8 @@ gem 'redcarpet'
 gem 'builder'
 gem 'pry'
 gem 'sanitize'
+gem 'rack-ssl'
+
 if RUBY_PLATFORM=~ /win32/
 	gem 'eventmachine', '~> 1.0.0.beta.4.1'
 end
