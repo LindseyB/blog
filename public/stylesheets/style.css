@@ -2,17 +2,14 @@ body {
 	word-wrap: break-word;
 }
 
+.navbar {
+  box-shadow: none !important;
+  background-color: rgba(255, 255, 255, 0.93) !important;
+}
+
 body, html {
 	max-width: 100%;
 	overflow-x: hidden;
-}
-
-.navbar-brand {
-	font-size: 1.5em;
-}
-
-.navbar .nav>li>a {
-	font-size: 1.5em;
 }
 
 article {
@@ -182,6 +179,12 @@ table {
 /* google custom websearch hacks */
 #search {
 	background: none;
+  color: #ccc;
+  box-shadow: none;
+}
+
+input[type=text]:focus {
+  box-shadow: inset 0 -2px 0 #2FD095 !important;
 }
 
 #search-text {
