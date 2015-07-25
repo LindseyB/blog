@@ -97,6 +97,10 @@ table {
 	background: white;
 }
 
+.panel {
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1) !important;
+}
+
 .archive .panel-heading a {
 	font-size: 1.8em;
 }
