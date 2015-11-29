@@ -1,6 +1,6 @@
 ---
 title: Geek’s Guide to Menstrual Cups
-date: 2015-29-11
+date: 2015-11-29
 ---
 
 <img src="https://i.imgsafe.org/2380ccd.png" class="scaling left" alt="Geeks Guide to Menstrual Cups"/> 
