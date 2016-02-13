@@ -3,7 +3,7 @@ title: DIY programmable LED hula hoop
 date: 2016-02-13
 ---
 
-![The hula hoop in motion](http://i.imgur.com/26yZsc8.gif)
+![The hula hoop in motion](https://i.imgur.com/26yZsc8.gif)
 
 I've always really wanted a programmable hula hoop and there are a number of LED hula hoops available online. You can get one that you program with a remote for $300 called the [FutureHoop](http://moodhoops.com/shop/future-hoop/?gclid=CLXaw5Kw9coCFUEkhgodrRgDmg). I didn't want to spend that kind of money on a hoop and I would rather build something myself that I can custom program. I've been teaching myself basic hardware stuff on the side and eventually I felt like I had the knowledge I needed to build a simple LED hula hoop. 
 
@@ -29,9 +29,9 @@ Assembly tools:
 
 First I bought all of the supplies above. Many of them a little bit at a time and in addition to those supplies listed I bought a bunch of [alligator clip test leads](http://www.amazon.com/dp/B014QJE3L2/ref=twister_B014QIB3UC?_encoding=UTF8&psc=1) so I could build out my circuit before soldering and placing it into the hula hoop. I calculated the circumference of my hoop and used that to determine the length of wire between all of the smart neopixels. I really should have overestimated this, because ultimately I found the length I had calculated was much shorter than what I ended up needing between soldering the wires and the twisting of the wires I ended up doing to make it easier to fit in the hoop. 
 
-The circuit I made was relatively simple. The diagram below shows the connections for the first two neopixels, but it continues in that fashion for the rest. 
+The circuit I made was relatively simple. The diagram below shows the connections for the first three neopixels, but it continues in that fashion for the rest. 
 
-![Basic diagram of the first two neopixel connections](http://i.imgur.com/uOlm7IR.png)
+![Basic diagram of the first three neopixel connections](https://i.imgur.com/KJUyVUh.png)
 
 On the back of the trinket I soldered the JST connector so the power battery could be easily connected and disconnected. Once the soldering was done I started feeding it into the hula hoop which I found probably the most difficult aspect of this project. After a lot of different methods I ended up pulling the hula hoop straight and allowing gravity to pull my strand of LEDs into the hoop. 
 
