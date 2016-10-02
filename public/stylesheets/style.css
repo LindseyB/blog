@@ -185,14 +185,6 @@ a .panel:hover .panel-heading {
 	box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
 }
 
-.itch-wrapper {
-	margin: 1em 0;
-}
-
-.itch-wrapper iframe {
-	box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
-}
-
 #calc {
 	width: 100%;
 	color: #ffffff;
@@ -207,7 +199,7 @@ a .panel:hover .panel-heading {
 }
 
 input[type=text]:focus {
-  box-shadow: inset 0 -2px 0 #2FD095 !important;
+  box-shadow: inset 0 -2px 0 rgb(123, 0, 61) !important;
 }
 
 #search-text {
@@ -215,7 +207,7 @@ input[type=text]:focus {
 }
 
 #search:hover {
-	color: rgb(47, 208, 149);
+	color: rgb(123, 0, 61);
 }
 
 @media (max-width: 768px) {
