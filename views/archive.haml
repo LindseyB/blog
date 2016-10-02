@@ -1,22 +1,10 @@
 %article.archive
   %h1
     Blog Archive
-  - @posts.each do |post|
-    .panel.panel-default
-      .panel-heading
-        %a{:href => "/posts/#{post.name}", :title => post.title, :alt => post.title, :class => "panel-title"}= post.title
-        .date
-          %time.label.label-info= post.formatted_date
-      .panel-body=post.blurb(200)
-
-  %nav.paging
-    %ul.pagination
-      - unless @page == 0
-        %li
-          %a{:href => "/archive?page=#{@page-1}", :title => "prev", :alt => "prev", :"aria-label" => "Previous"}
-            &laquo; Prev
-
-      - unless @page == @max_page
-        %li
-          %a{:href => "/archive?page=#{@page+1}", :title => "next", :alt => "next", :"aria-label" => "Next"}
-            Next &raquo;
+  .grid
+    - @posts.each do |post|
+      .grid-item
+        %a{:href => "/posts/#{post.name}", :title => post.title, :alt => post.title}
+          .panel.panel-default
+            .panel-heading= post.title.titleize
+            .panel-body=post.blurb(200)

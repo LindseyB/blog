@@ -5,7 +5,7 @@ ruby '1.9.3'
 gem 'sinatra'
 gem 'sinatra-subdomain'
 gem 'sinatra-contrib', :require => 'sinatra/content_for'
-
+gem 'titleize'
 gem 'thin'
 gem 'rake'
 gem 'haml'

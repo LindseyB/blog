@@ -103,26 +103,39 @@ table {
   box-shadow: 0 1px 4px rgba(0,0,0,0.1) !important;
 }
 
-.archive .panel-heading a {
-	font-size: 1.8em;
-}
-
 .archive .panel-heading {
-	overflow: hidden;
+  font-family: 'Quicksand', sans-serif;
+	font-size: 1.5em;
 }
 
-.archive .date {
-	float: right;
-	margin: 0;
+.archive .panel-body {
+  color: #5f5f5f;
+  font-size: 0.8em;
+}
+
+.archive a:hover {
+  text-decoration: none;
+}
+
+a .panel:hover {
+  box-shadow: 0 1px 10px rgba(0,0,0,0.2) !important;
+}
+
+a .panel:hover .panel-heading {
+  background-color: #e6d3dc;
+}
+
+.panel-heading:hover {
+  text-decoration: none !important;
+}
+
+.grid-item {
+  width: 400px;
+  padding: 10px !important;
 }
 
 .paging {
 	text-align: center;
-}
-
-.paging a {
-	font-size: 1.5em;
-	font-weight: bold;
 }
 
 .navbar-link {

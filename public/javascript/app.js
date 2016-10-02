@@ -15,6 +15,11 @@ $(document).ready(function(){
 
 $("h1").fitText(0.8, { minFontSize: '20px', maxFontSize: '70px' });
 
+$(".grid").masonry({
+  itemSelector: '.grid-item',
+  columnWidth: 400
+});
+
 $(window).on("resize", function () {
     width = parseInt($('#calc').css('width'));
     scale = width/552;
