@@ -34,12 +34,8 @@ article p {
 	margin-bottom: 3em;
 }
 
-time, a.label.label-info {
-	background-color: rgb(47, 208, 149) !important;
-	color: #ffffff !important;
-}
-
 time {
+  font-style: italic;
 	font-size: 1em !important;
 }
 
@@ -52,7 +48,7 @@ a.label.label-info {
 }
 
 article a {
-	color: rgb(47, 208, 149) !important;
+  color: rgb(123, 0, 61) !important;
 }
 
 .image {

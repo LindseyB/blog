@@ -2,7 +2,7 @@
   %h1
     #{@title}
   .date
-    %time.label.label-info
+    %time
       #{@formatted_date}
 
   .ads{:class => ("hide" unless request.referrer and (request.referrer.include? "reddit.com" or request.referrer.include? "ycombinator.com"))}
