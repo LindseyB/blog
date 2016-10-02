@@ -134,6 +134,7 @@ a .panel:hover .panel-heading {
 }
 
 .grid-item {
+  max-width: 100%;
   width: 400px;
   padding: 10px !important;
 }
