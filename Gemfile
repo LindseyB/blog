@@ -9,11 +9,13 @@ gem 'titleize'
 gem 'thin'
 gem 'rake'
 gem 'haml'
+gem 'httparty'
 gem 'redcarpet'
 gem 'builder'
 gem 'pry'
 gem 'sanitize'
 gem 'rack-ssl'
+gem 'dotenv'
 
 if RUBY_PLATFORM=~ /win32/
 	gem 'eventmachine', '~> 1.0.0.beta.4.1'

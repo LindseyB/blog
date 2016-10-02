@@ -5,6 +5,8 @@ require 'date'
 require_relative 'post'
 require_relative 'redirects'
 
+Dotenv.load
+
 class Blog < Sinatra::Base
   TITLE = "Lindsey Bieda"
   helpers Sinatra::ContentFor
@@ -17,7 +19,7 @@ class Blog < Sinatra::Base
 
     def description
       return title if @blurb.nil?
-      @blurb 
+      @blurb
     end
 
     def latest_posts
@@ -77,6 +79,26 @@ class Blog < Sinatra::Base
 
   get '/projects' do
     @title = "Projects"
+    # Get projects from itch and then make an array
+    @projects = [
+      {name: "Star Wars Gifs", link: "https://rarlindseysmash.com/posts/stupid-programmer-tricks-and-star-wars-gifs", image: "https://i.imgur.com/8PJevlr.gif"},
+      {name: "XOmBot", link: "https://github.com/LindseyB/XOmBot", image: "https://rarlindseysmash.com/images/projects/xombot.png"},
+      {name: "Pride, Prejudice, Dungeons, and Dragons", link: "https://github.com/LindseyB/pride-prejudice-dungeons-dragons", image: "https://pbs.twimg.com/media/CUzh7m9XAAAPjwH.png"},
+      {name: "Green Jellybean Love Stars", link: "https://www.youtube.com/watch?v=fEEAONl4qos", image: "https://i.imgur.com/aoYrnMu.png"},
+      {name: "Iron Trotter", link: "https://github.com/LindseyB/IronTrotter", image: "https://i.imgur.com/CiGUh56.png"},
+      {name: "Ascii Ascii Revolution", link: "https://github.com/LindseyB/AsciiAsciiRevolution", image: "https://imgur.com/8KY9fln.png"},
+      {name: "LED Hula Hoops", link: "https://rarlindseysmash.com/posts/diy-led-hula-hoop", image: "https://i.imgur.com/26yZsc8.gif"},
+      {name: "Accelerometer Galaxy Scarf", link: "https://github.com/LindseyB/galaxy-scarf", image: "https://i.giphy.com/l2Sq2kyWwZj37locg.gif"}
+    ]
+
+    games = HTTParty.get("https://itch.io/api/1/#{ENV.fetch('ITCH_API_KEY')}/my-games")
+
+    games["games"].each do |game|
+      @projects << {name: game["title"], link: game["url"], image: game["cover_url"]}
+    end
+
+    @projects.shuffle
+
     haml :projects
   end
 
