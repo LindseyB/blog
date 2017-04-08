@@ -88,7 +88,8 @@ class Blog < Sinatra::Base
       {name: "Iron Trotter", link: "https://github.com/LindseyB/IronTrotter", image: "https://i.imgur.com/CiGUh56.png"},
       {name: "Ascii Ascii Revolution", link: "https://github.com/LindseyB/AsciiAsciiRevolution", image: "https://imgur.com/8KY9fln.png"},
       {name: "LED Hula Hoops", link: "https://rarlindseysmash.com/posts/diy-led-hula-hoop", image: "https://i.imgur.com/26yZsc8.gif"},
-      {name: "Accelerometer Galaxy Scarf", link: "https://github.com/LindseyB/galaxy-scarf", image: "https://i.giphy.com/l2Sq2kyWwZj37locg.gif"}
+      {name: "Accelerometer Galaxy Scarf", link: "https://github.com/LindseyB/galaxy-scarf", image: "https://i.giphy.com/l2Sq2kyWwZj37locg.gif"},
+      {name: "MESSANGERbag", link: "https://github.com/LindseyB/messangerbag", image: "http://i.imgur.com/KGvdCl8.gif"}
     ]
 
     games = HTTParty.get("https://itch.io/api/1/#{ENV.fetch('ITCH_API_KEY')}/my-games")
