@@ -20,6 +20,12 @@ $(".grid").masonry({
   columnWidth: 400
 });
 
+$(".record-grid").masonry({
+  itemSelector: '.grid-item',
+  columnwidth: 200,
+  gutter: 10
+});
+
 $(window).on("resize", function () {
     width = parseInt($('#calc').css('width'));
     scale = width/552;
