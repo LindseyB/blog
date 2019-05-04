@@ -12,7 +12,7 @@ GEM
     concurrent-ruby (1.0.5)
     crass (1.0.4)
     daemons (1.2.6)
-    dotenv (2.5.0)
+    dotenv (2.7.2)
     eventmachine (1.2.7)
     eventmachine (1.2.7-x64-mingw32)
     eventmachine (1.2.7-x86-mingw32)
