@@ -42,7 +42,7 @@ GEM
       rack
     rack-ssl (1.4.1)
       rack
-    rake (12.3.1)
+    rake (12.3.2)
     redcarpet (3.4.0)
     sanitize (4.6.5)
       crass (~> 1.0.2)
