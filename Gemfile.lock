@@ -14,6 +14,7 @@ GEM
     daemons (1.2.6)
     dotenv (2.5.0)
     eventmachine (1.2.7)
+    eventmachine (1.2.7-x64-mingw32)
     eventmachine (1.2.7-x86-mingw32)
     haml (5.0.4)
       temple (>= 0.8.0)
@@ -29,6 +30,8 @@ GEM
     multi_xml (0.6.0)
     mustermann (1.0.2)
     nokogiri (1.8.3)
+      mini_portile2 (~> 2.3.0)
+    nokogiri (1.8.3-x64-mingw32)
       mini_portile2 (~> 2.3.0)
     nokogiri (1.8.3-x86-mingw32)
       mini_portile2 (~> 2.3.0)
@@ -76,6 +79,7 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
   x86-mingw32
 
 DEPENDENCIES
@@ -95,7 +99,7 @@ DEPENDENCIES
   titleize
 
 RUBY VERSION
-   ruby 2.5.1p57
+   ruby 2.5.5p157
 
 BUNDLED WITH
    1.16.2
