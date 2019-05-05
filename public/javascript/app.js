@@ -14,16 +14,11 @@ $(document).ready(function(){
 
 
 $("h1").fitText(0.8, { minFontSize: '20px', maxFontSize: '70px' });
+$("#index_header").fitText();
 
 $(".grid").masonry({
   itemSelector: '.grid-item',
   columnWidth: 400
-});
-
-$(".record-grid").masonry({
-  itemSelector: '.grid-item',
-  columnwidth: 200,
-  gutter: 10
 });
 
 $(window).on("resize", function () {
@@ -34,15 +29,4 @@ $(window).on("resize", function () {
     $(".itch-wrapper").css('height', (167*scale)+'px');
 }).resize();
 
-// gauges
-var _gauges = _gauges || [];
-(function() {
-  var t   = document.createElement('script');
-  t.type  = 'text/javascript';
-  t.async = true;
-  t.id    = 'gauges-tracker';
-  t.setAttribute('data-site-id', '511ea2a0108d7b5f2e000057');
-  t.src = '//secure.gaug.es/track.js';
-  var s = document.getElementsByTagName('script')[0];
-  s.parentNode.insertBefore(t, s);
-})();
+

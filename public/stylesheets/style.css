@@ -4,17 +4,20 @@ body {
  	font-size: 1.8em;
  	background-color: #282a36;
  	color: #f8f8f2;
+ 	background-image: url('/images/bg.png')
 }
 
 h1, h2, h3, h4, h5, h6 {
 	margin-top: 0;
  	font-family: 'Vibur', sans-serif;
+ 	text-shadow: 2px 2px 6px rgba(0,0,0,0.68);
 }
 
 .navbar {
  	box-shadow: none !important;
-	background-color: #44475a !important;
+	background-color: #282a36 !important;
 	border: none;
+	padding-top: 0.5em;
 }
 
 .nav-item {
@@ -45,6 +48,7 @@ article {
 article p {
 	font-size: 1.1em;
 	line-height: 1.8em;
+	background-color: #282a36;
 }
 
 p>code {
@@ -70,7 +74,7 @@ a.label.label-info {
 }
 
 article a {
-  color: #bd93f9 !important;
+/tcolor: #bd93f9 !important;
 }
 
 .image {
@@ -122,72 +126,64 @@ table {
 }
 
 .panel {
-  box-shadow: 0 1px 4px rgba(0,0,0,0.1) !important;
+ 	box-shadow: 0 1px 4px rgba(0,0,0,0.5) !important;
+ 	border-color: transparent !important;
+ 	background-color: #44475a;
 }
 
 .panel-heading {
-  font-family: 'Vibur', sans-serif;
-  font-size: 1.5em;
+	font-family: 'Vibur', sans-serif;
+	font-size: 1.5em;
+	background-color: #6272a4 !important;
+	border-color: transparent !important;
 }
 
 .panel-body {
-  color: #5f5f5f;
-  font-size: 0.8em;
+	background-color: #44475a;
+	color: #f8f8f2;
+	font-size: 0.8em;
 }
 
 .archive a:hover, .projects a:hover {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 a .panel:hover {
-  box-shadow: 0 1px 10px rgba(0,0,0,0.2) !important;
+	box-shadow: 0 1px 10px rgba(0,0,0,0.2) !important;
 }
 
 a .panel:hover .panel-heading {
-  background-color: #e6d3dc;
+	background-color: #e6d3dc;
 }
 
 .panel-heading:hover {
-  text-decoration: none !important;
+	text-decoration: none !important;
 }
 
 .projects .panel-body {
-  min-height: 250px;
+	min-height: 250px;
 }
 
 .grid-item {
-  max-width: 100%;
-  width: 400px;
-  padding: 10px !important;
-}
-
-.record-grid .grid-item, .record-grid .panel, .record-grid .record {
-  height: 200px !important;
-  width: 200px !important;
-  margin-bottom: 10px;
-}
-
-.record {
-  margin-bottom: 10px;
-  font-family: 'Vibur', sans-serif;
-  text-shadow: rgb(0, 0, 0) 3px 0px 0px, rgb(0, 0, 0) 2.83487px 0.981584px 0px, rgb(0, 0, 0) 2.35766px 1.85511px 0px, rgb(0, 0, 0) 1.62091px 2.52441px 0px, rgb(0, 0, 0) 0.705713px 2.91581px 0px, rgb(0, 0, 0) -0.287171px 2.98622px 0px, rgb(0, 0, 0) -1.24844px 2.72789px 0px, rgb(0, 0, 0) -2.07227px 2.16926px 0px, rgb(0, 0, 0) -2.66798px 1.37182px 0px, rgb(0, 0, 0) -2.96998px 0.42336px 0px, rgb(0, 0, 0) -2.94502px -0.571704px 0px, rgb(0, 0, 0) -2.59586px -1.50383px 0px, rgb(0, 0, 0) -1.96093px -2.27041px 0px, rgb(0, 0, 0) -1.11013px -2.78704px 0px, rgb(0, 0, 0) -0.137119px -2.99686px 0px, rgb(0, 0, 0) 0.850987px -2.87677px 0px, rgb(0, 0, 0) 1.74541px -2.43999px 0px, rgb(0, 0, 0) 2.44769px -1.73459px 0px, rgb(0, 0, 0) 2.88051px -0.838247px 0px;
-  color: white;
+	max-width: 100%;
+	width: 400px;
+	padding: 10px !important;
 }
 
 .paging {
-  text-align: center;
+	text-align: center;
 }
 
 .navbar-link {
-  padding: 0 8px;
+	padding: 0 8px;
 }
 
 .navbar-link:hover {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .projects .panel-title {
-  font-size: 1.8em;
+/tfont-size: 1.8em;
 }
 
 .itch-frame {
@@ -234,4 +230,9 @@ pre {
 blockquote {
 	font-family: 'Vibur', sans-serif;
 	font-size: 1.5em;
+}
+
+.crystal {
+	background-color: #282a36db;
+	border-radius: 100em;
 }
