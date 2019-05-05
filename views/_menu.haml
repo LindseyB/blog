@@ -9,21 +9,13 @@
     #navbar-collapse.collapse.navbar-collapse
       %ul.nav.navbar-nav
         %li
-          %a{:href => "/archive"} Blog
+          %a{:href => "/", :class => "nav-item"} Home
         %li
-          %a{:href => "/projects"} Projects
+          %a{:href => "/archive", :class => "nav-item"} Writing
         %li
-          %a{:href => "/about"} About
-      %p.navbar-text.navbar-right
-        %form.navbar-form.navbar-left{:role => "search", :method => :get, :action => "https://www.google.com/cse"}
-          .form-group
-            %input.form-control{:placeholder => "Search", :type => "text", :name => "q"}
-            %input{:type => "hidden", :name => "cx", :value => "005943888444229921013:6iqf7briwj4"}
-          .form-group
-            %button.btn.btn-primary.btn-sm#search{:type => "submit"}
-              %i.fa.fa-search.fa-lg
-              %span#search-text search
-
+          %a{:href => "/projects", :class => "nav-item"} Projects
+        %li
+          %a{:href => "/about", :class => "nav-item"} About
       %p.navbar-text.navbar-right
         %a{:href => "http://github.com/LindseyB", :class => "navbar-link"}
           %i.fa.fa-github-alt.fa-lg

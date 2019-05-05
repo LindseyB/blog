@@ -49,8 +49,8 @@ class Blog < Sinatra::Base
     redirect '/'
   end
 
-  get '/' do
-    redirect '/posts/' + latest_posts.first.name
+  get '/' do  
+    haml :index
   end
 
   get '/posts/:id' do
@@ -107,19 +107,6 @@ class Blog < Sinatra::Base
 
   get '/about' do
     @title = "About"
-
-    @records = []
-
-    # Have less than 100 albums right now so this just skips pagination, probably should add once I have more
-    releases = HTTParty.get("https://api.discogs.com/users/ekko_/collection/folders/0/releases?per_page=100&token=#{ENV.fetch('DISCOGS_API_KEY')}") 
-    
-    releases["releases"].each do |release|
-      @records << {
-	            title: release["basic_information"]["title"], 
-		    artist: release["basic_information"]["artists"].first["name"], 
-		    image: release["basic_information"]["cover_image"]
-      		  }
-    end
 
     haml :about
   end
