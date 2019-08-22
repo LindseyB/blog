@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    backports (3.14.0)
+    backports (3.15.0)
     builder (3.2.3)
     coderay (1.1.2)
     crass (1.0.4)
@@ -36,7 +36,7 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
     rack (2.0.7)
-    rack-protection (2.0.5)
+    rack-protection (2.0.7)
       rack
     rack-ssl (1.4.1)
       rack
@@ -46,18 +46,18 @@ GEM
       crass (~> 1.0.2)
       nokogiri (>= 1.8.0)
       nokogumbo (~> 2.0)
-    sinatra (2.0.5)
+    sinatra (2.0.7)
       mustermann (~> 1.0)
       rack (~> 2.0)
-      rack-protection (= 2.0.5)
+      rack-protection (= 2.0.7)
       tilt (~> 2.0)
-    sinatra-contrib (2.0.5)
+    sinatra-contrib (2.0.7)
       backports (>= 2.8.2)
       multi_json
       mustermann (~> 1.0)
-      rack-protection (= 2.0.5)
-      sinatra (= 2.0.5)
-      tilt (>= 1.3, < 3)
+      rack-protection (= 2.0.7)
+      sinatra (= 2.0.7)
+      tilt (~> 2.0)
     sinatra-subdomain (0.3.0)
       sinatra
     temple (0.8.1)
