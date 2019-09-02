@@ -1,15 +1,25 @@
 body {
 	word-wrap: break-word;
-	font-family: 'Vibur', sans-serif;
+	font-family: 'Nunito', sans-serif;
  	font-size: 1.8em;
  	background-color: #282a36;
  	color: #f8f8f2;
  	background-image: url('/images/bg.png')
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
+	font-family: 'Vibur', sans-serif;
 	margin-top: 0;
- 	font-family: 'Vibur', sans-serif;
+	text-shadow: 2px 2px 6px rgba(0,0,0,0.68);
+}
+
+h1.article {
+	font-family: 'Nunito', sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+	margin-top: 0;
+ 	font-family: 'Nunito', sans-serif;
  	text-shadow: 2px 2px 6px rgba(0,0,0,0.68);
 }
 
@@ -74,7 +84,7 @@ a.label.label-info {
 }
 
 article a {
-/tcolor: #bd93f9 !important;
+	color: #bd93f9 !important;
 }
 
 .image {
@@ -132,7 +142,7 @@ table {
 }
 
 .panel-heading {
-	font-family: 'Vibur', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-size: 1.5em;
 	background-color: #6272a4 !important;
 	border-color: transparent !important;
@@ -228,11 +238,25 @@ pre {
 }
 
 blockquote {
-	font-family: 'Vibur', sans-serif;
+	font-family: 'Nunito', sans-serif;
+	font-style: italic;
+	background: rgba(0, 0, 0, 0.3);
 	font-size: 1.5em;
 }
 
-.crystal {
-	background-color: #282a36db;
-	border-radius: 100em;
+blockquote p {
+	background: transparent;
+}
+
+.archive ul {
+	list-style-type: none;
+}
+
+.archive li {
+	margin: 1em 0;
+	font-size: 1.3em;
+}
+
+.archive .date {
+	font-size: 0.6em;
 }

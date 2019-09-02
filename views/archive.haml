@@ -1,10 +1,11 @@
 %article.archive
   %h1
     Writing
-  .grid
+  %ul
     - @posts.each do |post|
-      .grid-item
+      %li
         %a{:href => "/posts/#{post.name}", :title => post.title, :alt => post.title}
-          .panel.panel-default
-            .panel-heading= post.title.titleize
-            .panel-body=post.blurb(200)
+          = post.title.titleize
+        %span.date
+          = post.formatted_date
+

@@ -46,11 +46,11 @@ class Blog < Sinatra::Base
       redirect REDIRECTS[params[:n]]
     end
 
-    redirect '/'
+    redirect '/projects'
   end
 
   get '/' do  
-    haml :index
+    redirect '/projects'
   end
 
   get '/posts/:id' do
