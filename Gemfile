@@ -16,6 +16,7 @@ gem 'pry'
 gem 'sanitize'
 gem 'rack-ssl'
 gem 'dotenv'
+gem 'rake'
 
 if RUBY_PLATFORM=~ /win32/
 	gem 'eventmachine', '~> 1.0.0.beta.4.1'
