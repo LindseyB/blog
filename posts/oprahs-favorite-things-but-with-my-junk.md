@@ -6,35 +6,20 @@ date: 2020-01-01
 ## Clothing
 
 * [KILLSTAR](https://killstar.com)
-
 * [SOVIN](https://www.sovrinapparel.com/)
-
 * [FOXBLOOD](https://foxblood.com/)
-
 * [Restyle](https://restyle.pl/)
-
 * [Rogue + Wolf](https://rogueandwolf.com/)
-
 * [Cavity Colors](https://cavitycolors.com/)
-
 * [Sourpuss Clothing](https://www.sourpussclothing.com/)
-
 * [CRYPTOSTYLIS](https://www.etsy.com/shop/cryptostylis)
 
-  
-
 ## Jewelry
-
 * [Blood Milk Jewels](https://www.bloodmilkjewels.com/)
-
 * [The Witches Mark](https://thewitchesmark.com/)
-
 * [Acid Queen Jewelry](https://acidqueenjewelry.com/)
-
 * [ModEvil](https://www.etsy.com/shop/ModEvil)
-
 * [ASK & EMBLA](https://askandembla.net/)
-
 * [FoxTrot](http://www.foxtrotatx.com/)
 
   
@@ -52,12 +37,3 @@ date: 2020-01-01
 * [Alfred](https://alfred.la/collections/products/products/loose-leaf-teas?variant=139992662034)
 * [LUCID TEA](https://lovelucidtea.com/)
 * [Harney & Sons](https://www.harney.com/)
-
-
-
-
-
-
-
-
-
