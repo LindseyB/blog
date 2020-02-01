@@ -22,6 +22,7 @@ date: 2020-01-31
 * [ModEvil](https://www.etsy.com/shop/ModEvil)
 * [ASK & EMBLA](https://askandembla.net/)
 * [FoxTrot](http://www.foxtrotatx.com/)
+* [Goldengrove](http://www.goldengrovejewelry.com/)
 
 ## Home Goods
 
