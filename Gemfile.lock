@@ -5,12 +5,8 @@ GEM
     builder (3.2.4)
     coderay (1.1.2)
     crass (1.0.4)
-    daemons (1.3.1)
     diff-lcs (1.3)
     dotenv (2.7.5)
-    eventmachine (1.2.7)
-    eventmachine (1.2.7-x64-mingw32)
-    eventmachine (1.2.7-x86-mingw32)
     haml (5.1.2)
       temple (>= 0.8.0)
       tilt
@@ -26,6 +22,7 @@ GEM
     multi_xml (0.6.0)
     mustermann (1.1.0)
       ruby2_keywords (~> 0.0.1)
+    nio4r (2.5.2)
     nokogiri (1.10.5)
       mini_portile2 (~> 2.4.0)
     nokogiri (1.10.5-x64-mingw32)
@@ -37,6 +34,8 @@ GEM
     pry (0.12.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
+    puma (4.3.1)
+      nio4r (~> 2.0)
     rack (2.0.8)
     rack-protection (2.0.8.1)
       rack
@@ -79,10 +78,6 @@ GEM
     sinatra-subdomain (0.3.0)
       sinatra
     temple (0.8.1)
-    thin (1.7.2)
-      daemons (~> 1.0, >= 1.0.9)
-      eventmachine (~> 1.0, >= 1.0.4)
-      rack (>= 1, < 3)
     tilt (2.0.10)
     titleize (1.4.1)
 
@@ -97,6 +92,7 @@ DEPENDENCIES
   haml
   httparty
   pry
+  puma
   rack-ssl
   rack-test
   rake
@@ -106,7 +102,6 @@ DEPENDENCIES
   sinatra
   sinatra-contrib
   sinatra-subdomain
-  thin
   titleize
 
 RUBY VERSION

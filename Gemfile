@@ -6,7 +6,6 @@ gem 'sinatra'
 gem 'sinatra-subdomain'
 gem 'sinatra-contrib', :require => 'sinatra/content_for'
 gem 'titleize'
-gem 'thin'
 gem 'rake'
 gem 'haml'
 gem 'httparty'
@@ -16,6 +15,7 @@ gem 'pry'
 gem 'sanitize'
 gem 'rack-ssl'
 gem 'dotenv'
+gem 'puma'
 
 if RUBY_PLATFORM=~ /win32/
 	gem 'eventmachine', '~> 1.0.0.beta.4.1'
@@ -23,5 +23,5 @@ end
 
 group :test do
 	gem 'rack-test'
-	gem 'rspec'	
+	gem 'rspec'
 end
