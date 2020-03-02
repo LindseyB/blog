@@ -37,3 +37,5 @@ date: 2020-01-31
 * [Alfred](https://alfred.la/collections/products/products/loose-leaf-teas?variant=139992662034)
 * [LUCID TEA](https://lovelucidtea.com/)
 * [Harney & Sons](https://www.harney.com/)
+* [Ivy's Tea Co.](https://www.ivystea.com/)
+* [T project](https://www.tprojectshop.com/)
