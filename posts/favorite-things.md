@@ -31,6 +31,7 @@ date: 2020-01-31
 * [Miss Havisham's Curiosities](https://www.misshavishamscuriosities.com)
 * [Spitfire Girl](https://www.spitfiregirl.com/)
 * [Sage Craft Botanicals](https://www.sagecraftbotanicals.com/)
+* [Witch Baby Soap](https://www.witchbabysoap.com/)
 
 ## Tea
 
