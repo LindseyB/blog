@@ -4,6 +4,28 @@ date: 2020-02-08
 ---
 
 <div class="grid">
+	
+	<a href="http://www.aeclectic.net/tarot/cards/tarot-art-nouveau-mini/">
+		<div class="grid-item">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					Tarot Art Nouveau Mini
+				</div>
+				<div class="panel-body" style="background: url('https://i.imgur.com/zFxNdwp.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
+			</div>
+		</div>
+	</a>	
+	
+	<a href="http://www.trungles.com/star-spinner-tarot">
+		<div class="grid-item">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					Star Spinner Tarot
+				</div>
+				<div class="panel-body" style="background: url('https://i.imgur.com/z2VTSiZ.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
+			</div>
+		</div>
+	</a>
 
 	<a href="https://www.llewellyn.com/product.php?ean=9780738735023">
 		<div class="grid-item">
