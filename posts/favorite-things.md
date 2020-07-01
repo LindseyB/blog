@@ -23,6 +23,7 @@ date: 2020-01-31
 * [ASK & EMBLA](https://askandembla.net/)
 * [FoxTrot](http://www.foxtrotatx.com/)
 * [Goldengrove](http://www.goldengrovejewelry.com/)
+* [Ariana Victoria Rose](https://arianavictoriarose.com/)
 
 ## Home Goods
 
@@ -32,6 +33,7 @@ date: 2020-01-31
 * [Spitfire Girl](https://www.spitfiregirl.com/)
 * [Sage Craft Botanicals](https://www.sagecraftbotanicals.com/)
 * [Witch Baby Soap](https://www.witchbabysoap.com/)
+* [Pottery Witch](https://www.potterywitch.ca/)
 
 ## Tea
 
