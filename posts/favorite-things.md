@@ -34,6 +34,7 @@ date: 2020-01-31
 * [Sage Craft Botanicals](https://www.sagecraftbotanicals.com/)
 * [Witch Baby Soap](https://www.witchbabysoap.com/)
 * [Pottery Witch](https://www.potterywitch.ca/)
+* [Burke & Hare Co](https://burkehareco.com/)
 
 ## Tea
 
