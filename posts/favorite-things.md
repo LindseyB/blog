@@ -44,6 +44,8 @@ date: 2020-01-31
 * [Harney & Sons](https://www.harney.com/)
 * [Ivy's Tea Co.](https://www.ivystea.com/)
 * [T project](https://www.tprojectshop.com/)
+* [Floating Leaves Tea](https://floatingleaves.com/)
+* [Mansa](https://mansatea.com/)
 
 ## Mechanical Keyboards
 * [Kono](https://kono.store/)
