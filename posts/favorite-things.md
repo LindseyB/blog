@@ -44,3 +44,13 @@ date: 2020-01-31
 * [Harney & Sons](https://www.harney.com/)
 * [Ivy's Tea Co.](https://www.ivystea.com/)
 * [T project](https://www.tprojectshop.com/)
+
+## Mechanical Keyboards
+* [Kono](https://kono.store/)
+* [The Key Dot Co](https://thekey.company/)
+* [Dixie Mech](https://dixiemech.com/)
+* [Drop](https://drop.com/mechanical-keyboards/drops)
+* [PMK](https://pimpmykeyboard.com/)
+* [Sludgekidd](https://www.instagram.com/sludgekidd/)
+* [Just Another Keymaker](https://www.keymaker.space/)
+* [NZ Caps](https://www.nzcaps.com/)
