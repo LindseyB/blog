@@ -14,6 +14,7 @@ date: 2020-01-31
 * [Sourpuss Clothing](https://www.sourpussclothing.com/)
 * [CRYPTOSTYLIS](https://www.etsy.com/shop/cryptostylis)
 * [SegraSoul](https://www.etsy.com/shop/SegraSoul)
+* [Gothic Lamb](https://gothiclamb.com/)
 
 ## Jewelry
 
