@@ -58,3 +58,4 @@ date: 2020-01-31
 * [Just Another Keymaker](https://www.keymaker.space/)
 * [NZ Caps](https://www.nzcaps.com/)
 * [KBDfans](https://kbdfans.com/)
+* [NovelKeys](https://novelkeys.xyz/)
