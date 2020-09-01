@@ -12,10 +12,6 @@ $(document).ready(function(){
     }
 });
 
-
-$("h1").fitText(0.8, { minFontSize: '20px', maxFontSize: '110px' });
-$("#index_header").fitText();
-
 $(".grid").masonry({
   itemSelector: '.grid-item',
   columnWidth: 400

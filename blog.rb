@@ -39,6 +39,21 @@ class Blog < Sinatra::Base
     def url_base
       "#{request.secure? ? "https" : "http"}://#{request.host_with_port}"
     end
+
+    def get_projects
+      projects = PROJECTS
+
+      # Get projects from itch and then make an array
+      games = HTTParty.get("https://itch.io/api/1/#{ENV.fetch('ITCH_API_KEY')}/my-games")
+  
+      games["games"].each do |game|
+        unless projects.any? {|h| h[:name] == game["title"]}
+          projects << {name: game["title"], link: game["url"], image: game["cover_url"]}
+        end
+      end
+  
+      @projects = projects.shuffle    
+    end
   end
 
   get '/index.php' do
@@ -80,16 +95,8 @@ class Blog < Sinatra::Base
 
   get '/projects' do
     @title = "Projects"
-    @projects = PROJECTS
 
-    # Get projects from itch and then make an array
-    games = HTTParty.get("https://itch.io/api/1/#{ENV.fetch('ITCH_API_KEY')}/my-games")
-
-    games["games"].each do |game|
-      @projects << {name: game["title"], link: game["url"], image: game["cover_url"]}
-    end
-
-    @projects.shuffle
+    @projects = get_projects
 
     haml :projects
   end
