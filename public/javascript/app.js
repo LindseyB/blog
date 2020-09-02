@@ -1,7 +1,7 @@
 var grid = document.querySelector('.grid');
 var msnry = new Masonry( grid, {
   itemSelector: '.grid-item',
-  columnWidth: 400
+  columnWidth: 150
 });
 
 hljs.initHighlightingOnLoad();
