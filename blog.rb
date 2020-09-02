@@ -1,10 +1,10 @@
-require 'bundler'
+require "bundler"
 Bundler.require
 
-require 'date'
-require_relative 'post'
-require_relative 'redirects'
-require_relative 'projects'
+require "date"
+require_relative "post"
+require_relative "redirects"
+require_relative "projects"
 
 Dotenv.load
 
@@ -24,16 +24,16 @@ class Blog < Sinatra::Base
     end
 
     def latest_posts
-      posts = Dir.glob("posts/*.md").map do |post|
-        post = post[/posts\/(.*?).md$/,1]
+      posts = Dir.glob("posts/*.md").map { |post|
+        post = post[/posts\/(.*?).md$/, 1]
         Post.new(post)
-      end
-      posts.reject! {|post| post.date > Date.today }
+      }
+      posts.reject! { |post| post.date > Date.today }
       posts.sort_by(&:date).reverse
     end
 
-    def partial(page, options={})
-      haml "_#{page}".to_sym, options.merge!(:layout => false)
+    def partial(page, options = {})
+      haml "_#{page}".to_sym, options.merge!(layout: false)
     end
 
     def url_base
@@ -44,34 +44,36 @@ class Blog < Sinatra::Base
       projects = PROJECTS
 
       # Get projects from itch and then make an array
-      games = HTTParty.get("https://itch.io/api/1/#{ENV.fetch('ITCH_API_KEY')}/my-games")
-  
+      games = HTTParty.get("https://itch.io/api/1/#{ENV.fetch("ITCH_API_KEY")}/my-games")
+
       games["games"].each do |game|
-        unless projects.any? {|h| h[:name] == game["title"]}
+        unless projects.any? { |h| h[:name] == game["title"] }
           projects << {name: game["title"], link: game["url"], image: game["cover_url"]}
         end
       end
-  
-      @projects = projects.shuffle    
+
+      @projects = projects.shuffle
     end
   end
 
-  get '/index.php' do
+  get "/index.php" do
     # lol old php shit
     if params[:n]
       redirect REDIRECTS[params[:n]]
     end
 
-    redirect '/projects'
+    redirect "/projects"
   end
 
-  get '/' do  
-    redirect '/projects'
+  get "/" do
+    redirect "/projects"
   end
 
-  get '/posts/:id' do
+  get "/posts/:id" do
     source = Post.new(params[:id])
-    unless source.title.nil?
+    if source.title.nil?
+      halt 404
+    else
       @content = source.content
       @title = source.title
       @date = source.date
@@ -80,12 +82,10 @@ class Blog < Sinatra::Base
       @image = source.image
 
       haml :post
-    else
-      halt 404
     end
   end
 
-  get '/archive' do
+  get "/archive" do
     @title = "Blog Archive"
 
     @posts = latest_posts
@@ -93,7 +93,7 @@ class Blog < Sinatra::Base
     haml :archive
   end
 
-  get '/projects' do
+  get "/projects" do
     @title = "Projects"
 
     @projects = get_projects
@@ -101,16 +101,16 @@ class Blog < Sinatra::Base
     haml :projects
   end
 
-  get '/about' do
+  get "/about" do
     @title = "About"
 
     haml :about
   end
 
-  get '/rss.xml' do
+  get "/rss.xml" do
     @posts = latest_posts.first(10)
 
-    content_type 'application/atom+xml'
+    content_type "application/atom+xml"
     builder :feed
   end
 
