@@ -41,7 +41,7 @@ class Post
       meta_data = match[1]
       @content_raw = match[2]
 
-      meta_data = YAML.load(meta_data)
+      meta_data = YAML.safe_load(meta_data)
 
       @title = meta_data["title"]
       @date = meta_data["date"]
@@ -67,13 +67,13 @@ class Post
 
   def blurb(length = 20)
     if content.length > length
-      blurb = Sanitize.fragment(content)[0...(length - 3)] + "..."
+      Sanitize.fragment(content)[0...(length - 3)] + "..."
     end
   end
 
   def image
     doc = Nokogiri::HTML(content)
-    if img = doc.xpath("//img").first
+    if (img = doc.xpath("//img").first)
       src = img.attr("src")
       return nil if src == "/images/youtube_placeholder.png"
       URI(src).host ? src : "http://rarlindseysmash.com#{src}"
