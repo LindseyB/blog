@@ -4,7 +4,6 @@ body {
  	font-size: 1em;
  	background-color: #282a36;
  	color: #f8f8f2;
- 	background-image: url('/images/bg.png')
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -43,7 +42,7 @@ body, html {
 
 article {
 	width: 90%;
-	max-width: 70em;
+	max-width: 135em;
 	margin: 5em auto;
 	font-family: 'Fira Mono', sans-serif;
 }
