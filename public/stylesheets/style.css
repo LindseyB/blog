@@ -2,7 +2,8 @@ body {
 	word-wrap: break-word;
 	font-family: 'Fira Mono', sans-serif;
  	font-size: 1em;
- 	color: #282a36;
+	color: #282a36;
+	background-color: #efefef;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -11,7 +12,6 @@ h1, h2, h3, h4, h5, h6 {
 
 h1:first-of-type {
 	font-size: 2em;
-	margin-top: 2em;
 }
 
 .navbar {
@@ -28,7 +28,7 @@ a {
 }
 
 a:hover {
-	color: #8be9fd;
+	color: #260058;
 }
 
 body, html {
@@ -39,7 +39,7 @@ body, html {
 article {
 	width: 70%;
 	max-width: 135em;
-	margin: 5em auto;
+	margin: 1em auto;
 	font-family: 'Fira Mono', sans-serif;
 }
 
@@ -73,10 +73,6 @@ b {
 
 a.label.label-info {
 	font-size: 0.7em ;
-}
-
-article a {
-	color: #bd93f9 ;
 }
 
 .image {
@@ -121,30 +117,26 @@ table {
 	background: white;
 }
 
-.panel {
- 	border-color: transparent ;
- 	background-color: #44475a;
-}
-
 .panel-heading {
 	font-family: 'Fira Mono', sans-serif;
 	font-size: 1.5em;
-	background-color: #6272a4 ;
-	border-color: transparent ;
-}
-
-.panel-body {
-	background-color: #44475a;
-	color: #f8f8f2;
-	font-size: 0.8em;
-}
-
-.archive a:hover, .projects a:hover {
+	background-color: #6272a4;
+	padding: 10px;
 	text-decoration: none;
 }
 
-a .panel:hover .panel-heading {
-	background-color: #e6d3dc;
+a .panel {
+	color: #f8f8f8;
+	text-decoration: none;
+}
+
+.panel {
+	background-color: black;
+}
+
+.panel-body {
+	color: #f8f8f2;
+	font-size: 0.8em;
 }
 
 .panel-heading:hover {
@@ -152,13 +144,16 @@ a .panel:hover .panel-heading {
 }
 
 .projects .panel-body {
-	min-height: 250px;
+	min-height: 300px;
+}
+
+.grid {
+	margin: 0 auto;
 }
 
 .grid-item {
-	max-width: 100%;
 	width: 400px;
-	padding: 10px ;
+	margin-bottom: 5px;
 }
 
 .paging {
@@ -213,7 +208,7 @@ a .panel:hover .panel-heading {
 }
 
 pre {
-	width: 70%;
+	width: 90%;
 	margin: auto;
 }
 
@@ -243,4 +238,17 @@ blockquote p {
 
 .archive .date {
 	font-size: 0.6em;
+}
+
+.social-media {
+	list-style-type: none;
+	font-size: 18px;
+}
+
+.social-media li {
+	margin-bottom: 10px;
+}
+
+.social-media li i {
+	margin-right: 10px;
 }

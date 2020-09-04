@@ -41,7 +41,7 @@ class Post
       meta_data = match[1]
       @content_raw = match[2]
 
-      meta_data = YAML.safe_load(meta_data)
+      meta_data = YAML.load(meta_data)
 
       @title = meta_data["title"]
       @date = meta_data["date"]
