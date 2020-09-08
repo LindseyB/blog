@@ -14,8 +14,8 @@ describe "Blog" do
   end
 
   before do
-    stub_request(:get, "https://itch.io/api/1//my-games").
-    to_return(status: 200, body: games_response.to_json, headers: {"Content-Type" => "application/json; charset=UTF-8"})
+    stub_request(:get, "https://itch.io/api/1//my-games")
+      .to_return(status: 200, body: games_response.to_json, headers: {"Content-Type" => "application/json; charset=UTF-8"})
   end
 
   it "should redirect from home page" do
