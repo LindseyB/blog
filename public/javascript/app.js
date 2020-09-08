@@ -8,3 +8,9 @@ var msnry = new Masonry( grid, {
 });
 
 hljs.initHighlightingOnLoad();
+
+function addDarkmodeWidget() {
+  new Darkmode().showWidget();
+}
+
+window.addEventListener('load', addDarkmodeWidget);
