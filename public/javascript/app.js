@@ -3,7 +3,7 @@ var msnry = new Masonry( grid, {
   itemSelector: '.grid-item',
   columnWidth: 50,
   fitWidth: true,
-  gutter: 1,
+  gutter: 3,
   stagger: 30,
 });
 

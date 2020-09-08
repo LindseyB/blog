@@ -17,16 +17,18 @@
 
     /[if lt IE 9]
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    %link{:href=>"https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap", :rel=>"stylesheet", :type=>"text/css"}    
+    %link{:href=>"https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap", :rel=>"stylesheet", :type=>"text/css"}
+    %link{:href=>"https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&display=swap", :rel=>"stylesheet", :type=>"text/css"}
     %link{:href => "//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.2/build/styles/dracula.min.css", :rel => "stylesheet"}
     %link{:href=>"/stylesheets/style.css", :rel=>"stylesheet", :type=>"text/css"}
     %link{:href=>"/rss.xml", :rel=>"alternate", :type=>"application/atom+xml", :title=>title}
 
     %title #{title}
   %body
-    = partial :menu
+    .main
+      = partial :menu
 
-    = yield
+      = yield
 
     %script{:src=>"//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.2/build/highlight.min.js"}
     %script{:src=>"https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"}
