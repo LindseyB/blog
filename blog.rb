@@ -47,9 +47,11 @@ class Blog < Sinatra::Base
       api_key = ENV.fetch("ITCH_API_KEY", "x")
       games = HTTParty.get("https://itch.io/api/1/#{api_key}/my-games")
 
-      games["games"].each do |game|
-        unless projects.any? { |h| h[:name] == game["title"] }
-          projects << {name: game["title"], link: game["url"], image: game["cover_url"]}
+      if games
+        games["games"].each do |game|
+          unless projects.any? { |h| h[:name] == game["title"] }
+            projects << {name: game["title"], link: game["url"], image: game["cover_url"]}
+          end
         end
       end
 
