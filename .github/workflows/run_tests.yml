@@ -6,13 +6,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
-    - name:  actions/setup-ruby@v1
+    - name: checkout code
+      uses: actions/checkout@v1
+    - name: setup ruby
+      uses: actions/setup-ruby@v1
       with:
         ruby-version: '2.5.5'
-    - name: Install dependencies
+    - name: install deps
       run: |
         gem install bundler
         bundle install
-    - name: Run Tests
+    - name: run tests
       run: bundle exec rspec
