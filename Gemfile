@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "2.5.5"
+ruby "2.7.1"
 
 gem "sinatra"
 gem "sinatra-subdomain"
@@ -25,4 +25,5 @@ end
 group :test do
   gem "rack-test"
   gem "rspec"
+  gem "webmock"
 end
