@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "2.5.5"
+ruby "2.5.8"
 
 gem "sinatra"
 gem "sinatra-subdomain"
