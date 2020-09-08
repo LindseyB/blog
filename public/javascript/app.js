@@ -1,32 +1,16 @@
-$(document).ready(function(){
-    // add prettyprint class to all <pre><code></code></pre> blocks
-    var prettify = false;
-    $("pre code").parent().each(function() {
-      $(this).addClass('prettyprint');
-      prettify = true;
-    });
-
-    // if code blocks were found, bring in the prettifier ...
-    if ( prettify ) {
-      $.getScript("/javascript/prettify.js", function() { prettyPrint() });
-    }
-});
-
-
-$("h1").fitText(0.8, { minFontSize: '20px', maxFontSize: '110px' });
-$("#index_header").fitText();
-
-$(".grid").masonry({
+var grid = document.querySelector('.grid');
+var msnry = new Masonry( grid, {
   itemSelector: '.grid-item',
-  columnWidth: 400
+  columnWidth: 50,
+  fitWidth: true,
+  gutter: 3,
+  stagger: 30,
 });
 
-$(window).on("resize", function () {
-    width = parseInt($('#calc').css('width'));
-    scale = width/552;
-    $(".itch-wrapper iframe").css('transform-origin', '0 0')
-                             .css('transform', 'scale('+scale+')');
-    $(".itch-wrapper").css('height', (167*scale)+'px');
-}).resize();
+hljs.initHighlightingOnLoad();
 
+function addDarkmodeWidget() {
+  new Darkmode().showWidget();
+}
 
+window.addEventListener('load', addDarkmodeWidget);

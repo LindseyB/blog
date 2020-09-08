@@ -5,5 +5,6 @@
       .grid-item
         %a{:href => project[:link], :title => project[:name], :alt => project[:name]}
           .panel.panel-default
-            .panel-heading= project[:name]
+            .panel-heading
+              = project[:name]
             .panel-body{ :style => "background: url('#{project[:image]}') no-repeat; background-size: cover;"}

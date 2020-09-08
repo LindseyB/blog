@@ -1,29 +1,7 @@
-%nav.navbar.navbar-default.navbar-fixed-top
-  .container-fluid
-    .navbar-header
-      %button.navbar-toggle.collapsed{"data-target" => "#navbar-collapse", "data-toggle" => "collapse", :type => "button"}
-        %span.sr-only Toggle navigation
-        %span.icon-bar
-        %span.icon-bar
-        %span.icon-bar
-    #navbar-collapse.collapse.navbar-collapse
-      %ul.nav.navbar-nav
-        %li
-          %a{:href => "/projects", :class => "nav-item"} Projects
-        %li
-          %a{:href => "/archive", :class => "nav-item"} Writing
-        %li
-          %a{:href => "/about", :class => "nav-item"} About
-        %li
-          %a{:href => "https://lindseyb.github.io/resume/", :class => "nav-item"} Resume
-      %p.navbar-text.navbar-right
-        %a{:href => "http://github.com/LindseyB", :class => "navbar-link"}
-          %i.fa.fa-github-alt.fa-lg
-        %a{:href => "http://twitter.com/lindseybieda", :class => "navbar-link"}
-          %i.fa.fa-twitter.fa-lg
-        %a{:href => "http://lindseybieda.itch.io", :class => "navbar-link"}
-          %i.fa.fa-gamepad.fa-lg
-        %a{:href => "https://instagram.com/lindseybieda/", :class => "navbar-link"}
-          %i.fa.fa-instagram.fa-lg
-        %a{:href => "/rss.xml", :class => "navbar-link"}
-          %i.fa.fa-rss.fa-lg
+%nav.navbar{:role => "navigation", :"aria-label" => "main navigation"}
+  %a{:href => "/projects", :class => "navbar-item"} Projects
+  %a{:href => "/archive", :class => "navbar-item"} Writing
+  %a{:href => "/about", :class => "navbar-item"} About
+  %a{:href => "https://lindseyb.github.io/resume/", :class => "navbar-item", :target => "_blank"} Resume
+  %a{:href => "/rss.xml", :class => "navbar-item"}
+    %i.fa.fa-rss.fa-lg
