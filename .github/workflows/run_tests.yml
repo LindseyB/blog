@@ -9,7 +9,7 @@ jobs:
     - uses: actions/checkout@v1
     - name:  actions/setup-ruby@v1
       with:
-        ruby-version: 2.5.5
+        ruby-version: '2.5.5'
     - name: Install dependencies
       run: |
         gem install bundler
