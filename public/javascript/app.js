@@ -10,7 +10,7 @@ var msnry = new Masonry( grid, {
 hljs.initHighlightingOnLoad();
 
 function addDarkmodeWidget() {
-  new Darkmode().showWidget();
+  new Darkmode().showWidget({label: '🌓'});
 }
 
 window.addEventListener('load', addDarkmodeWidget);
