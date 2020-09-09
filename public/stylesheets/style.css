@@ -155,6 +155,7 @@ table {
 .grid-item {
 	width: 400px;
 	margin-bottom: 25px;
+	max-width: 100%;
 }
 
 .paging {
