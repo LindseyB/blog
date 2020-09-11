@@ -181,4 +181,26 @@ date: 2020-02-08
 			</div>
 		</div>
 	</a>
+
+	<a href="https://www.eastwestbookshop.com/products/9781419739149-antique-anatomy-tarot-kit-deck-and-guidebook-for-the-modern">
+		<div class="grid-item">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					Antique Anatomy Tarot Deck
+				</div>
+				<div class="panel-body" style="background: url('https://imgur.com/JUUc7pP.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
+			</div>
+		</div>
+	</a>
+
+	<a href="https://www.etsy.com/listing/502680632/the-sasuraibito-tarot-78-card-deck-and">
+		<div class="grid-item">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					The Sasuraibito Tarot
+				</div>
+				<div class="panel-body" style="background: url('https://imgur.com/kA9AHNJ.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
+			</div>
+		</div>
+	</a>
 </div>
