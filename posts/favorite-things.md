@@ -30,6 +30,7 @@ date: 2020-01-31
 * [AbyCraft](https://www.etsy.com/shop/AbyCraft)
 * [UrsulaRivera](https://www.etsy.com/shop/UrsulaRivera)
 * [SilverCravt Jewels](https://www.silvercravt.com/)
+* [The Sylvan Smith Store](https://www.thesylvansmithstore.com/)
 
 ## Home Goods
 
