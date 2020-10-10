@@ -26,6 +26,10 @@ date: 2020-01-31
 * [FoxTrot](http://www.foxtrotatx.com/)
 * [Goldengrove](http://www.goldengrovejewelry.com/)
 * [Ariana Victoria Rose](https://arianavictoriarose.com/)
+* [Chromafusion](https://www.etsy.com/shop/chromafusion)
+* [AbyCraft](https://www.etsy.com/shop/AbyCraft)
+* [UrsulaRivera](https://www.etsy.com/shop/UrsulaRivera)
+* [SilverCravt Jewels](https://www.silvercravt.com/)
 
 ## Home Goods
 
@@ -47,6 +51,7 @@ date: 2020-01-31
 * [T project](https://www.tprojectshop.com/)
 * [Floating Leaves Tea](https://floatingleaves.com/)
 * [Mansa](https://mansatea.com/)
+* [The Raven & Reverie Shoppe](https://ravenandreverie.com/)
 
 ## Mechanical Keyboards
 * [Kono](https://kono.store/)
@@ -59,3 +64,5 @@ date: 2020-01-31
 * [NZ Caps](https://www.nzcaps.com/)
 * [KBDfans](https://kbdfans.com/)
 * [NovelKeys](https://novelkeys.xyz/)
+* [WASD Keyboards](https://www.wasdkeyboards.com/)
+* [Cannon Keys](https://cannonkeys.com/)
