@@ -33,7 +33,7 @@ date: 2020-02-08
 				<div class="panel-heading">
 					Tarot of Pagan Cats
 				</div>
-				<div class="panel-body" style="background: url('https://i.imgur.com/ZVF3Iae.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
+				<div class="panel-body" style="background: url('https://i.imgur.com/FC89MgE.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
 			</div>
 		</div>
 	</a>
@@ -45,7 +45,7 @@ date: 2020-02-08
 				<div class="panel-heading">
 					Crow Tarot
 				</div>
-				<div class="panel-body" style="background: url('https://i.imgur.com/n10uKUh.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
+				<div class="panel-body" style="background: url('https://i.imgur.com/xDUbmOo.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
 			</div>
 		</div>
 	</a>
@@ -200,6 +200,17 @@ date: 2020-02-08
 					The Sasuraibito Tarot
 				</div>
 				<div class="panel-body" style="background: url('https://imgur.com/kA9AHNJ.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
+			</div>
+		</div>
+	</a>
+	
+	<a href="https://lisasantine.com/product/destiny-deck/">
+		<div class="grid-item">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					The Destiny Deck
+				</div>
+				<div class="panel-body" style="background: url('https://i.imgur.com/bLoTMPf.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
 			</div>
 		</div>
 	</a>
