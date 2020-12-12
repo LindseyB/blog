@@ -56,7 +56,7 @@ date: 2020-02-08
 				<div class="panel-heading">
 					The Marigold Tarot
 				</div>
-				<div class="panel-body" style="background: url('https://i.imgur.com/UqyA4W1.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
+				<div class="panel-body" style="background: url('https://i.imgur.com/he2DJcY.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
 			</div>
 		</div>
 	</a>
@@ -67,7 +67,7 @@ date: 2020-02-08
 				<div class="panel-heading">
 					Seventh Sphere Tarot de Marseille
 				</div>
-				<div class="panel-body" style="background: url('https://i.imgur.com/dZsiegG.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
+				<div class="panel-body" style="background: url('https://i.imgur.com/meNeQGo.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
 			</div>
 		</div>
 	</a>
@@ -78,7 +78,7 @@ date: 2020-02-08
 				<div class="panel-heading">
 					Tattoo Tarot
 				</div>
-				<div class="panel-body" style="background: url('https://i.imgur.com/m2QYVW7.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
+				<div class="panel-body" style="background: url('https://i.imgur.com/pUImnP4.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
 			</div>
 		</div>
 	</a>
@@ -89,7 +89,7 @@ date: 2020-02-08
 				<div class="panel-heading">
 					The Lovely Omens Tarot
 				</div>
-				<div class="panel-body" style="background: url('https://i.imgur.com/awUUd7q.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
+				<div class="panel-body" style="background: url('https://i.imgur.com/PbvFfR1.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
 			</div>
 		</div>
 	</a>
@@ -100,18 +100,7 @@ date: 2020-02-08
 				<div class="panel-heading">
 					The Wooden Tarot
 				</div>
-				<div class="panel-body" style="background: url('https://i.imgur.com/rSqDFo5.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
-			</div>
-		</div>
-	</a>
-
-	<a href="https://kawaiitarot.com/">
-		<div class="grid-item">
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					Kawaii Tarot
-				</div>
-				<div class="panel-body" style="background: url('https://i.imgur.com/ZsUB617.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
+				<div class="panel-body" style="background: url('https://i.imgur.com/L5xjZmw.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
 			</div>
 		</div>
 	</a>
@@ -122,7 +111,7 @@ date: 2020-02-08
 				<div class="panel-heading">
 					The Wild Unknown Tarot
 				</div>
-				<div class="panel-body" style="background: url('https://i.imgur.com/G1VI6Jl.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
+				<div class="panel-body" style="background: url('https://i.imgur.com/zwBKEeL.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
 			</div>
 		</div>
 	</a>
@@ -133,7 +122,7 @@ date: 2020-02-08
 				<div class="panel-heading">
 					The Rider Waite Tarot
 				</div>
-				<div class="panel-body" style="background: url('https://i.imgur.com/7NNjoSI.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
+				<div class="panel-body" style="background: url('https://i.imgur.com/RaDONoo.png') no-repeat; background-size: cover; min-height: 375px;"></div>
 			</div>
 		</div>
 	</a>
@@ -144,7 +133,7 @@ date: 2020-02-08
 				<div class="panel-heading">
 					Dali Tarot
 				</div>
-				<div class="panel-body" style="background: url('https://i.imgur.com/Hbq6lKo.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
+				<div class="panel-body" style="background: url('https://i.imgur.com/eHYLyEF.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
 			</div>
 		</div>
 	</a>
@@ -155,7 +144,7 @@ date: 2020-02-08
 				<div class="panel-heading">
 					Golden Thread Tarot
 				</div>
-				<div class="panel-body" style="background: url('https://i.imgur.com/BqAfDbM.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
+				<div class="panel-body" style="background: url('https://i.imgur.com/i00ZGaJ.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
 			</div>
 		</div>
 	</a>
@@ -166,7 +155,7 @@ date: 2020-02-08
 				<div class="panel-heading">
 					Oliver Hibert Tarot
 				</div>
-				<div class="panel-body" style="background: url('https://i.imgur.com/BlXcllG.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
+				<div class="panel-body" style="background: url('https://i.imgur.com/3hRjC99.png') no-repeat; background-size: cover; min-height: 375px;"></div>
 			</div>
 		</div>
 	</a>
@@ -177,7 +166,7 @@ date: 2020-02-08
 				<div class="panel-heading">
 					Modern Witch Tarot
 				</div>
-				<div class="panel-body" style="background: url('https://i.imgur.com/CERHAx8.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
+				<div class="panel-body" style="background: url('https://i.imgur.com/MWz7TG4.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
 			</div>
 		</div>
 	</a>
@@ -189,17 +178,6 @@ date: 2020-02-08
 					Antique Anatomy Tarot Deck
 				</div>
 				<div class="panel-body" style="background: url('https://imgur.com/JUUc7pP.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
-			</div>
-		</div>
-	</a>
-
-	<a href="https://www.etsy.com/listing/502680632/the-sasuraibito-tarot-78-card-deck-and">
-		<div class="grid-item">
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					The Sasuraibito Tarot
-				</div>
-				<div class="panel-body" style="background: url('https://imgur.com/kA9AHNJ.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
 			</div>
 		</div>
 	</a>
