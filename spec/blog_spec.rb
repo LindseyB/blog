@@ -63,7 +63,7 @@ describe "Blog" do
       expect(last_response).to be_ok
       expect(last_response.body).to include("Projects")
       expect(last_response.body).to include("A Game")
-    end    
+    end
   end
 
   describe "/about" do
