@@ -286,3 +286,7 @@ blockquote p {
 	color:#efefef;
 	background-color: #6272a4;
 }
+
+.clear-both {
+	clear: both;
+}
