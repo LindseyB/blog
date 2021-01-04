@@ -17,6 +17,7 @@ gem "rack-ssl"
 gem "dotenv"
 gem "puma"
 gem "standard", group: [:development, :test]
+gem "nokogiri", ">= 1.11.0.rc4"
 
 if RUBY_PLATFORM.match?(/win32/)
   gem "eventmachine", "~> 1.0.0.beta.4.1"
