@@ -105,7 +105,7 @@ GEM
       tilt (~> 2.0)
     sinatra-subdomain (0.4.0)
       sinatra
-    standard (1.0.1)
+    standard (1.0.4)
       rubocop (= 1.11.0)
       rubocop-performance (= 1.10.1)
     temple (0.8.2)
