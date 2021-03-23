@@ -15,6 +15,11 @@ date: 2020-01-31
 * [CRYPTOSTYLIS](https://www.etsy.com/shop/cryptostylis)
 * [SegraSoul](https://www.etsy.com/shop/SegraSoul)
 * [Gothic Lamb](https://gothiclamb.com/)
+* [Mori Moon Shoppe](https://www.morimoon.com/)
+* [The Pretty Cult](https://www.theprettycult.com/)
+* [Blackwell](https://blackwell.la/)
+* [The Pine Torch](https://www.thepinetorch.com/)
+* [Cat Coven](https://www.catcoven.com/)
 
 ## Jewelry
 
@@ -31,6 +36,7 @@ date: 2020-01-31
 * [UrsulaRivera](https://www.etsy.com/shop/UrsulaRivera)
 * [SilverCravt Jewels](https://www.silvercravt.com/)
 * [The Sylvan Smith Store](https://www.thesylvansmithstore.com/)
+* [Open the Cellar Door](https://www.etsy.com/shop/openthecellardoor)
 
 ## Home Goods
 
@@ -42,6 +48,8 @@ date: 2020-01-31
 * [Witch Baby Soap](https://www.witchbabysoap.com/)
 * [Pottery Witch](https://www.potterywitch.ca/)
 * [Burke & Hare Co](https://burkehareco.com/)
+* [Veneration of Light](https://www.venerationoflight.com/)
+* [Moon Spoon](http://www.moonspoon.com/)
 
 ## Tea
 
@@ -67,3 +75,12 @@ date: 2020-01-31
 * [NovelKeys](https://novelkeys.xyz/)
 * [WASD Keyboards](https://www.wasdkeyboards.com/)
 * [Cannon Keys](https://cannonkeys.com/)
+
+## Witchy Supplies
+* [WytchWood](https://wytchwood.com/)
+* [Tamed Wild](https://tamedwild.com/)
+* [Mama Wunderbar](https://mamawunderbar.com/)
+* [Crystal Coven](https://crystalcoven.com/)
+* [Ritual Cravt](https://www.ritualcravt.com/)
+* [The Weeping Glass](https://www.theweepingglass.com/)
+* [Arts & Crafts](http://artsncraftspgh.com/)
