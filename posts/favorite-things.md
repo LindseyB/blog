@@ -61,6 +61,7 @@ date: 2020-01-31
 * [Floating Leaves Tea](https://floatingleaves.com/)
 * [Mansa](https://mansatea.com/)
 * [The Raven & Reverie Shoppe](https://ravenandreverie.com/)
+* [Gryphon's Tea](https://www.gryphonstea.com/)
 
 ## Mechanical Keyboards
 * [Kono](https://kono.store/)
