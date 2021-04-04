@@ -85,3 +85,4 @@ date: 2020-01-31
 * [Ritual Cravt](https://www.ritualcravt.com/)
 * [The Weeping Glass](https://www.theweepingglass.com/)
 * [Arts & Crafts](http://artsncraftspgh.com/)
+* [Neon Altar](https://www.neonaltar.store/)
