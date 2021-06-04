@@ -20,6 +20,8 @@ date: 2020-01-31
 * [Blackwell](https://blackwell.la/)
 * [The Pine Torch](https://www.thepinetorch.com/)
 * [Cat Coven](https://www.catcoven.com/)
+* [Disturbia](https://disturbia.co.uk/)
+* [Fennec Design](https://www.fennecdesign.com/)
 
 ## Jewelry
 
@@ -50,6 +52,7 @@ date: 2020-01-31
 * [Burke & Hare Co](https://burkehareco.com/)
 * [Veneration of Light](https://www.venerationoflight.com/)
 * [Moon Spoon](http://www.moonspoon.com/)
+* [Hammerthreads](https://hammerthreads.ca/)
 
 ## Tea
 
