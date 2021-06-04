@@ -39,6 +39,7 @@ date: 2020-01-31
 * [SilverCravt Jewels](https://www.silvercravt.com/)
 * [The Sylvan Smith Store](https://www.thesylvansmithstore.com/)
 * [Open the Cellar Door](https://www.etsy.com/shop/openthecellardoor)
+* [The Soldered Spell](https://www.etsy.com/shop/TheSolderedSpell)
 
 ## Home Goods
 
