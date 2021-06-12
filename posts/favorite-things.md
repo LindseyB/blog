@@ -22,6 +22,7 @@ date: 2020-01-31
 * [Cat Coven](https://www.catcoven.com/)
 * [Disturbia](https://disturbia.co.uk/)
 * [Fennec Design](https://www.fennecdesign.com/)
+* [Creations B yMagi](https://www.creationsbymagi.com/)
 
 ## Jewelry
 
