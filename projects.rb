@@ -12,5 +12,6 @@ PROJECTS = [
   {name: "not pepe", link: "https://github.com/LindseyB/not-pepe", image: "https://camo.githubusercontent.com/56220548c467640593c3fd31e99dcf555992f4e3/68747470733a2f2f6173736574732d6175746f2e72626c2e6d732f62656364343937356632613763306235663733353233626132346564636238316164383461346331373065653936313737373237383861316465326335323134"},
   {name: "Magic Crystal", link: "https://github.com/LindseyB/magic-crystal", image: "https://user-images.githubusercontent.com/33750/52889920-36ea9a00-3150-11e9-95f0-5323143d6b6e.gif"},
   {name: "Cutie Finder", link: "https://lindseyb.github.io/cutiefinder/", image: "https://i.imgur.com/CGZ2hPs.png"},
-  {name: "GitHub Contribution Graph Art Generator", link: "https://glitch.com/~github-contribution-graph-art-generator", image: "https://i.imgur.com/NfeepnH.png"}
+  {name: "GitHub Contribution Graph Art Generator", link: "https://glitch.com/~github-contribution-graph-art-generator", image: "https://i.imgur.com/NfeepnH.png"},
+  {name: "Tarot API", link: "https://github.com/LindseyB/tarot-api", image: "https://i.imgur.com/9ClaIx6.png"}
 ]
