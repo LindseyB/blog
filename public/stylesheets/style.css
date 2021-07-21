@@ -54,7 +54,7 @@ article {
 
 article.projects {
 	width: 90%;
-	max-width: 135em;	
+	max-width: 135em;
 }
 
 article p {
@@ -118,7 +118,6 @@ a.label.label-info {
 
 table {
 	margin: auto;
-	background: white;
 }
 
 .panel-heading {
@@ -218,7 +217,7 @@ code {
 	background-color: rgba(98, 114, 164, 0.3);
 	color: #282a36;
 	padding: 5px;
-	border-radius: 5px;	
+	border-radius: 5px;
 }
 
 pre code {
