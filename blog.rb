@@ -56,6 +56,10 @@ class Blog < Sinatra::Base
       @projects = projects.shuffle
     end
   end
+  
+  before do
+    cache_control :public, :must_revalidate, :max_age => 60
+  end
 
   get "/index.php" do
     # lol old php shit
