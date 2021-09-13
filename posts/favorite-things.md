@@ -22,7 +22,7 @@ date: 2020-01-31
 * [Cat Coven](https://www.catcoven.com/)
 * [Disturbia](https://disturbia.co.uk/)
 * [Fennec Design](https://www.fennecdesign.com/)
-* [Creations B yMagi](https://www.creationsbymagi.com/)
+* [Creations By Magi](https://www.creationsbymagi.com/)
 
 ## Jewelry
 
@@ -41,6 +41,7 @@ date: 2020-01-31
 * [The Sylvan Smith Store](https://www.thesylvansmithstore.com/)
 * [Open the Cellar Door](https://www.etsy.com/shop/openthecellardoor)
 * [The Soldered Spell](https://www.etsy.com/shop/TheSolderedSpell)
+* [Regal Rose](https://www.regalrose.co.uk/)
 
 ## Home Goods
 
