@@ -42,6 +42,7 @@ date: 2020-01-31
 * [Open the Cellar Door](https://www.etsy.com/shop/openthecellardoor)
 * [The Soldered Spell](https://www.etsy.com/shop/TheSolderedSpell)
 * [Regal Rose](https://www.regalrose.co.uk/)
+* [Etah Love](https://etahlove.com/)
 
 ## Home Goods
 
