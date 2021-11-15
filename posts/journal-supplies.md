@@ -21,6 +21,8 @@ date: 2021-07-04
 * [Mya Bee Art](https://www.etsy.com/shop/MyaBeeArt)
 * [Paper Minty Studio](https://www.etsy.com/shop/PaperMintyStudio)
 * [Aianaiya Illustration](https://www.etsy.com/shop/aianaiyaillustration)
+* [Jessica Roux](https://www.shopjessicaroux.com/)
+* [@ivyalive](https://www.ivyalive.com/shop)
 
 ### Tracking Stickers
 
