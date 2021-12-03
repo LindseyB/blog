@@ -69,6 +69,8 @@ date: 2020-01-31
 * [Mansa](https://mansatea.com/)
 * [The Raven & Reverie Shoppe](https://ravenandreverie.com/)
 * [Gryphon's Tea](https://www.gryphonstea.com/)
+* [Riddle's Tea Shoppe](https://riddlesteashoppe.com/)
+* [Pitch Black North](https://www.pitchblacknorth.com/)
 
 ## Mechanical Keyboards
 * [Kono](https://kono.store/)
