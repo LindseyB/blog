@@ -23,6 +23,7 @@ date: 2020-01-31
 * [Disturbia](https://disturbia.co.uk/)
 * [Fennec Design](https://www.fennecdesign.com/)
 * [Creations By Magi](https://www.creationsbymagi.com/)
+* [Simka Sol](https://www.simkasol.com/)
 
 ## Jewelry
 
