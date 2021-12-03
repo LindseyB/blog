@@ -23,6 +23,9 @@ date: 2021-07-04
 * [Aianaiya Illustration](https://www.etsy.com/shop/aianaiyaillustration)
 * [Jessica Roux](https://www.shopjessicaroux.com/)
 * [@ivyalive](https://www.ivyalive.com/shop)
+* [Jushmu](https://www.etsy.com/shop/Jushmu)
+* [Sophiralou](https://www.etsy.com/shop/Sophiralou)
+* [Jellygeist](https://www.etsy.com/shop/Jellygeist)
 
 ### Tracking Stickers
 
