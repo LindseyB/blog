@@ -5,17 +5,6 @@ date: 2020-02-08
 
 <div class="grid">
 
-	<a href="https://www.etsy.com/listing/777576578/the-5-cent-tarot-2nd-edition-by-madam">
-		<div class="grid-item">
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					The 5-cent Tarot 2nd Edition by Madam Clara
-				</div>
-				<div class="panel-body" style="background: url('https://i.imgur.com/Ky5vBOw.png') no-repeat; background-size: cover; min-height: 375px;"></div>
-			</div>
-		</div>
-	</a>
-
 	<a href="http://www.aeclectic.net/tarot/cards/tarot-art-nouveau-mini/">
 		<div class="grid-item">
 			<div class="panel panel-default">
@@ -200,6 +189,94 @@ date: 2020-02-08
 					The Destiny Deck
 				</div>
 				<div class="panel-body" style="background: url('https://i.imgur.com/bLoTMPf.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
+			</div>
+		</div>
+	</a>
+
+	<a href="https://shop.micahulrich.com/product/the-flux-arcana-the-complete-deck">
+		<div class="grid-item">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					The Flux Arcana Tarot
+				</div>
+				<div class="panel-body" style="background: url('https://i.imgur.com/bscypm0.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
+			</div>
+		</div>
+	</a>
+
+	<a href="https://www.etsy.com/listing/239882361/the-earthbound-oracle-deck">
+		<div class="grid-item">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					The Earthbound Oracle
+				</div>
+				<div class="panel-body" style="background: url('https://i.imgur.com/igZiSfv.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
+			</div>
+		</div>
+	</a>
+
+	<a href="https://www.etsy.com/listing/777576578/the-5-cent-tarot-2nd-edition-by-madam">
+		<div class="grid-item">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					5-Cent Tarot
+				</div>
+				<div class="panel-body" style="background: url('https://i.imgur.com/aSbWcLg.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
+			</div>
+		</div>
+	</a>
+
+	<a href="https://www.etsy.com/listing/848917381/in-stock-the-two-penny-oracle-by-madam">
+		<div class="grid-item">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					2-Penny Oracle
+				</div>
+				<div class="panel-body" style="background: url('https://i.imgur.com/5bFj7BQ.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
+			</div>
+		</div>
+	</a>
+
+	<a href="https://www.thethreadsoffate.com/collections/all/products/presale-preview-threads-of-fate-oracle-black-rose-gold-edition">
+		<div class="grid-item">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					Threads of Fate Oracle - Rose Edition
+				</div>
+				<div class="panel-body" style="background: url('https://i.imgur.com/EMbjg23.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
+			</div>
+		</div>
+	</a>
+
+	<a href="https://www.thethreadsoffate.com/collections/all/products/the-weaver-tarot-ascendant-1">
+		<div class="grid-item">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					The Weaver Tarot - the ascendant edition
+				</div>
+				<div class="panel-body" style="background: url('https://i.imgur.com/eagstHV.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
+			</div>
+		</div>
+	</a>
+
+	<a href="https://www.pamwishbow.com/shop/collected-memories-divination-deck-kkhbt">
+		<div class="grid-item">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					The Urban Divination Deck
+				</div>
+				<div class="panel-body" style="background: url('https://i.imgur.com/OOesxqm.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
+			</div>
+		</div>
+	</a>
+
+	<a href="https://www.pamwishbow.com/shop/collected-memories-divination-deck-kkhbt-k8n33">
+		<div class="grid-item">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					With Your Shield Or On It
+				</div>
+				<div class="panel-body" style="background: url('https://i.imgur.com/JyNjWPu.jpg') no-repeat; background-size: cover; min-height: 375px;"></div>
 			</div>
 		</div>
 	</a>
