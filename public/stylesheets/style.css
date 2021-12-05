@@ -289,3 +289,15 @@ blockquote p {
 .clear-both {
 	clear: both;
 }
+
+.flex {
+	display: flex
+}
+
+.flex-child {
+	flex: 1
+}
+
+.mr {
+	margin-right: 10px;
+}
