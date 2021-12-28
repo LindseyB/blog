@@ -96,3 +96,4 @@ date: 2020-01-31
 * [The Weeping Glass](https://www.theweepingglass.com/)
 * [Arts & Crafts](http://artsncraftspgh.com/)
 * [Neon Altar](https://www.neonaltar.store/)
+* [HausWitch](https://hauswitchstore.com/)
