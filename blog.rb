@@ -125,5 +125,5 @@ class Blog < Sinatra::Base
     builder :feed
   end
 
-  not_found { haml :'404' }
+  not_found { haml :"404" }
 end
