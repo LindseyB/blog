@@ -6,7 +6,7 @@ date: 2020-01-31
 ## Clothing
 
 * [KILLSTAR](https://killstar.com)
-* [SOVIN](https://www.sovrinapparel.com/)
+* [SOVRIN](https://www.sovrinapparel.com/)
 * [FOXBLOOD](https://foxblood.com/)
 * [Restyle](https://restyle.pl/)
 * [Rogue + Wolf](https://rogueandwolf.com/)
@@ -51,7 +51,6 @@ date: 2020-01-31
 * [Catbird](https://www.catbirdnyc.com/beauty-home-gifts/home-gifts/candles.html)
 * [Miss Havisham's Curiosities](https://www.misshavishamscuriosities.com)
 * [Spitfire Girl](https://www.spitfiregirl.com/)
-* [Sage Craft Botanicals](https://www.sagecraftbotanicals.com/)
 * [Witch Baby Soap](https://www.witchbabysoap.com/)
 * [Pottery Witch](https://www.potterywitch.ca/)
 * [Burke & Hare Co](https://burkehareco.com/)
@@ -76,7 +75,7 @@ date: 2020-01-31
 ## Mechanical Keyboards
 * [Kono](https://kono.store/)
 * [The Key Dot Co](https://thekey.company/)
-* [Dixie Mech](https://dixiemech.com/)
+* [Omnitype](https://omnitype.com/)
 * [Drop](https://drop.com/mechanical-keyboards/drops)
 * [PMK](https://pimpmykeyboard.com/)
 * [Sludgekidd](https://www.instagram.com/sludgekidd/)
@@ -97,3 +96,5 @@ date: 2020-01-31
 * [Arts & Crafts](http://artsncraftspgh.com/)
 * [Neon Altar](https://www.neonaltar.store/)
 * [HausWitch](https://hauswitchstore.com/)
+* [Sea Witch Botanicals](https://seawitchbotanicals.com/)
+* [L'esquelet](https://lesquelet.storenvy.com/)
