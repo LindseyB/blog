@@ -1,6 +1,6 @@
 ---
 title: Oprah's Favorite Things (but with my junk)
-date: 2020-01-31
+date: 2022-06-05
 ---
 
 ## Clothing
