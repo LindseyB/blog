@@ -24,6 +24,10 @@ date: 2022-06-05
 * [Fennec Design](https://www.fennecdesign.com/)
 * [Creations By Magi](https://www.creationsbymagi.com/)
 * [Simka Sol](https://www.simkasol.com/)
+* [Hell Babes](https://hellbabes.co/)
+* [Octopied Mind](https://octopiedmind.com/)
+* [Kaeraz](https://kaeraz.com/)
+* [Stay Home Club](https://stayhomeclub.com/)
 
 ## Jewelry
 
