@@ -15,7 +15,7 @@ describe "Blog" do
 
   before do
     stub_request(:get, "https://itch.io/api/1/#{ENV["ITCH_API_KEY"]}/my-games")
-      .to_return(status: 200, body: games_response.to_json, headers: {"Content-Type" => "application/json; charset=UTF-8"})
+    .to_return(status: 200, body: games_response.to_json, headers: {"Content-Type" => "application/json; charset=UTF-8"})
   end
 
   describe "/" do
@@ -63,6 +63,16 @@ describe "Blog" do
       expect(last_response).to be_ok
       expect(last_response.body).to include("Projects")
       expect(last_response.body).to include("A Game")
+    end
+
+    it "should not break when itch.io is down" do
+      stub_request(:get, "https://itch.io/api/1/#{ENV["ITCH_API_KEY"]}/my-games")
+        .to_return(status: 500)
+
+      get "/projects"
+      expect(last_response).to be_ok
+      expect(last_response.body).to include("Projects")
+      expect(last_response.body).to_not include("A Game")
     end
   end
 

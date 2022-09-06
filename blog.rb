@@ -45,7 +45,14 @@ class Blog < Sinatra::Base
 
       # Get projects from itch and then make an array
       api_key = ENV.fetch("ITCH_API_KEY", "")
-      games = HTTParty.get("https://itch.io/api/1/#{api_key}/my-games")
+
+      begin
+        games = HTTParty.get("https://itch.io/api/1/#{api_key}/my-games")
+      rescue
+         return projects
+      end
+
+      return projects unless games.ok?
 
       games["games"].each do |game|
         unless projects.any? { |h| h[:name] == game["title"] }
@@ -53,7 +60,7 @@ class Blog < Sinatra::Base
         end
       end
 
-      @projects = projects.shuffle
+      projects.shuffle
     end
   end
 
