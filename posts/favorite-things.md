@@ -28,6 +28,8 @@ date: 2022-06-05
 * [Octopied Mind](https://octopiedmind.com/)
 * [Kaeraz](https://kaeraz.com/)
 * [Stay Home Club](https://stayhomeclub.com/)
+* [KALMA](https://www.shopkalma.com/)
+* [Lively Ghosts](https://www.livelyghosts.com/)
 
 ## Jewelry
 
