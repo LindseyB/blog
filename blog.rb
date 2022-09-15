@@ -51,7 +51,7 @@ class Blog < Sinatra::Base
       rescue
         return projects
       end
-      
+
       return projects unless games.ok?
 
       games["games"].each do |game|
