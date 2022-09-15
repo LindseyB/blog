@@ -49,7 +49,7 @@ class Blog < Sinatra::Base
       begin
         games = HTTParty.get("https://itch.io/api/1/#{api_key}/my-games")
       rescue
-         return projects
+        return projects
       end
 
       return projects unless games.ok?
