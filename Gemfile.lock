@@ -48,7 +48,7 @@ GEM
       nio4r (~> 2.0)
     racc (1.6.0)
     rack (2.2.4)
-    rack-protection (3.0.0)
+    rack-protection (3.0.1)
       rack
     rack-ssl (1.4.1)
       rack
@@ -92,16 +92,16 @@ GEM
     sanitize (6.0.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
-    sinatra (3.0.0)
+    sinatra (3.0.1)
       mustermann (~> 3.0)
       rack (~> 2.2, >= 2.2.4)
-      rack-protection (= 3.0.0)
+      rack-protection (= 3.0.1)
       tilt (~> 2.0)
-    sinatra-contrib (3.0.0)
+    sinatra-contrib (3.0.1)
       multi_json
       mustermann (~> 3.0)
-      rack-protection (= 3.0.0)
-      sinatra (= 3.0.0)
+      rack-protection (= 3.0.1)
+      sinatra (= 3.0.1)
       tilt (~> 2.0)
     sinatra-subdomain (0.4.0)
       sinatra
