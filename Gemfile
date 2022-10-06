@@ -1,13 +1,13 @@
 source "https://rubygems.org"
 
-ruby "2.7.2"
+ruby "2.7.3"
 
 gem "sinatra"
 gem "sinatra-subdomain"
 gem "sinatra-contrib", require: "sinatra/content_for"
 gem "titleize"
 gem "rake"
-gem "haml"
+gem "haml", "~> 5.1.2"
 gem "httparty"
 gem "redcarpet"
 gem "builder"
