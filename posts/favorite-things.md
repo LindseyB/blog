@@ -91,6 +91,7 @@ date: 2022-06-05
 * [NovelKeys](https://novelkeys.xyz/)
 * [WASD Keyboards](https://www.wasdkeyboards.com/)
 * [Cannon Keys](https://cannonkeys.com/)
+* [Keeb Monkey](https://www.keebmonkey.com/)
 
 ## Witchy Supplies
 * [WytchWood](https://wytchwood.com/)
